@@ -1,0 +1,97 @@
+,tag_id_hex,necropsy_date,necropsy_done_by,tagging_date,fork_length_mm,weight_gr,incision_irritation,suture_damage,tag_damage
+1,1DD2,12/31/2025,"HS, EH",12/3/2025,152,41.4,None,No,Tangled in organs
+2,9362,12/31/2025,"HS, EH",12/8/2025,150,38.8,None,No,N/A
+3,24EA,12/31/2025,"HS, EH",12/3/2025,125,24.9,None,No,N/A
+4,A361,12/31/2025,"HS, EH",12/3/2025,100,12.1,None,No,N/A
+5,94A4,12/31/2025,"HS, EH",12/1/2025,99,12.8,None,Yes,N/A
+6,16C6,12/31/2025,"HS, EH",12/9/2025,144,36.6,None,No,N/A
+7,9613,12/31/2025,"HS, EH",12/10/2025,122,23.2,None,No,N/A
+8,9F56,12/31/2025,"HS, EH",12/2/2025,159,48.6,None,No,Tangled in organs
+9,95BA,12/31/2025,"HS, EH",12/9/2025,134,29.4,None,No,N/A
+10,2224,12/31/2025,"HS, EH",12/2/2025,123,22.3,None,No,N/A
+11,96D8,12/31/2025,"HS, EH",12/8/2025,146,39.9,None,No,N/A
+12,957C,12/31/2025,"HS, EH",12/10/2025,140,32.1,None,No,N/A
+13,9DBD,12/31/2025,"HS, EH",12/8/2025,119,18.1,None,No,N/A
+14,76ED,12/31/2025,"HS, EH",12/1/2025,168,61.1,None,No,Tangled in organs
+15,2866,12/31/2025,"HS, EH",12/9/2025,150,41.2,None,No,Tangled in organs
+16,2176,12/31/2025,"HS, EH",12/1/2025,120,22,Mild (redness or swelling),No,adhered to organs
+17,A23A,12/31/2025,"HS, EH",12/10/2025,139,33.4,None,No,N/A
+18,14B0,12/31/2025,"HS, EH",12/10/2025,140,34.2,None,No,N/A
+19,9CA1,12/31/2025,"HS, EH",12/3/2025,126,26.4,None,No,N/A
+20,95E9,12/31/2025,"HS, EH",12/9/2025,141,36,None,No,N/A
+21,9484,12/31/2025,"HS, EH",12/2/2025,151,43.8,None,No,Tangled in organs
+22,2568,12/31/2025,"HS, EH",12/2/2025,152,48.4,None,No,N/A
+23,A284,12/31/2025,"HS, EH",12/1/2025,135,28.7,None,No,N/A
+24,2055,12/31/2025,"HS, EH",12/8/2025,158,41.9,None,No,Tangled in organs
+25,76ED,2/4/2026,"NJ, BP",1/7/2026,138,30,None,No,Tangled in organs
+26,16C6,2/4/2026,"NJ, BP",1/12/2026,147,36.5,None,No,Tangled in organs
+27,A284,2/4/2026,"NJ, BP",1/5/2026,150,40.5,Mild (redness or swelling),No,Tangled in organs
+28,9362,2/4/2026,"NJ, BP",1/6/2026,152,43,None,No,N/A
+29,9484,2/4/2026,"NJ, BP",1/13/2026,156,45.5,Mild (redness or swelling),No,Tangled in organs
+30,957C,2/4/2026,"NJ, BP",1/14/2026,189,86.5,Mild (redness or swelling),No,N/A
+31,9DBD,2/4/2026,"NJ, BP",1/14/2026,176,68,None,No,N/A
+32,9CA1,2/4/2026,"NJ, BP",1/12/2026,161,56,None,No,Tangled in organs
+33,9F56,2/4/2026,"NJ, BP",1/12/2026,181,69.5,None,No,N/A
+34,2866,2/4/2026,"NJ, BP",1/13/2026,144,36.5,None,No,N/A
+35,96D8,2/4/2026,"NJ, BP",1/5/2026,171,60.5,None,No,N/A
+36,95BA,2/4/2026,"NJ, BP",1/6/2026,182,80,Mild (redness or swelling),No,Tangled in organs
+37,2224,2/4/2026,"NJ, BP",1/14/2026,180,78.5,None,No,to body wall
+38,A23A,2/4/2026,"NJ, BP",1/14/2026,168,57,Mild (redness or swelling),No,N/A
+39,94A4,2/4/2026,"NJ, BP",1/7/2026,151,41.5,None,No,to body wall
+40,24EA,2/4/2026,"NJ, BP",1/5/2026,146,37,None,No,Tangled in organs
+41,14B0,2/4/2026,"NJ, BP",1/7/2026,142,35.5,None,No,attached to caeca 
+42,2176,2/4/2026,"NJ, BP",1/6/2026,161,52.5,None,No,N/A
+43,A361,2/4/2026,"NJ, BP",1/7/2026,173,63,None,No,N/A
+44,2055,2/4/2026,"NJ, BP",1/13/2026,161,52.2,None,No,N/A
+45,2568,2/4/2026,"NJ, BP",1/6/2026,161,54.5,None,No,N/A
+46,95E9,2/4/2026,"NJ, BP",1/5/2026,136,28.5,None,No,N/A
+47,1DD2,2/4/2026,"NJ, BP",1/13/2026,140,34.5,None,No,yes
+48,9613,2/4/2026,"NJ, BP",1/12/2026,100,11.5,None,No,N/A
+49,153E,3/5/2026,"NJ, BP",2/11/2026,182,83.2,None,No,N/A
+50,1D28,3/5/2026,"NJ, BP",2/11/2026,176,56.6,None,No,N/A
+51,9715,3/5/2026,"NJ, BP",2/11/2026,219,121.3,None,No,yes
+52,23A9,3/5/2026,"NJ, BP",2/11/2026,182,92.4,None,No,yes
+53,2496,3/5/2026,"NJ, BP",2/10/2026,175,64.6,None,Yes,N/A
+54,9B67,3/5/2026,"NJ, BP",2/10/2026,203,108.6,None,No,yes
+55,93B4,3/5/2026,"NJ, BP",2/10/2026,178,110.6,None,No,N/A
+56,9B9B,3/5/2026,"NJ, BP",2/10/2026,158,40.3,None,No,N/A
+57,9B31,3/5/2026,"NJ, BP",2/9/2026,164,44.1,None,No,N/A
+58,1EDA,3/5/2026,"NJ, BP",2/9/2026,185,81.9,None,No,N/A
+59,26A1,3/5/2026,"NJ, BP",2/9/2026,181,57.1,None,No,yes
+60,6AF9,3/5/2026,"NJ, BP",2/9/2026,185,95.8,None,No,N/A
+61,A17D,3/5/2026,"NJ, BP",2/4/2026,129,19.3,None,Yes,N/A
+62,2864,3/5/2026,"NJ, BP",2/4/2026,163,78.9,None,No,yes
+63,95B2,3/5/2026,"NJ, BP",2/4/2026,147,56.6,None,No,yes
+64,250C,3/5/2026,"NJ, BP",2/4/2026,172,75.3,None,No,yes
+65,A0C9,3/5/2026,"NJ, BP",2/3/2026,143,33.4,None,Yes,N/A
+66,2335,3/5/2026,"NJ, BP",2/3/2026,195,82,None,No,adhered to body wall
+67,A359,3/5/2026,"NJ, BP",2/3/2026,196,99.9,None,No,N/A
+68,1D58,3/5/2026,"NJ, BP",2/3/2026,143,36.7,None,No,yes
+69,9639,3/5/2026,"NJ, BP",2/2/2026,170,86.8,None,No,N/A
+70,9354,3/5/2026,"NJ, BP",2/2/2026,145,37.5,None,No,N/A
+71,9D25,3/5/2026,"NJ, BP",2/2/2026,148,33.6,None,No,yes
+72,954F,3/5/2026,"NJ, BP",2/2/2026,151,31,None,No,yes
+73,6B43,5/21/2026,"AC, HS",4/21/2026,109,15.2,None,No,N/A
+74,02B6,5/21/2026,"AC, HS",4/20/2026,106,14.8,Ulcerated,Yes,N/A
+75,1DB4,5/21/2026,"AC, HS",4/22/2026,108,16.2,Mild (redness or swelling),No,N/A
+76,69AB,5/21/2026,"AC, HS",4/27/2026,102,14.8,"suture tore skin, incision fine",Yes,N/A
+77,6AF2,5/21/2026,"AC, HS",4/22/2026,108,18.2,"suture tore skin, incision fine",No,N/A
+78,16E2,5/21/2026,"AC, HS",4/28/2026,99,11.4,"suture tore skin, incision fine",No,N/A
+79,21C5,5/21/2026,"AC, HS",4/22/2026,108,16,"suture tore skin, incision fine",No,N/A
+80,9B7B,5/21/2026,"AC, HS",4/21/2026,115,19.7,"suture tore skin, incision fine",No,N/A
+81,2196,5/21/2026,"AC, HS",4/22/2026,104,15.9,"suture tore skin, incision fine",No,N/A
+82,E174,5/21/2026,"AC, HS",4/29/2026,103,12.6,"suture tore skin, incision fine",Yes,N/A
+83,9496,5/21/2026,"AC, HS",4/28/2026,107,15.9,"suture tore skin, incision fine",No,N/A
+84,951B,5/21/2026,"AC, HS",4/20/2026,100,12.4,"suture tore skin, incision fine",Yes,N/A
+85,A449,5/21/2026,"AC, HS",4/27/2026,100,12.7,"suture tore skin, incision fine",No,N/A
+86,6151,5/21/2026,"AC, HS",4/28/2026,103,13.7,"suture tore skin, incision fine",No,N/A
+87,9634,5/21/2026,"AC, HS",4/21/2026,105,13.2,"suture tore skin, incision fine",No,N/A
+88,A42C,5/21/2026,"AC, HS",4/27/2026,103,14.5,"suture tore skin, incision fine",Yes,N/A
+89,EBA7,5/21/2026,"AC, HS",4/29/2026,102,13.3,"suture tore skin, incision fine",No,N/A
+90,60B2,5/21/2026,"AC, HS",4/29/2026,103,13.6,"suture tore skin, incision fine",No,N/A
+91,9B64,5/21/2026,"AC, HS",4/28/2026,113,19.8,"suture tore skin, incision fine",No,N/A
+92,16E4,5/21/2026,"AC, HS",4/29/2026,105,14.1,"suture tore skin, incision fine",No,N/A
+93,151C,5/21/2026,"AC, HS",4/20/2026,105,16.1,"suture tore skin, incision fine",No,N/A
+94,250A,5/21/2026,"AC, HS",4/27/2026,104,13.9,"suture tore skin, incision fine",No,N/A
+95,9527,5/21/2026,"AC, HS",4/20/2026,101,13.6,"suture tore skin, incision fine",No,N/A
+96,2A02,5/21/2026,"AC, HS",4/21/2026,99,11,"suture tore skin, incision fine",No,N/A

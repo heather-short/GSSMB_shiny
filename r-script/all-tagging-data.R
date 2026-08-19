@@ -1,6 +1,6 @@
 # Cleaning Tagging Data
 # H. Short
-# Fri Jun  5 12:00:25 2026 ------------------------------
+# Tue Jul  7 11:03:50 2026 ------------------------------
 
 # Load  packages
 library(stringr)
@@ -35,7 +35,7 @@ LFCS_2024_clean = LFCS_2024 %>%
          weight_gr = as.numeric(weight_gr),
          fork_length_mm = as.integer(fork_length_mm), 
          tag_activation_date = mdy(tag_activation_date),
-    
+         
          # create new columns for water year, species, run, and month and assign 
          # their values and order
          water_year = as.factor(2024),
@@ -43,17 +43,17 @@ LFCS_2024_clean = LFCS_2024 %>%
          run = as.factor("late-fall"), 
          month = as.factor(month(date, label = TRUE)), 
          month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
-                                         "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
-    
+                                          "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
+         
          # create new columns that convert stopwatch timers to seconds
          anesthetic_time_sec = period_to_seconds(ms(anesthetic_time_mmss)), 
          surgery_time_sec = period_to_seconds(ms(surgery_time_mmss)) ,
          recovery_time_sec = period_to_seconds(ms(recovery_time_mmss)),
-    
+         
          # create new columns for release id and caba tank id
          release_id = paste((date+1), release_container_id),
          post_tagging_tank = as.factor(NA),
-     
+         
          # convert empty cells to NA and then remove all NAs from comment columns
          across(where(is.character), ~na_if(., "")),
          comments = replace_na(comments, ""),
@@ -68,8 +68,6 @@ LFCS_2024_clean = LFCS_2024 %>%
          weight_gr, fork_length_mm, tag_id_hex, tag_activation_date, anesthetic_time_mmss, anesthetic_time_sec,
          surgery_time_mmss, surgery_time_sec, recovery_time_mmss, recovery_time_sec, comments, release_container_id, 
          release_id, post_tagging_tank, entered_by, qaqc_by, qaqc_comments)
-
-write.csv(LFCS_2024_clean, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/2024_LFCS_tagging_clean.csv")
 
 # FCS_2024 ---------------------------------------------------------------------
 
@@ -97,7 +95,7 @@ FCS_2024_clean = FCS_2024 %>%
          weight_gr = as.numeric(weight_gr),
          fork_length_mm = as.integer(fork_length_mm), 
          tag_activation_date = mdy(tag_activation_date),
-    
+         
          # create new columns for water year, species, run, and month and assign 
          # their values and order
          water_year = as.factor(2024),
@@ -105,8 +103,8 @@ FCS_2024_clean = FCS_2024 %>%
          run = as.factor("fall"), 
          month = as.factor(month(date, label = TRUE)), 
          month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
-                                         "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
-    
+                                          "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
+         
          # create new columns that convert stopwatch timers to seconds
          anesthetic_time_sec = period_to_seconds(ms(anesthetic_time_mmss)), 
          surgery_time_sec = period_to_seconds(ms(surgery_time_mmss)),
@@ -115,7 +113,7 @@ FCS_2024_clean = FCS_2024 %>%
          # create new columns for release id and caba tank id
          release_id = paste((date+1), release_container_id),
          post_tagging_tank = as.factor(NA),
-        
+         
          # convert empty cells to NA and then remove all NAs from comment columns
          across(where(is.character), ~na_if(., "")),
          comments = replace_na(comments, ""),
@@ -131,7 +129,27 @@ FCS_2024_clean = FCS_2024 %>%
          surgery_time_mmss, surgery_time_sec, recovery_time_mmss, recovery_time_sec, comments, release_container_id, 
          release_id, post_tagging_tank, entered_by, qaqc_by, qaqc_comments)
 
-write.csv(FCS_2024_clean, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/2024_FCS_tagging_clean.csv")
+# all 2024 ---------------------------------------------------------------------
+
+tagging_2024 = rbind(LFCS_2024_clean, FCS_2024_clean)
+
+week_lookup_2024 <- tibble(
+  date = ymd(c("2023-12-05", "2023-12-06", "2023-12-07",  # Block 1 # 2024
+               "2023-12-12", "2023-12-13", "2023-12-14",  # Block 2
+               "2024-01-09", "2024-01-10", "2024-01-11",  # Block 3
+               "2024-01-16", "2024-01-17", "2024-01-18",  # Block 4
+               "2024-02-13", "2024-02-14", "2024-02-15",  # Block 5
+               "2024-04-16", "2024-04-17", "2024-04-18",  # Block 6
+               "2024-04-23", "2024-04-24", "2024-04-25")), # Block 7, no block 8
+  
+  block = rep(c("Block 1", "Block 2", "Block 3", "Block 4",
+                "Block 5", "Block 6", "Block 7"), each = 3)) 
+
+tagging_2024 = tagging_2024 %>% 
+  left_join(week_lookup_2024, by = "date")
+
+tagging_2024 = tagging_2024 %>% 
+  mutate(release_id = paste(block, release_container_id))
 
 # LFCS_2025---------------------------------------------------------------------
 
@@ -163,7 +181,7 @@ LFCS_2025 <- LFCS_2025 %>%
 LFCS_2025 <- LFCS_2025 %>%
   mutate(release_containerID = case_when(release_containerID == "O-7" ~ "point_rel",
                                          release_containerID == "O-6" ~ "point_rel",
-                                          TRUE             ~ release_containerID))
+                                         TRUE             ~ release_containerID))
 
 # clean up file
 LFCS_2025_clean = LFCS_2025 %>% 
@@ -182,7 +200,7 @@ LFCS_2025_clean = LFCS_2025 %>%
          weight_gr = as.numeric(weight_gr),
          fork_length_mm = as.integer(fork_length_mm), 
          tag_activation_date = mdy(tag_activation_date),
-        
+         
          # create new columns for water year, species, run, and month and assign 
          # their values and order
          water_year = as.factor(2025),
@@ -190,13 +208,13 @@ LFCS_2025_clean = LFCS_2025 %>%
          run = as.factor("late-fall"), 
          month = as.factor(month(date, label = TRUE)), 
          month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
-                                         "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
-        
+                                          "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
+         
          # create new columns that convert stopwatch timers to seconds
          anesthetic_time_sec = period_to_seconds(ms(anesthetic_time_mmss)), 
          surgery_time_sec = period_to_seconds(ms(surgery_time_mmss)),
          recovery_time_sec = period_to_seconds(ms(recovery_time_mmss)),
-        
+         
          # create new column for release id 
          release_id = paste((date+1), release_container_id),
          
@@ -220,10 +238,8 @@ LFCS_2025_clean = LFCS_2025 %>%
 LFCS_2025_clean = LFCS_2025_clean %>% 
   mutate(release_id = if_else(is.na(release_container_id), NA_character_, release_id))
 
-write.csv(LFCS_2025_clean, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/2025_LFCS_tagging_clean.csv")
-
 # FCS_2025----------------------------------------------------------------------
-  
+
 # read in raw data file
 FCS_2025 = read.csv("C:/Users/Hbell/Projects/data-project/data-raw/tagging/2025_FCS.csv")
 
@@ -244,7 +260,7 @@ FCS_2025_clean = FCS_2025 %>%
          weight_gr = as.numeric(weight_gr),
          fork_length_mm = as.integer(fork_length_mm), 
          tag_activation_date = mdy(tag_activation_date),
-        
+         
          # create new columns for water year, species, run, and month and assign 
          # their values and order
          water_year = as.factor(2025),
@@ -252,17 +268,17 @@ FCS_2025_clean = FCS_2025 %>%
          run = as.factor("fall"), 
          month = as.factor(month(date, label = TRUE)), 
          month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
-                                         "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
-        
+                                          "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
+         
          # create new columns that convert stopwatch timers to seconds
          anesthetic_time_sec = period_to_seconds(ms(anesthetic_time_mmss)), 
          surgery_time_sec = period_to_seconds(ms(surgery_time_mmss)),
          recovery_time_sec = period_to_seconds(ms(recovery_time_mmss)),
-        
+         
          # create new columns for release id and caba tank id
          release_id = paste((date+1), release_container_id),
          post_tagging_tank = as.factor(NA),
-        
+         
          # convert empty cells to NA and then remove all NAs from comment columns
          across(where(is.character), ~na_if(., "")),
          comments = replace_na(comments, ""),
@@ -293,8 +309,28 @@ FCS_2025_clean <- FCS_2025_clean %>%
 FCS_2025_clean = FCS_2025_clean %>% 
   mutate(release_id = if_else(is.na(release_container_id), NA_character_, release_id))
 
+# all 2025 ---------------------------------------------------------------------
 
-write.csv(FCS_2025_clean, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/2025_FCS_tagging_clean.csv")
+tagging_2025 = rbind(LFCS_2025_clean, FCS_2025_clean)
+
+week_lookup_2025 <- tibble(
+  date = ymd(c("2024-12-03", "2024-12-04", "2024-12-05",  # Block 1 # 2025
+               "2024-12-10", "2024-12-11", "2024-12-12",  # Block 2
+               "2025-01-07", "2025-01-08", "2025-01-09",  # Block 3
+               "2025-01-14", "2025-01-15", "2025-01-16",  # Block 4
+               "2025-02-11", "2025-02-12", "2025-02-13",  # Block 5
+               "2025-04-08", "2025-04-09", "2025-04-10",  # Block 6
+               "2025-04-15", "2025-04-16", "2025-04-17",  # Block 7
+               "2025-04-29", "2025-04-30", "2025-05-01")), #Block 8
+  
+  block = rep(c("Block 1", "Block 2", "Block 3", "Block 4",
+                "Block 5", "Block 6", "Block 7", "Block 8"), each = 3)) 
+
+tagging_2025 = tagging_2025 %>% 
+  left_join(week_lookup_2025, by = "date")
+
+tagging_2025 = tagging_2025 %>% 
+  mutate(release_id = paste(block, release_container_id))
 
 # LFCS_2026-----------------------------------------------------
 
@@ -324,7 +360,7 @@ LFCS_2026 = LFCS_2026 %>%
 
 # clean up file
 LFCS_2026_clean = LFCS_2026 %>% 
-
+  
   # restructure the column headers to be lowercase and include _
   clean_names() %>%
   
@@ -339,7 +375,7 @@ LFCS_2026_clean = LFCS_2026 %>%
          weight_gr = as.numeric(weight_gr),
          fork_length_mm = as.integer(fork_length_mm), 
          tag_activation_date = mdy(tag_activation_date),
-        
+         
          # create new columns for water year, species, run, and month and assign 
          # their values and order
          water_year = as.factor(2026),
@@ -347,21 +383,21 @@ LFCS_2026_clean = LFCS_2026 %>%
          run = as.factor("late-fall"), 
          month = as.factor(month(date, label = TRUE)), 
          month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
-                                         "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
-        
+                                          "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
+         
          # create new columns that convert stopwatch timers to seconds
          anesthetic_time_sec = period_to_seconds(ms(anesthetic_time_mmss)),
          surgery_time_sec = period_to_seconds(ms(surgery_time_mmss)),
          recovery_time_sec = period_to_seconds(ms(recovery_time_mmss)),
-        
+         
          # create new columns for release id and caba tank id
          release_id = paste((date+1), release_container_id),
          post_tagging_tank = as.factor(caba_tank_id)) %>% 
-        
+  
   # remove the NAs for comment columns 
   mutate(comments = replace_na(comments, ""), 
          qaqc_comments = replace_na(qaqc_comments, "")) %>% 
-      
+  
   # arrange by date and then vial_number to get back to the order in which fish 
   # were tagged
   arrange(date, as.numeric(vial_number)) %>% 
@@ -375,8 +411,6 @@ LFCS_2026_clean = LFCS_2026 %>%
 # change the release ids to NA if there was no release
 LFCS_2026_clean = LFCS_2026_clean %>% 
   mutate(release_id = if_else(is.na(release_container_id), NA_character_, release_id))
-
-write.csv(LFCS_2026_clean, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/2026_LFCS_tagging_clean.csv")
 
 # FCS_2026----------------------------------------------------------------------
 
@@ -405,7 +439,7 @@ FCS_2026 = FCS_2026 %>%
 
 # change QAQC comments column to not be logical...
 FCS_2026$QAQC_comments = as.character(FCS_2026$QAQC_comments)
-  
+
 # clean up file
 FCS_2026_clean = FCS_2026 %>% 
   
@@ -423,7 +457,7 @@ FCS_2026_clean = FCS_2026 %>%
          weight_gr = as.numeric(weight_gr),
          fork_length_mm = as.integer(fork_length_mm), 
          tag_activation_date = mdy(tag_activation_date),
-        
+         
          # create new columns for water year, species, run, and month and assign 
          # their values and order
          water_year = as.factor(2026),
@@ -431,22 +465,22 @@ FCS_2026_clean = FCS_2026 %>%
          run = as.factor("fall"), 
          month = as.factor(month(date, label = TRUE)), 
          month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
-                                         "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
-        
+                                          "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
+         
          # create new columns that convert stopwatch timers to seconds
          anesthetic_time_sec = period_to_seconds(ms(anesthetic_time_mmss)),
          surgery_time_sec = period_to_seconds(ms(surgery_time_mmss)),
          recovery_time_sec = period_to_seconds(ms(recovery_time_mmss)),
-        
+         
          # create new columns for release id and caba tank id
          release_id = paste((date+1), release_container_id),
          post_tagging_tank = as.factor(caba_tank_id)) %>% 
-      
- 
+  
+  
   # remove the NAs for comment columns 
   mutate(comments = replace_na(comments, ""), 
          qaqc_comments = replace_na(qaqc_comments, "")) %>% 
-      
+  
   # arrange by date and then vial_number to get back to the order in which fish 
   # were tagged
   arrange(date, as.numeric(vial_number)) %>% 
@@ -461,48 +495,46 @@ FCS_2026_clean = FCS_2026 %>%
 FCS_2026_clean = FCS_2026_clean %>% 
   mutate(release_id = if_else(is.na(release_container_id), NA_character_, release_id))
 
-write.csv(FCS_2026_clean, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/2026_FCS_tagging_clean.csv")
+# all 2026 ---------------------------------------------------------------------
 
+tagging_2026 = rbind(LFCS_2026_clean, FCS_2026_clean)
 
-# -----------------------------------------------------
-# bind all files together
-tagging_data = rbind(LFCS_2024_clean, FCS_2024_clean, LFCS_2025_clean, FCS_2025_clean, LFCS_2026_clean, FCS_2026_clean)
+week_lookup_2026 <- tibble(
+  date = ymd(c("2025-12-01", "2025-12-02", "2025-12-03",  # Block 1 # 2026
+               "2025-12-08", "2025-12-09", "2025-12-10",  # Block 2
+               "2026-01-05", "2026-01-06", "2026-01-07",  # Block 3
+               "2026-01-12", "2026-01-13", "2026-01-14",  # Block 4
+               "2026-02-02", "2026-02-03", "2026-02-04",  # Block 5
+               "2026-02-09", "2026-02-10", "2026-02-11",  # Block 6
+               "2026-04-20", "2026-04-21", "2026-04-22",  # Block 7
+               "2026-04-27", "2026-04-28", "2026-04-29")), # Block 8
+  
+  block = rep(c("Block 1", "Block 2", "Block 3", "Block 4",
+                "Block 5", "Block 6", "Block 7", "Block 8"), each = 3)) 
 
-write.csv(tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/tagging_data.csv")
+tagging_2026 = tagging_2026 %>% 
+  left_join(week_lookup_2026, by = "date")
 
-# -----------------------------------------------------
+tagging_2026 = tagging_2026 %>% 
+  mutate(release_id = paste(block, release_container_id))
+
+# ------------------------------------------------------------------------------
+# bind all years together
+
+tagging_data = rbind(tagging_2024, tagging_2025, tagging_2026)
+
+#write.csv(tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/tagging_data.csv")
+
 # remove released fish so this includes only tagger effects fish
 tagger_effects_tagging_data = tagging_data %>% 
-  filter(is.na(release_id)) %>% 
-  filter_out(is.na(anesthetic_time_mmss))
+  filter(grepl("D", vial_number))
 
-write.csv(tagger_effects_tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tag-effects/tag_effects_tagging_data.csv")
+#write.csv(tagger_effects_tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tag-effects/tag_effects_tagging_data.csv")
 
 # -----------------------------------------------------
 # now the opposite, remove tagger effects so it includes only fish released
-  
+
 released_fish_tagging_data = tagging_data %>% 
-  filter(!is.na(release_id))
+  filter(!grepl("D", vial_number))
 
-write.csv(released_fish_tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/released_fish_tagging_data.csv")
-
-# ------------------------------------------------------------------------------
-# when rerunning data, just use this bottom part
-
-LFCS_2024_clean = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/tagging/2024_LFCS_tagging_clean.csv")
-FCS_2024_clean = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/tagging/2024_FCS_tagging_clean.csv")
-LFCS_2025_clean = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/tagging/2025_LFCS_tagging_clean.csv")
-FCS_2025_clean = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/tagging/2025_FCS_tagging_clean.csv")
-LFCS_2026_clean = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/tagging/2026_LFCS_tagging_clean_2.csv")
-FCS_2026_clean = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/tagging/2026_FCS_tagging_clean.csv")
-
-# bind all files together
-tagging_data = rbind(LFCS_2024_clean, FCS_2024_clean, LFCS_2025_clean, FCS_2025_clean, LFCS_2026_clean, FCS_2026_clean)
-
-# write.csv(tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/tagging_data_2.csv")
-# 
-# # now the opposite, remove tagger effects so it includes only fish released
-# released_fish_tagging_data = tagging_data %>% 
-#   filter(!is.na(release_id))
-# 
-# write.csv(released_fish_tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/released_fish_tagging_data_.csv")
+#write.csv(released_fish_tagging_data, "C:/Users/Hbell/Projects/data-project/data-clean/tagging/released_fish_tagging_data.csv")

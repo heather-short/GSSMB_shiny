@@ -32,42 +32,21 @@ ggplot(fp_all, aes(x = datetime, y = value, color = water_year)) +
 # read in release data
 rel = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/releases/release_data.csv")
 
-# fix ids that were written as RT-01 instead of RT-1...etc
-rel[145, 8] = "RT-1"
-rel[146, 8] = "RT-2"
-rel[147, 8] = "RT-3"
-rel[148, 8] = "RT-4"
-rel[149, 8] = "RT-5"
-rel[150, 8] = "RT-6"
-rel[151, 8] = "RT-7"
-rel[152, 8] = "RT-8"
-rel[153, 8] = "RT-9"
-rel[292, 8] = "RT-1"
-
-rel[145, 9] = "4/24/2024 RT-1"
-rel[146, 9] = "4/24/2024 RT-2"
-rel[147, 9] = "4/24/2024 RT-3"
-rel[148, 9] = "4/24/2024 RT-4"
-rel[149, 9] = "4/24/2024 RT-5"
-rel[150, 9] = "4/25/2024 RT-6"
-rel[151, 9] = "4/25/2024 RT-7"
-rel[152, 9] = "4/25/2024 RT-8"
-rel[153, 9] = "4/25/2024 RT-9"
-rel[292, 9] = "4/16/2025 RT-1"
-
 rel = rel %>% 
   
   # mutate data types
   mutate(water_year = as.factor(water_year), 
          run = as.factor(run),
          release_datetime = as.POSIXct(release_datetime, format="%Y-%m-%d %H:%M:%S"),
-         release_id = as.factor(release_id)) %>% 
+         release_id = as.character(release_id),
+         lunar_phase = lunar.phase(release_datetime, name = TRUE), 
+         release_date = date(release_datetime)) %>% 
   
   # add new column datetime that rounds release_datetime to the nearest 15 min
   mutate(datetime = ceiling_date(release_datetime, "15 minutes")) %>% 
   
   # select columns to include in final data frame
-  select(datetime, water_year, species, run, release_datetime, release_id, fish_released)
+  select(datetime, water_year, species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released)
 
 
 # merge fp_all water quality data and rel release data
@@ -82,7 +61,7 @@ fp_rel = fp_rel %>%
   mutate(water_year = water_year.x) %>% 
   
   # select columns to include in final data frame
-  select(datetime, agency, location_id, location, water_year, value, value_type, units, species, run, release_datetime, release_id, fish_released)
+  select(datetime, agency, location_id, location, water_year, value, value_type, units, species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released)
 
 # test plot only shows water quality for dates when releases occurred
 ggplot(fp_rel, aes(x = datetime, y = value, color = water_year)) + 
@@ -94,28 +73,30 @@ ggplot(fp_rel, aes(x = datetime, y = value, color = water_year)) +
 fp_rel_sum = fp_rel %>% 
   
   # group by these columns
-  group_by(water_year, release_id, fish_released, value_type) %>% 
+  group_by(water_year, release_id, release_date, release_time, lunar_phase, fish_released, value_type) %>% 
   
   # give value for each value_type
   summarize(value) %>% 
   
   # split release_id into date and id
-  separate(release_id, into = c("release_date", "rel_id"), sep = " ") %>%
+  separate(release_id, into = c("block", "rel_id"), sep = " (?=RT)") %>%
   
   # take long data and make it wide
   # give dis, vel, temp, turb each their own column that will have one value 
   spread(key = value_type, value = value) %>% 
   
   # mutate data types and rearrange rel_id levels to be in numerical order
-  mutate(release_date = mdy(release_date), 
-         rel_id = factor(rel_id, levels = c("RT-1", "RT-2", "RT-3", "RT-4", "RT-5", "RT-6", 
+  mutate(rel_id = factor(rel_id, levels = c("RT-1", "RT-2", "RT-3", "RT-4", "RT-5", "RT-6", 
                                             "RT-7", "RT-8", "RT-9", "RT-10", "RT-11", "RT-12",
                                             "RT-13", "RT-14", "RT-15", "RT-16", "RT-17", "RT-18", 
                                             "RT-19", "RT-20", "RT-21", "RT-22", "RT-23", "RT-24", "point_rel")))
 
+fp_rel_sum[259, 3] = "point_rel"
+fp_rel_sum[260, 3] = "point_rel"
+fp_rel_sum[261, 3] = "point_rel"
+
+
 fp_rel_sum = fp_rel_sum %>% 
-  # change order of date to be ymd
-  mutate(release_date = ymd(release_date)) %>% 
   
   # add new column that says what month the release took place
   mutate(month = month(release_date, label = TRUE)) %>% 
@@ -124,17 +105,8 @@ fp_rel_sum = fp_rel_sum %>%
   mutate(month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
                                           "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")))
 
-
 # write to csv
 write.csv(fp_rel_sum, "C:/Users/Hbell/Projects/data-project/data-clean/releases/release_water_quality_summary.csv")
-
-
-
-
-
-
-
-
 
 
 
