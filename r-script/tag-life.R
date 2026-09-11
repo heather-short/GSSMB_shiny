@@ -10,18 +10,20 @@ library(janitor)
 
 # ------------------------------------------------------------------------------
 # read in WHS Host file
-whs1 <- read.csv("C:/Users/Hbell/Projects/data-project/data-raw/tag-life/july_2026_page1.csv")
-whs2 <- read.csv("C:/Users/Hbell/Projects/data-project/data-raw/tag-life/july_2026_page2.csv")
-whs3 <- read.csv("C:/Users/Hbell/Projects/data-project/data-raw/tag-life/july_2026_page3.csv")
-whs4 <- read.csv("C:/Users/Hbell/Projects/data-project/data-raw/tag-life/july_2026_page4.csv")
+whs1 <- read_csv("C:/Users/Hbell/Projects/GSSMB_shiny/raw-data/tag-life/2026/august_2026_page0.csv")
+whs2 <- read_csv("C:/Users/Hbell/Projects/GSSMB_shiny/raw-data/tag-life/2026/august_2026_page1.csv")
+whs3 <- read_csv("C:/Users/Hbell/Projects/GSSMB_shiny/raw-data/tag-life/2026/august_2026_page2.csv")
+whs4 <- read_csv("C:/Users/Hbell/Projects/GSSMB_shiny/raw-data/tag-life/2026/august_2026_page3.csv")
 
-whs = rbind(whs1, whs2)
-whs = rbind(whs, whs3)
-whs = rbind(whs, whs4)
+# bind all of the files together
+whs = bind_rows(whs1, whs2, whs3, whs4)
 
 # read in tag life file
-tag_life_tags <- read.csv("C:/Users/Hbell/Projects/data-project/data-raw/tag-life/tag_life_tags_2026.csv")
+# tag life file should have two columns (hex_id & date_activated)
+tag_life_tags <- read.csv("raw-data/tag-life/2026/tag_life_tags_2026.csv")
 
+# last download date
+download_date = as.Date("2026-08-28")
 
 # ------------------------------------------------------------------------------
 # clean up whs file
@@ -71,75 +73,30 @@ tag_life_tags = tag_life_tags %>%
 # merge the pingcount df and the tag_life_tags df by hex_id
 df = merge(pingcount, tag_life_tags, by = "hex_id", type = "full")
 
-# ------------------------------------------------------------------------------
-# this creates the function to find the end_date for the tags
-find_tag_end_date <- function(df,
-                              download_date,
-                              ping_threshold = 8, # edit this number if you want to change the ping_threshold
-                              censor_window_days = 0,
-                              min_low_run = 2) {
-  
-  # the receiver download date
-  download_date <- as.Date(download_date)
-  
-  censor_cutoff <- download_date - censor_window_days
-  
-  df %>%
-    
-    # format date as a date
-    mutate(date = as.Date(date)) %>%
-    
-    # arrange the data first by hex_id and then in order by date
-    arrange(hex_id, date) %>%
-    
-    # create a column for determining if the pings_per_day falls below the threshold set
-    group_by(hex_id) %>%
-    mutate(is_low   = pings_per_day < ping_threshold,
-           run_id   = with(rle(is_low), rep(seq_along(lengths), lengths))) %>%
-    
-    # count the low numbers in a run
-    group_by(hex_id, run_id) %>%
-    mutate(run_start = min(date), run_length = n()) %>%
-    ungroup() %>%
-    
-    # find the last observed date that the tag was pinging
-    group_by(hex_id) %>%
-    slice_max(date, n = 1, with_ties = FALSE) %>%
-    ungroup() %>%
-    
-    # add in new columns and define meanings
-    mutate(is_censored   = date >= censor_cutoff,
-           settled_low   = is_low & run_length >= min_low_run,
-           status = if_else(is_censored, "alive_censored", "dead"),
-           end_date = case_when(is_censored   ~ as.Date(NA),
-                                settled_low   ~ run_start,
-                                TRUE          ~ date),
-           end_type = case_when(is_censored   ~ "still_pinging_at_data_pull",
-                                settled_low   ~ "settled_at_low_pings",
-                                TRUE          ~ "abrupt_stop_high_ping")) %>%
-    
-    # select final df
-    select(hex_id, status, end_date, end_type,
-           last_observed_date = date,
-           last_observed_ping = pings_per_day,
-           terminal_run_length = run_length)
-  
-} # end function
+# use this df to visually inspect the data and manually assign end dates for each tag (do this in an excel spreadsheet)
+# when the tag dies, it can still continue to ping in very low amounts - around 8 times per day
+# any rows with ping counts with very low multiples of 8 (16, 24) are dates that should be considered post-tag-death
+# find the last high ping count before the run of low 8s and use that as your end date for the tag
 
-# ------------------------------------------------------------------
-# use the function to create the end_date df
-end_dates <- find_tag_end_date(df, download_date = as.Date("2026-07-24")) %>% 
-  select(hex_id, end_date)
+# -------------------------------------------------------------------------------
+# read in csv with end dates
+# end should have two columns (hex_id & date_dead)
+end = read_csv("raw-data/tag-life/2026/tag_life_start_and_end_dates_2026.csv")
+
+# change the tags that did not die to NA
+end = end %>%
+  mutate(date_dead = na_if(date_dead, "8/28/2026"))
 
 # ------------------------------------------------------------------
 # merge the original df with end_dates
-df = merge(df, end_dates, by = "hex_id") %>% 
+df = merge(df, end, by = "hex_id") %>% 
   
   # format data types
   mutate(date = ymd(date), 
+         date_dead = mdy(date_dead),
          date_activated = ymd(date_activated), 
          days_since_activation = as.integer(date - date_activated), 
-         total_days_active = as.integer(end_date - date_activated))
+         total_days_active = as.integer(date_dead - date_activated))
 
 # make a tag summary with one row per each tag
 tag_summary = df %>% 
@@ -154,7 +111,7 @@ survival_df = tag_summary %>%
             .groups = "drop") %>% 
   
   rowwise() %>% 
-  mutate(days_since_activation = list(0:225)) %>% 
+  mutate(days_since_activation = list(0:150)) %>% 
   unnest(days_since_activation) %>% 
   ungroup()
 
@@ -162,16 +119,19 @@ survival_df = tag_summary %>%
 survival_df = survival_df %>% 
   left_join(tag_summary, by = "tagging_block") %>% 
   
-  # keep everything that doesn't have an NA for total_days_active
-  filter(!is.na(total_days_active)) %>% 
-  
   # count the number of tags still active 
+  # (NA total_days_active = tag never died, so it's active at every timepoint)
   group_by(tagging_block, days_since_activation, n_tags) %>% 
-  summarize(n_active = sum(total_days_active >= days_since_activation), 
+  summarize(n_active = sum(is.na(total_days_active) | total_days_active >= days_since_activation), 
             .groups = "drop") %>% 
   
   # create the proportion of tags active
-  mutate(prop_active = n_active / n_tags) 
+  mutate(prop_active = n_active / n_tags)
+
+# -------------------------------------------------------------------------------
+# save as csv
+write_csv(tag_summary, "clean-data/tag-life/tag_life_summary_2026.csv")
+write_csv(survival_df, "clean-data/tag-life/tag_life_survival_2026.csv")
 
 # ------------------------------------------------------------------------------
 # plot days since activation vs proportion of tags active
@@ -187,11 +147,8 @@ ggplot(survival_df, aes(x = days_since_activation, y = prop_active, color = fact
                                 "4" = "#A2CD5A")) +
   geom_vline(xintercept = 71, linetype = "dashed") +
   theme(axis.title.x  = element_text(size = 16),
-        axis.text.x   = element_text(size = 12),
+        axis.text.x   = element_text(size = 14),
         axis.title.y  = element_text(size = 16),
-        axis.text.y   = element_text(size = 12))
-
-
-
-
-
+        axis.text.y   = element_text(size = 14),
+        legend.text = element_text(size = 14),
+        legend.title = element_text(size = 16))
