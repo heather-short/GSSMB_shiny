@@ -5,72 +5,46 @@
 # load packages
 library(tidyverse)
 library(lubridate)
-
-# read in data for Freeport station from CDEC through the years
-fp_24 = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/water-quality/cdec_2024_fp_water_quality.csv")
-fp_25 = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/water-quality/cdec_2025_fp_water_quality.csv")
-fp_26 = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/water-quality/cdec_2026_fp_water_quality.csv")
-
-# bind all df together
-fp_all = rbind(fp_24, fp_25, fp_26)
-
-# mutate data types 
-fp_all = fp_all %>% 
-  mutate(agency = as.factor(agency), 
-       location_id = as.factor(location_id), 
-       location = as.factor(location), 
-       water_year = as.factor(water_year), 
-       datetime = as.POSIXct(datetime, format="%Y-%m-%d %H:%M:%S"))
-
-# test plot
-ggplot(fp_all, aes(x = datetime, y = value, color = water_year)) + 
-  facet_wrap(~value_type, scales = "free_y") +
-  geom_point()
-
-# merge release data with water quality data------------------------------------
+library(lunar)
 
 # read in release data
-rel = read.csv("C:/Users/Hbell/Projects/data-project/data-clean/releases/release_data.csv")
+release = readRDS("clean-data/releases/historical_release_data.rds")
 
-rel = rel %>% 
-  
-  # mutate data types
-  mutate(water_year = as.factor(water_year), 
-         run = as.factor(run),
-         release_datetime = as.POSIXct(release_datetime, format="%Y-%m-%d %H:%M:%S"),
-         release_id = as.character(release_id),
-         lunar_phase = lunar.phase(release_datetime, name = TRUE), 
-         release_date = date(release_datetime)) %>% 
-  
-  # add new column datetime that rounds release_datetime to the nearest 15 min
-  mutate(datetime = ceiling_date(release_datetime, "15 minutes")) %>% 
+release = release %>% 
+  # add in lunar phase
+  mutate(lunar_phase = lunar.phase(release_datetime, name = TRUE),  
+         # add new column datetime that rounds release_datetime to the nearest 15 min
+         datetime = ceiling_date(release_datetime, "15 minutes")) %>% 
   
   # select columns to include in final data frame
   select(datetime, water_year, species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released)
 
+# -------------------------------------------------------------------------------
+# read in water quality data
+freeport = readRDS("clean-data/water-quality/historical_water_quality.rds") %>% 
+  filter(location == "Sacramento River at Freeport")
 
-# merge fp_all water quality data and rel release data
-fp_rel = merge(fp_all, rel, by = "datetime", type = "full")
+# -------------------------------------------------------------------------------
+# merge water quality and release data
+merged = merge(freeport, release, by = "datetime", type = "full")
 
-fp_rel = fp_rel %>% 
-  
+# clean up
+merged = merged %>% 
   # filter out rows where no release took place
   filter(!is.na(release_datetime)) %>% 
-  
-  # rename to water_year
-  mutate(water_year = water_year.x) %>% 
-  
-  # select columns to include in final data frame
-  select(datetime, agency, location_id, location, water_year, value, value_type, units, species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released)
+  filter(value_type != "Discharge, tidally filtered") %>% 
+  rename(water_year = water_year.x) %>% 
+  select(datetime, downloaded_from, station_id, location, water_year, value, value_type, units, 
+         species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released)
 
-# test plot only shows water quality for dates when releases occurred
-ggplot(fp_rel, aes(x = datetime, y = value, color = water_year)) + 
+# test plot
+ggplot(merged, aes(x = datetime, y = value, color = water_year)) + 
   facet_wrap(~value_type, scales = "free_y") + 
   geom_point()
 
 # create new summary data frame for merged data---------------------------------
 
-fp_rel_sum = fp_rel %>% 
+summary = merged %>% 
   
   # group by these columns
   group_by(water_year, release_id, release_date, release_time, lunar_phase, fish_released, value_type) %>% 
@@ -91,12 +65,12 @@ fp_rel_sum = fp_rel %>%
                                             "RT-13", "RT-14", "RT-15", "RT-16", "RT-17", "RT-18", 
                                             "RT-19", "RT-20", "RT-21", "RT-22", "RT-23", "RT-24", "point_rel")))
 
-fp_rel_sum[259, 3] = "point_rel"
-fp_rel_sum[260, 3] = "point_rel"
-fp_rel_sum[261, 3] = "point_rel"
+summary[264, 3] = "point_rel"
+summary[265, 3] = "point_rel"
+summary[266, 3] = "point_rel"
 
 
-fp_rel_sum = fp_rel_sum %>% 
+summary = summary %>% 
   
   # add new column that says what month the release took place
   mutate(month = month(release_date, label = TRUE)) %>% 
@@ -106,7 +80,10 @@ fp_rel_sum = fp_rel_sum %>%
                                           "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")))
 
 # write to csv
-write.csv(fp_rel_sum, "C:/Users/Hbell/Projects/data-project/data-clean/releases/release_water_quality_summary.csv")
+write_csv(summary, "clean-data/releases/historical_release_water_quality_summary.csv")
+
+# write to rds
+saveRDS(summary, "clean-data/releases/historical_release_water_quality_summary.rds")
 
 
 
