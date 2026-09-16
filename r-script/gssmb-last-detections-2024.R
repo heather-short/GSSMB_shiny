@@ -82,6 +82,17 @@ last_loc = detection_order %>%
   ungroup()
 
 # -------------------------------------------------------------------------------
+# add water year 
+last_loc = last_loc %>% 
+  mutate(water_year = "2024") %>% 
+  mutate(water_year = as.factor(water_year))
+
+# -------------------------------------------------------------------------------
+# save files
+write_csv(last_loc, "clean-data/calfishtrack/2024_last_locations.csv")
+saveRDS(last_loc, "clean-data/calfishtrack/2024_last_locations.rds")
+
+# -------------------------------------------------------------------------------
 
 # map last locations
 leaflet(last_loc) %>% 

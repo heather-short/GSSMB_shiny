@@ -32,7 +32,131 @@ tagging %>%
         plot.caption = element_text(size = 16, face = "italic", hjust = 0, margin = margin(t = 20)),
         strip.text = element_text(size = 16))
 
-# shiny version
+# -------------------------------------------------------------------------------
+# shiny ui
+nav_panel(title = "Tagging", 
+            
+            fluidRow(h2("Tagging Procedure"),
+                           
+                     column(6, 
+                            br(),
+                            h5("Methods: \n
+                                To begin each surgical procedure, fish were placed in an anesthesia solution 
+                                until they lost equilibrium and were no longer responsive to touch. The fish 
+                                was removed from anesthesia and weighed to the nearest 0.1 g and fork length 
+                                was measured to the nearest mm. Fish were then placed ventral side up on a foam 
+                                block before an irrigation tube was placed in or near the mouth to allow for 
+                                irrigation of the gills with a lower dose of the anesthetic solution. A small 
+                                incision was made parallel to the mid-ventral line and an ss400 JSATS acoustic
+                                transmitter was inserted into the coelomic cavity before the incision was closed 
+                                with a single uninterrupted 2 x 2 x 2 surgical knot. The duration of each surgery 
+                                was measured from the time the fish was removed from anesthesia to the time it was 
+                                placed in recovery following surgery. Tagging methods were based on Liedke et al. (2012)."),
+                            br(),
+
+                            # selection box for water year 
+                            wellPanel(h4("Select a water year to explore the tagging data."),
+                                      selectInput("water_year_tagging", " ",
+                                                  choices = sort(unique(tagging$water_year)),
+                                                  selected = max(tagging$water_year)))), 
+
+                     # tag picture and caption
+                     column(6, 
+                            br(), br(),
+                            div(style = "text-align: center;",
+                                tags$img(src = "tag.jpg")),
+                            br(),
+                            h5("Figure 1: JSATS ss400 acoustic transmitter", style = "text-align: center;"))),
+             
+            # add a line to separate from next row
+            br(),
+            hr(style = "border-top: 2px solid #333; margin: 20px 0;"),
+            
+            ### morphometrics ------------------------------------------------------------------------------
+            
+            fluidRow(h2("Morphometrics"),
+                     
+                     # weight vs length plot & caption
+                     column(11,   
+                            br(),
+                            plotOutput("weight_length_plot"), 
+                            br(),
+                            h5("Figure 2: Fish weight (g) as a function of fork length (mm) 
+                               by month of tagging. Each point represents an individual fish.")),
+                     
+                     # legend image      
+                     column(1, 
+                            br(), br(),
+                            tags$img(src = "legend2.png"), style = "text-align: left;")), # end row
+            
+            br(), 
+            
+            fluidRow(
+              
+              # weight table and histogram and caption
+              column(6, 
+                     h3("Weight (g)", class = "text-center"),
+                     br(),
+                     DTOutput("weight_table"),
+                     br(),
+                     plotOutput("weight_histogram"), 
+                     br(),
+                     h5("Figure 3: Distribution of Chinook salmon weight (g) by month of tagging.")), 
+              
+              # fork length table and histogram and caption
+              column(6, 
+                     h3("Fork Length (mm)", class = "text-center"),
+                     br(),
+                     DTOutput("fork_length_table"),
+                     br(),
+                     plotOutput("fork_length_histogram"),
+                     br(),
+                     h5("Figure 4: Distribution of Chinook salmon fork length (mm) by month of tagging."))), 
+            
+            # add a line to separate from next row
+            br(), 
+            hr(style = "border-top: 2px solid #333; margin: 20px 0;"),
+            
+            ### surgery times ------------------------------------------------------------------------------
+            
+            fluidRow(h2("Anesthetic, Surgery, and Recovery Times"),
+                     
+                     # anesthetic table and boxplot       
+                     column(4, 
+                            br(),
+                            h3("Anesthetic", class = "text-center"),
+                            DTOutput("anesthetic_table"),
+                            br(),
+                            plotOutput("anesthetic_plot")),
+                     
+                     # surgery table and boxplot       
+                     column(4, 
+                            br(),
+                            h3("Surgery", class = "text-center"),
+                            DTOutput("surgery_table"),
+                            br(),
+                            plotOutput("surgery_plot")),
+                     
+                     # recovery table and boxplot       
+                     column(4, 
+                            br(),
+                            h3("Recovery", class = "text-center"),
+                            DTOutput("recovery_table"),
+                            br(),
+                            plotOutput("recovery_plot"))), 
+            
+            # row for figure caption
+            fluidRow(br(), 
+                     h5("Figure 5: Anesthetic, surgery, and recovery times for tagged Late-Fall and Fall Run juvenile Chinook salmon. The centerline of the boxplots 
+                        represents the median, the box represents the interquartile range (IQR), the whiskers extend 1.5 times 
+                        the IQR, and the black points represent values outside 1.5 times the IQR. 
+                        The mean value for each boxplot is represented by a white point."), 
+                     br(), br())
+            
+  ), # end nav panel - tagging
+
+# -------------------------------------------------------------------------------
+# shiny server
 output$weight_length_plot <- renderPlot({
   
 # require water year as an input

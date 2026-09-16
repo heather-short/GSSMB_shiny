@@ -100,7 +100,8 @@ df = merge(df, end, by = "hex_id") %>%
 
 # make a tag summary with one row per each tag
 tag_summary = df %>% 
-  distinct(hex_id, tagging_block, total_days_active)
+  distinct(hex_id, tagging_block, total_days_active) %>% 
+  mutate(water_year = as.factor("2026"))
 
 # make a survival df
 survival_df = tag_summary %>% 
@@ -126,14 +127,23 @@ survival_df = survival_df %>%
             .groups = "drop") %>% 
   
   # create the proportion of tags active
-  mutate(prop_active = n_active / n_tags)
+  mutate(prop_active = n_active / n_tags) %>% 
+  
+  # add water year
+  mutate(water_year = as.factor("2026"))
 
 # -------------------------------------------------------------------------------
 # save as csv
 write_csv(tag_summary, "clean-data/tag-life/tag_life_summary_2026.csv")
 write_csv(survival_df, "clean-data/tag-life/tag_life_survival_2026.csv")
 
+# save as rds
+saveRDS(tag_summary, "clean-data/tag-life/tag_life_summary_2026.rds")
+saveRDS(survival_df, "clean-data/tag-life/tag_life_survival_2026.rds")
+
 # ------------------------------------------------------------------------------
+survival_df = read_csv("clean-data/tag-life/2024-2026/tag_life_survival_2026.csv")
+
 # plot days since activation vs proportion of tags active
 ggplot(survival_df, aes(x = days_since_activation, y = prop_active, color = factor(tagging_block))) + 
   geom_line(linewidth = 2) + 
