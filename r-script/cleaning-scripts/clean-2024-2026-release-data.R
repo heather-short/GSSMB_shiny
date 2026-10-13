@@ -3,7 +3,6 @@
 # Tue Jul  7 11:23:39 2026 ------------------------------
 
 # Load  packages
-library(stringr)
 library(tidyverse)
 library(janitor)
 
@@ -98,8 +97,8 @@ week_lookup_2024 <- tibble(
                "2024-04-17", "2024-04-18", "2024-04-19", "2024-04-20", # Block 6
                "2024-04-24", "2024-04-25", "2024-04-26", "2024-04-27")), #Block 7, no block 8
   
-  block = rep(c("Block 1", "Block 2", "Block 3", "Block 4",
-                "Block 5", "Block 6", "Block 7"), each = 4)) 
+  block = rep(c("Block 1A", "Block 1B", "Block 2A", "Block 2B",
+                "Block 3A", "Block 3B", "Block 4A"), each = 4)) 
 
 release_2024 = release_2024 %>% 
   left_join(week_lookup_2024, by = "release_date")
@@ -199,8 +198,8 @@ week_lookup_2025 <- tibble(
                        "2025-04-16", "2025-04-17", "2025-04-18", "2025-04-19",   # Block 7
                        "2025-04-30", "2025-05-01", "2025-05-02", "2025-05-03")), # Block 8
   
-  block = rep(c("Block 1", "Block 2", "Block 3", "Block 4",
-                "Block 5", "Block 6", "Block 7", "Block 8"), each = 4)) 
+  block = rep(c("Block 1A", "Block 1B", "Block 2A", "Block 2B",
+                "Block 3A", "Block 3B", "Block 4A", "Block 4B"), each = 4)) 
 
 release_2025 = release_2025 %>% 
   left_join(week_lookup_2025, by = "release_date")
@@ -295,8 +294,8 @@ week_lookup_2026 <- tibble(
                        "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", # Week 7
                        "2026-04-28", "2026-04-29",  "2026-04-30", "2026-05-01")), # Block 8
   
-  block = rep(c("Block 1", "Block 2", "Block 3", "Block 4",
-                "Block 5", "Block 6", "Block 7", "Block 8"), each = 4)) 
+  block = rep(c("Block 1A", "Block 1B", "Block 2A", "Block 2B",
+                "Block 3A", "Block 3B", "Block 4A", "Block 4B"), each = 4)) 
 
 release_2026 = release_2026 %>% 
   left_join(week_lookup_2026, by = "release_date")
