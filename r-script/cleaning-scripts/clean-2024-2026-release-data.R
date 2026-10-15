@@ -28,7 +28,7 @@ lfcs_2024_rel = lfcs_2024_rel %>%
          species = as.factor("Chinook Salmon"),
          run = as.factor("late-fall"),
          release_date = mdy(date),
-         release_datetime = as.POSIXct(paste(release_date, release_time), format = "%Y-%m-%d %H:%M"),
+         release_datetime = ymd_hm(paste(release_date, release_time)),
          release_container_id = as.factor(release_container_id),
          release_id = paste(date, release_container_id)) %>% 
   
@@ -64,7 +64,7 @@ fcs_2024_rel = fcs_2024_rel %>%
          species = as.factor("Chinook Salmon"),
          run = as.factor("fall"),
          release_date = mdy(date),
-         release_datetime = as.POSIXct(paste(release_date, release_time), format = "%Y-%m-%d %H:%M"),
+         release_datetime = ymd_hm(paste(release_date, release_time)),
          release_container_id = as.factor(release_container_id),
          release_id = paste(date, release_container_id)) %>% 
   
@@ -133,7 +133,7 @@ lfcs_2025_rel = lfcs_2025_rel %>%
          species = as.factor("Chinook Salmon"),
          run = as.factor("late-fall"),
          release_date = mdy(date),
-         release_datetime = as.POSIXct(paste(release_date, release_time), format = "%Y-%m-%d %H:%M"),
+         release_datetime = ymd_hm(paste(release_date, release_time)),
          release_container_id = as.factor(release_container_id),
          release_id = paste(date, release_container_id)) %>%
   
@@ -165,7 +165,7 @@ fcs_2025_rel = fcs_2025_rel %>%
          species = as.factor("Chinook Salmon"),
          run = as.factor("fall"),
          release_date = mdy(date),
-         release_datetime = as.POSIXct(paste(release_date, release_time), format = "%Y-%m-%d %H:%M"),
+         release_datetime = ymd_hm(paste(release_date, release_time)),
          release_container_id = as.factor(release_container_id),
          release_id = paste(date, release_container_id)) %>%
   
@@ -235,7 +235,7 @@ lfcs_2026_rel = lfcs_2026_rel %>%
          species = as.factor("Chinook Salmon"),
          run = as.factor("late-fall"),
          release_date = mdy(date),
-         release_datetime = as.POSIXct(paste(release_date, release_time), format = "%Y-%m-%d %H:%M"),
+         release_datetime = ymd_hm(paste(release_date, release_time)),
          release_id = paste(date, release_container_id)) %>%
   
   # select columns to include in final data frame
@@ -272,7 +272,7 @@ fcs_2026_rel = fcs_2026_rel %>%
          species = as.factor("Chinook Salmon"),
          run = as.factor("fall"),
          release_date = mdy(date),
-         release_datetime = as.POSIXct(paste(release_date, release_time), format = "%Y-%m-%d %H:%M"),
+         release_datetime = ymd_hm(paste(release_date, release_time)),
          release_id = paste(date, release_container_id)) %>%
   
   # select columns to include in final data frame

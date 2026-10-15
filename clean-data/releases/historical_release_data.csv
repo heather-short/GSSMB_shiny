@@ -1,528 +1,528 @@
 water_year,species,run,release_date,release_time,release_datetime,release_container_id,release_id,crew,morts,shed_tags,fish_released,comments,entered_by,qaqc_by,qaqc_comments,block
-2024,Chinook Salmon,late-fall,2023-12-06,9:09,2023-12-06T17:09:00Z,RT-1,Block 1A RT-1,"EH, KB",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-06,12:05,2023-12-06T20:05:00Z,RT-2,Block 1A RT-2,"EH, KB",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-06,15:01,2023-12-06T23:01:00Z,RT-3,Block 1A RT-3,"AC, EH, KB",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-06,17:59,2023-12-07T01:59:00Z,RT-4,Block 1A RT-4,"EH, KB",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-06,21:06,2023-12-07T05:06:00Z,RT-5,Block 1A RT-5,"AK, BK, TS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-07,0:06,2023-12-07T08:06:00Z,RT-6,Block 1A RT-6,"AK, BK, TS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-07,3:05,2023-12-07T11:05:00Z,RT-7,Block 1A RT-7,"AK, BK, TS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-07,9:10,2023-12-07T17:10:00Z,RT-9,Block 1A RT-9,"EH, NS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-07,12:12,2023-12-07T20:12:00Z,RT-10,Block 1A RT-10,"EH, NS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-07,15:10,2023-12-07T23:10:00Z,RT-11,Block 1A RT-11,"EH, NS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-07,18:05,2023-12-08T02:05:00Z,RT-12,Block 1A RT-12,"EH, NS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-07,21:35,2023-12-08T05:35:00Z,RT-13,Block 1A RT-13,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,0:12,2023-12-08T08:12:00Z,RT-14,Block 1A RT-14,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,3:09,2023-12-08T11:09:00Z,RT-15,Block 1A RT-15,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,6:09,2023-12-08T14:09:00Z,RT-16,Block 1A RT-16,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,9:40,2023-12-08T17:40:00Z,RT-17,Block 1A RT-17,"AT, EC",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,12:17,2023-12-08T20:17:00Z,RT-18,Block 1A RT-18,"AT, EC",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,15:15,2023-12-08T23:15:00Z,RT-19,Block 1A RT-19,"AT, EC",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,18:11,2023-12-09T02:11:00Z,RT-20,Block 1A RT-20,"AT, EC",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-08,21:26,2023-12-09T05:26:00Z,RT-21,Block 1A RT-21,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-09,0:16,2023-12-09T08:16:00Z,RT-22,Block 1A RT-22,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-09,3:14,2023-12-09T11:14:00Z,RT-23,Block 1A RT-23,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-09,6:10,2023-12-09T14:10:00Z,RT-24,Block 1A RT-24,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
-2024,Chinook Salmon,late-fall,2023-12-13,9:15,2023-12-13T17:15:00Z,RT-1,Block 1B RT-1,"NS, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-13,12:06,2023-12-13T20:06:00Z,RT-2,Block 1B RT-2,"NS, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-13,15:09,2023-12-13T23:09:00Z,RT-3,Block 1B RT-3,"NS, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-13,18:05,2023-12-14T02:05:00Z,RT-4,Block 1B RT-4,"NS, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-13,21:18,2023-12-14T05:18:00Z,RT-5,Block 1B RT-5,"MC, PH",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,0:15,2023-12-14T08:15:00Z,RT-6,Block 1B RT-6,"MC, TC",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,3:12,2023-12-14T11:12:00Z,RT-7,Block 1B RT-7,"MC, PH",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,6:04,2023-12-14T14:04:00Z,RT-8,Block 1B RT-8,"MC, TC",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,9:12,2023-12-14T17:12:00Z,RT-9,Block 1B RT-9,"AL, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,12:04,2023-12-14T20:04:00Z,RT-10,Block 1B RT-10,"AL, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,15:04,2023-12-14T23:04:00Z,RT-11,Block 1B RT-11,"AL, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,18:02,2023-12-15T02:02:00Z,RT-12,Block 1B RT-12,"AL, TA",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-14,21:16,2023-12-15T05:16:00Z,RT-13,Block 1B RT-13,"MC, PH",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,0:19,2023-12-15T08:19:00Z,RT-14,Block 1B RT-14,"MC, PH",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,3:07,2023-12-15T11:07:00Z,RT-15,Block 1B RT-15,"MD, MC",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,6:10,2023-12-15T14:10:00Z,RT-16,Block 1B RT-16,"MD, MC",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,9:04,2023-12-15T17:04:00Z,RT-17,Block 1B RT-17,"CY, KM",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,12:04,2023-12-15T20:04:00Z,RT-18,Block 1B RT-18,"CY, KM",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,15:03,2023-12-15T23:03:00Z,RT-19,Block 1B RT-19,"CY, KM",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,18:01,2023-12-16T02:01:00Z,RT-20,Block 1B RT-20,"CY, KM",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,21:20,2023-12-16T05:20:00Z,RT-21,Block 1B RT-21,"MC, PH",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-15,23:58,2023-12-16T07:58:00Z,RT-22,Block 1B RT-22,"MC, PH",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-16,3:03,2023-12-16T11:03:00Z,RT-23,Block 1B RT-23,"AK, MC",0,0,10,,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2023-12-16,6:11,2023-12-16T14:11:00Z,RT-24,Block 1B RT-24,"AK, MC",0,0,10,sea lion near release site,PH,EH,,Block 1B
-2024,Chinook Salmon,late-fall,2024-01-10,9:14,2024-01-10T17:14:00Z,RT-1,Block 2A RT-1,"KM, PH",0,0,10,water too turbid to see morts and shed tags ,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-10,12:12,2024-01-10T20:12:00Z,RT-2,Block 2A RT-2,"KM, PH",0,0,10,water too turbid to see morts and shed tags ,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-10,15:09,2024-01-10T23:09:00Z,RT-3,Block 2A RT-3,"KM, CY",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-10,18:10,2024-01-11T02:10:00Z,RT-4,Block 2A RT-4,"KM, PH",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-10,21:13,2024-01-11T05:13:00Z,RT-5,Block 2A RT-5,"JH, MD",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,0:10,2024-01-11T08:10:00Z,RT-6,Block 2A RT-6,"JH, MD",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,3:06,2024-01-11T11:06:00Z,RT-7,Block 2A RT-7,"JH, AK",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,6:01,2024-01-11T14:01:00Z,RT-8,Block 2A RT-8,"JH, MD",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,9:22,2024-01-11T17:22:00Z,RT-9,Block 2A RT-9,"PH, EH",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,12:14,2024-01-11T20:14:00Z,RT-10,Block 2A RT-10,"PH, EH",0,0,10,Turbid water,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,15:20,2024-01-11T23:20:00Z,RT-11,Block 2A RT-11,"PH, EH",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,18:09,2024-01-12T02:09:00Z,RT-12,Block 2A RT-12,"PH, EH",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-11,21:07,2024-01-12T05:07:00Z,RT-13,Block 2A RT-13,"AW, JH",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,0:11,2024-01-12T08:11:00Z,RT-14,Block 2A RT-14,"JH, AK",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,3:09,2024-01-12T11:09:00Z,RT-15,Block 2A RT-15,"AW, JH",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,6:11,2024-01-12T14:11:00Z,RT-16,Block 2A RT-16,"JH, AK",0,0,10,Water too turbid to see tags,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,9:13,2024-01-12T17:13:00Z,RT-17,Block 2A RT-17,"KM, SB",0,0,10,Turbid water,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,12:14,2024-01-12T20:14:00Z,RT-18,Block 2A RT-18,"KM, SB",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,15:08,2024-01-12T23:08:00Z,RT-19,Block 2A RT-19,"KM, SB",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,18:09,2024-01-13T02:09:00Z,RT-20,Block 2A RT-20,"KM, SB",0,0,10,,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-12,21:16,2024-01-13T05:16:00Z,RT-21,Block 2A RT-21,"MD, CC",0,0,10,Turbid,PH,EH,,Block 2A
-2024,Chinook Salmon,late-fall,2024-01-13,0:10,2024-01-13T08:10:00Z,RT-22,Block 2A RT-22,"MD, NS",0,0,10,Turbid,PH,EH,"Date incorrect on physical datasheet, should be 1/13",Block 2A
-2024,Chinook Salmon,late-fall,2024-01-13,3:10,2024-01-13T11:10:00Z,RT-23,Block 2A RT-23,"MD, CC",0,0,10,Turbid,PH,EH,"Date incorrect on physical datasheet, should be 1/13",Block 2A
-2024,Chinook Salmon,late-fall,2024-01-13,6:10,2024-01-13T14:10:00Z,RT-24,Block 2A RT-24,"MD, NS",0,0,10,Turbid,PH,EH,"Date incorrect on physical datasheet, should be 1/13",Block 2A
-2024,Chinook Salmon,late-fall,2024-01-17,9:11,2024-01-17T17:11:00Z,RT-1,Block 2B RT-1,"TA, CR",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-17,12:09,2024-01-17T20:09:00Z,RT-2,Block 2B RT-2,"TA, NL",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-17,15:14,2024-01-17T23:14:00Z,RT-3,Block 2B RT-3,"TA, CR",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-17,18:10,2024-01-18T02:10:00Z,RT-4,Block 2B RT-4,"TA, CR",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-17,21:09,2024-01-18T05:09:00Z,RT-5,Block 2B RT-5,"PH, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,0:18,2024-01-18T08:18:00Z,RT-6,Block 2B RT-6,"PH, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,3:08,2024-01-18T11:08:00Z,RT-7,Block 2B RT-7,"AK, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,6:07,2024-01-18T14:07:00Z,RT-8,Block 2B RT-8,"AK, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,9:15,2024-01-18T17:15:00Z,RT-9,Block 2B RT-9,"TA, CR",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,12:14,2024-01-18T20:14:00Z,RT-10,Block 2B RT-10,"TA, AC",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,15:09,2024-01-18T23:09:00Z,RT-11,Block 2B RT-11,"TA, CR",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,18:14,2024-01-19T02:14:00Z,RT-12,Block 2B RT-12,"TA, CR",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-18,21:12,2024-01-19T05:12:00Z,RT-13,Block 2B RT-13,"AW, AL",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,0:12,2024-01-19T08:12:00Z,RT-14,Block 2B RT-14,"AW, EH",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,3:19,2024-01-19T11:19:00Z,RT-15,Block 2B RT-15,"AW, AL",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,6:12,2024-01-19T14:12:00Z,RT-16,Block 2B RT-16,"AW, EH",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,8:55,2024-01-19T16:55:00Z,RT-17,Block 2B RT-17,"KM, AT",0,0,10,very turbid,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,11:42,2024-01-19T19:42:00Z,RT-18,Block 2B RT-18,"KM, AT",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,15:00,2024-01-19T23:00:00Z,RT-19,Block 2B RT-19,"KM, AT",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,17:22,2024-01-20T01:22:00Z,RT-20,Block 2B RT-20,"KM, AT",0,0,10,fish released early due to rain ,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-19,21:07,2024-01-20T05:07:00Z,RT-21,Block 2B RT-21,"AW, BS",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-20,0:07,2024-01-20T08:07:00Z,RT-22,Block 2B RT-22,"AW, EH",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-20,3:10,2024-01-20T11:10:00Z,RT-23,Block 2B RT-23,"AW, BS",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-01-20,6:15,2024-01-20T14:15:00Z,RT-24,Block 2B RT-24,"AW, EH",0,0,10,,PH,EH,,Block 2B
-2024,Chinook Salmon,late-fall,2024-02-14,9:14,2024-02-14T17:14:00Z,RT-1,Block 3A RT-1,"CY, BK",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-14,12:12,2024-02-14T20:12:00Z,RT-2,Block 3A RT-2,"BK, CY",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-14,15:15,2024-02-14T23:15:00Z,RT-3,Block 3A RT-3,"CY, BK",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-14,18:00,2024-02-15T02:00:00Z,RT-4,Block 3A RT-4,"CY, BK",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-14,21:14,2024-02-15T05:14:00Z,RT-5,Block 3A RT-5,"RM, BS",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,0:05,2024-02-15T08:05:00Z,RT-6,Block 3A RT-6,"RM, AC",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,3:11,2024-02-15T11:11:00Z,RT-7,Block 3A RT-7,"RM, BS",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,6:08,2024-02-15T14:08:00Z,RT-8,Block 3A RT-8,"RM, AC",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,9:15,2024-02-15T17:15:00Z,RT-9,Block 3A RT-9,"OJ, CY",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,12:02,2024-02-15T20:02:00Z,RT-10,Block 3A RT-10,"CJ, EC",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,14:53,2024-02-15T22:53:00Z,RT-11,Block 3A RT-11,"JM, EC, CJ",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,18:07,2024-02-16T02:07:00Z,RT-12,Block 3A RT-12,"CJ, EC",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-15,21:10,2024-02-16T05:10:00Z,RT-13,Block 3A RT-13,"MD, RM",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,0:11,2024-02-16T08:11:00Z,RT-14,Block 3A RT-14,"MD, RM",0,0,10,Lots of sediment ,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,3:07,2024-02-16T11:07:00Z,RT-15,Block 3A RT-15,"EH, RM",0,0,10,lots of sediment at bottom,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,6:11,2024-02-16T14:11:00Z,RT-16,Block 3A RT-16,"EH, RM",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,8:55,2024-02-16T16:55:00Z,RT-17,Block 3A RT-17,"KM, AT",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,12:23,2024-02-16T20:23:00Z,RT-18,Block 3A RT-18,"TA, JM",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,15:13,2024-02-16T23:13:00Z,RT-19,Block 3A RT-19,"TA, JM",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,18:12,2024-02-17T02:12:00Z,RT-20,Block 3A RT-20,"TA, JM",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-16,21:10,2024-02-17T05:10:00Z,RT-21,Block 3A RT-21,"RM, AW",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-17,0:09,2024-02-17T08:09:00Z,RT-22,Block 3A RT-22,"JM, EH",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-17,3:17,2024-02-17T11:17:00Z,RT-23,Block 3A RT-23,"AW, RM",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,late-fall,2024-02-17,6:14,2024-02-17T14:14:00Z,RT-24,Block 3A RT-24,"RM, EH",0,0,10,,PH,EH,,Block 3A
-2024,Chinook Salmon,fall,2024-04-17,9:13,2024-04-17T16:13:00Z,RT-1,Block 3B RT-1,"TA, CR",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-17,12:11,2024-04-17T19:11:00Z,RT-2,Block 3B RT-2,"TA, CY",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-17,15:13,2024-04-17T22:13:00Z,RT-3,Block 3B RT-3,"TA, JM, CP, KK",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-17,18:08,2024-04-18T01:08:00Z,RT-4,Block 3B RT-4,"TA, CR",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-17,21:21,2024-04-18T04:21:00Z,RT-5,Block 3B RT-5,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,0:12,2024-04-18T07:12:00Z,RT-6,Block 3B RT-6,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,3:18,2024-04-18T10:18:00Z,RT-7,Block 3B RT-7,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,6:17,2024-04-18T13:17:00Z,RT-8,Block 3B RT-8,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,9:10,2024-04-18T16:10:00Z,RT-9,Block 3B RT-9,"TA, NS",0,0,10,,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,12:10,2024-04-18T19:10:00Z,RT-10,Block 3B RT-10,"TA, NS",0,0,10,,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,15:17,2024-04-18T22:17:00Z,RT-11,Block 3B RT-11,"TA, NS",0,0,10,,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,18:08,2024-04-19T01:08:00Z,RT-12,Block 3B RT-12,"TA, NS",0,0,10,,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-18,21:16,2024-04-19T04:16:00Z,RT-13,Block 3B RT-13,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,0:08,2024-04-19T07:08:00Z,RT-14,Block 3B RT-14,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,3:16,2024-04-19T10:16:00Z,RT-15,Block 3B RT-15,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,6:15,2024-04-19T13:15:00Z,RT-16,Block 3B RT-16,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,9:20,2024-04-19T16:20:00Z,RT-17,Block 3B RT-17,"MD, TA",0,0,10,Turbid,EH,PH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,12:12,2024-04-19T19:12:00Z,RT-18,Block 3B RT-18,"MD, TA",0,0,10,Turbid,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,15:06,2024-04-19T22:06:00Z,RT-19,Block 3B RT-19,"MD, TA",0,0,10,Turbid,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,18:08,2024-04-20T01:08:00Z,RT-20,Block 3B RT-20,"MD, TA",0,0,10,Turbid,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-19,21:12,2024-04-20T04:12:00Z,RT-21,Block 3B RT-21,"PC, PH, CA",0,0,10,Turbid,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-20,0:19,2024-04-20T07:19:00Z,RT-22,Block 3B RT-22,"PC, PH, CA",0,0,10,"Turbid, when pulling release can out of river, saw a salmon swimming near the surface ",PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-20,3:11,2024-04-20T10:11:00Z,RT-23,Block 3B RT-23,"PC, PH, CA",0,0,10,Turbid ,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-20,6:14,2024-04-20T13:14:00Z,RT-24,Block 3B RT-24,"PC, PH, CA",0,0,10,Turbid,PH,EH,,Block 3B
-2024,Chinook Salmon,fall,2024-04-24,9:20,2024-04-24T16:20:00Z,RT-1,Block 4A RT-1,"EH, NS",0,0,10,Very turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-24,12:15,2024-04-24T19:15:00Z,RT-2,Block 4A RT-2,"EH, NS",0,0,10,Very turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-24,15:12,2024-04-24T22:12:00Z,RT-3,Block 4A RT-3,"EH, NS",0,0,10,Very turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-24,18:07,2024-04-25T01:07:00Z,RT-4,Block 4A RT-4,"EH, NS",0,0,10,Very turbid,EH,PH,corrected release time from 18:08 to 18:07,Block 4A
-2024,Chinook Salmon,fall,2024-04-24,21:11,2024-04-25T04:11:00Z,RT-5,Block 4A RT-5,"JH, MD",0,0,10,Very turbid,EH,PH,added comment from datasheet,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,0:10,2024-04-25T07:10:00Z,RT-6,Block 4A RT-6,"JH, MD",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,3:10,2024-04-25T10:10:00Z,RT-7,Block 4A RT-7,"JH, MD",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,6:10,2024-04-25T13:10:00Z,RT-8,Block 4A RT-8,"JH, MD",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,9:08,2024-04-25T16:08:00Z,RT-9,Block 4A RT-9,"EH, CR",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,12:08,2024-04-25T19:08:00Z,RT-10,Block 4A RT-10,"EH, CR",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,15:10,2024-04-25T22:10:00Z,RT-11,Block 4A RT-11,"EH, CR",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,18:02,2024-04-26T01:02:00Z,RT-12,Block 4A RT-12,"EH, CR",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-25,21:18,2024-04-26T04:18:00Z,RT-13,Block 4A RT-13,"PC, RM, MD",0,0,10,Very Turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,0:12,2024-04-26T07:12:00Z,RT-14,Block 4A RT-14,"PC, RM, MD",0,0,10,Very Turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,3:13,2024-04-26T10:13:00Z,RT-15,Block 4A RT-15,"PC, RM, MD",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,6:12,2024-04-26T13:12:00Z,RT-16,Block 4A RT-16,"PC, RM, MD",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,9:14,2024-04-26T16:14:00Z,RT-17,Block 4A RT-17,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,12:07,2024-04-26T19:07:00Z,RT-18,Block 4A RT-18,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,15:07,2024-04-26T22:07:00Z,RT-19,Block 4A RT-19,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,18:00,2024-04-27T01:00:00Z,RT-20,Block 4A RT-20,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-26,21:15,2024-04-27T04:15:00Z,RT-21,Block 4A RT-21,"AL, AC, NS",0,0,10,,EH,PH, ,Block 4A
-2024,Chinook Salmon,fall,2024-04-27,0:18,2024-04-27T07:18:00Z,RT-22,Block 4A RT-22,"AL, AC, NS",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-27,3:12,2024-04-27T10:12:00Z,RT-23,Block 4A RT-23,"AL, AC, NS",0,0,10,,EH,PH,,Block 4A
-2024,Chinook Salmon,fall,2024-04-27,6:13,2024-04-27T13:13:00Z,RT-24,Block 4A RT-24,"AL, AC, NS",0,0,10,,EH,PH,,Block 4A
-2025,Chinook Salmon,late-fall,2024-12-04,9:31,2024-12-04T17:31:00Z,RT-1,Block 1A RT-1,"EH, CC",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-04,12:11,2024-12-04T20:11:00Z,RT-2,Block 1A RT-2,"EH, CC",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-04,15:11,2024-12-04T23:11:00Z,RT-3,Block 1A RT-3,"PH, EH",0,0,10,Sea lion present near release,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-04,18:16,2024-12-05T02:16:00Z,RT-4,Block 1A RT-4,"PH, EH",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-04,21:25,2024-12-05T05:25:00Z,RT-5,Block 1A RT-5,"RM, AL, BP",0,0,10,Sea lion in vicinity of release,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,0:24,2024-12-05T08:24:00Z,RT-6,Block 1A RT-6,"RM, AL, BP",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,3:23,2024-12-05T11:23:00Z,RT-7,Block 1A RT-7,"RM, AL, BP",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,6:18,2024-12-05T14:18:00Z,RT-8,Block 1A RT-8,"RM, AL, BP",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,9:23,2024-12-05T17:23:00Z,RT-9,Block 1A RT-9,"PH, MU",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,12:14,2024-12-05T20:14:00Z,RT-10,Block 1A RT-10,"PH, MMD",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,15:14,2024-12-05T23:14:00Z,RT-11,Block 1A RT-11,"PH, MU",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,18:08,2024-12-06T02:08:00Z,RT-12,Block 1A RT-12,"PH, MU",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-05,21:17,2024-12-06T05:17:00Z,RT-13,Block 1A RT-13,"AL, NL, RM",0,0,10,,NL,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,0:20,2024-12-06T08:20:00Z,RT-14,Block 1A RT-14,"AL, NL, RM",0,0,10,,NL,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,3:19,2024-12-06T11:19:00Z,RT-15,Block 1A RT-15,"AL, NL, RM",0,0,10,,NL,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,6:27,2024-12-06T14:27:00Z,RT-16,Block 1A RT-16,"AL, NL, RM",0,0,10,,AL,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,9:13,2024-12-06T17:13:00Z,RT-17,Block 1A RT-17,"PH, AT",0,0,10,,PH,SB,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,12:09,2024-12-06T20:09:00Z,RT-18,Block 1A RT-18,"PH, AT, RM",0,0,10,,SB,EH,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,15:04,2024-12-06T23:04:00Z,RT-19,Block 1A RT-19,"PH, MU",0,0,10,,SB,EH,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,18:06,2024-12-07T02:06:00Z,RT-20,Block 1A RT-20,"PH, MU",0,0,10,,SB,EH,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-06,21:18,2024-12-07T05:18:00Z,RT-21,Block 1A RT-21,"NS, BS, RM",0,0,10,,SB,EH,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-07,0:13,2024-12-07T08:13:00Z,RT-22,Block 1A RT-22,"NS, BS, RM",0,0,9,Only 9 fish tagged due to a dead tag,SB,EH,00:13 should be the next day. Corrected to 12/7/2024 from 12/6/2024.,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-07,3:13,2024-12-07T11:13:00Z,RT-23,Block 1A RT-23,"NS, BS, RM",0,0,10,,SB,EH,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-07,6:12,2024-12-07T14:12:00Z,RT-24,Block 1A RT-24,"NS, BS, RM",0,0,10,,SB,EH,,Block 1A
-2025,Chinook Salmon,late-fall,2024-12-11,9:05,2024-12-11T17:05:00Z,RT-1,Block 1B RT-1,"CJ, EH",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-11,11:58,2024-12-11T19:58:00Z,RT-2,Block 1B RT-2,"CJ, EH",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-11,14:58,2024-12-11T22:58:00Z,RT-3,Block 1B RT-3,"CJ, EH",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-11,17:59,2024-12-12T01:59:00Z,RT-4,Block 1B RT-4,"CJ, EH",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-11,21:06,2024-12-12T05:06:00Z,RT-5,Block 1B RT-5,"AL, BS",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,0:03,2024-12-12T08:03:00Z,RT-6,Block 1B RT-6,"AL, RM",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,3:01,2024-12-12T11:01:00Z,RT-7,Block 1B RT-7,"AL, BS",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,6:06,2024-12-12T14:06:00Z,RT-8,Block 1B RT-8,"AL, RM",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,8:59,2024-12-12T16:59:00Z,RT-9,Block 1B RT-9,"BP, CC",0,0,10,Sea lion in area ,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,12:00,2024-12-12T20:00:00Z,RT-10,Block 1B RT-10,"BP, CC",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,14:59,2024-12-12T22:59:00Z,RT-11,Block 1B RT-11,"BP, CC",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,18:58,2024-12-13T02:58:00Z,RT-12,Block 1B RT-12,"BP, CC",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-12,21:05,2024-12-13T05:05:00Z,RT-13,Block 1B RT-13,"AL, NS, RM",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,0:05,2024-12-13T08:05:00Z,RT-14,Block 1B RT-14,"AL, NS, RM",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,3:01,2024-12-13T11:01:00Z,RT-15,Block 1B RT-15,"AL, NS, RM",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,6:00,2024-12-13T14:00:00Z,RT-16,Block 1B RT-16,"AL, NS, RM",0,0,10, ,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,9:08,2024-12-13T17:08:00Z,RT-17,Block 1B RT-17,"PH, RW",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,11:57,2024-12-13T19:57:00Z,RT-18,Block 1B RT-18,"AT, RW",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,15:04,2024-12-13T23:04:00Z,RT-19,Block 1B RT-19,"AT, RW",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,17:54,2024-12-14T01:54:00Z,RT-20,Block 1B RT-20,"PH, RW",0,0,10,,PH,SB,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-13,22:59,2024-12-14T06:59:00Z,RT-21,Block 1B RT-21,"MU, NS",0,0,10,Released from dock due to wind conditions,SB,EH,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-14,0:01,2024-12-14T08:01:00Z,RT-22,Block 1B RT-22,"BS, NS",0,0,10,Released from dock due to wind conditions,SB,EH,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-14,2:58,2024-12-14T10:58:00Z,RT-23,Block 1B RT-23,"NS, BS",0,0,10,Able to release from boat,SB,EH,,Block 1B
-2025,Chinook Salmon,late-fall,2024-12-14,5:59,2024-12-14T13:59:00Z,RT-24,Block 1B RT-24,"NS, MU",0,0,9,,SB,EH,,Block 1B
-2025,Chinook Salmon,late-fall,2025-01-08,9:04,2025-01-08T17:04:00Z,RT-1,Block 2A RT-1,"EH, NS",0,0,10,Too muddy to see fish ,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-08,11:56,2025-01-08T19:56:00Z,RT-2,Block 2A RT-2,"EH, NS",0,0,10,"very muddy, sea lion followed us out to release ",PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-08,15:01,2025-01-08T23:01:00Z,RT-3,Block 2A RT-3,"BP, NS",0,0,10,,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-08,17:57,2025-01-09T01:57:00Z,RT-4,Block 2A RT-4,"BP, NS",0,0,10,,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-08,20:59,2025-01-09T04:59:00Z,RT-5,Block 2A RT-5,"RM, CC",0,0,10,Radio issues,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-08,23:58,2025-01-09T07:58:00Z,RT-6,Block 2A RT-6,"RM, BS",0,0,10,Radio issues,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-09,3:04,2025-01-09T11:04:00Z,RT-7,Block 2A RT-7,"RM, CC",0,0,10,Radio issues resolved ,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-09,5:59,2025-01-09T13:59:00Z,RT-8,Block 2A RT-8,"RM, BS",0,0,10,,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-09,9:12,2025-01-09T17:12:00Z,RT-9,Block 2A RT-9,"CY, MD",0,0,10,,PH,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-09,11:56,2025-01-09T19:56:00Z,RT-10,Block 2A RT-10,"BP, CY",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-09,14:57,2025-01-09T22:57:00Z,RT-11,Block 2A RT-11,"EH, CY",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-09,17:53,2025-01-10T01:53:00Z,RT-12,Block 2A RT-12,"EH, CY",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-09,21:01,2025-01-10T05:01:00Z,RT-13,Block 2A RT-13,"RM, AL",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,0:04,2025-01-10T08:04:00Z,RT-14,Block 2A RT-14,"RM, MU",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,3:05,2025-01-10T11:05:00Z,RT-15,Block 2A RT-15,"RM, AL",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,6:01,2025-01-10T14:01:00Z,RT-16,Block 2A RT-16,"RM, MU",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,8:59,2025-01-10T16:59:00Z,RT-17,Block 2A RT-17,"EH, RW",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,11:57,2025-01-10T19:57:00Z,RT-18,Block 2A RT-18,"PH, EH",0,0,10,Water too murky to see shed tags,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,14:55,2025-01-10T22:55:00Z,RT-19,Block 2A RT-19,"PH, EH",0,0,10,Water too murky to see shed tags,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,17:59,2025-01-11T01:59:00Z,RT-20,Block 2A RT-20,"EH, RW",0,0,10,Very muddy,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,20:59,2025-01-11T04:59:00Z,RT-21,Block 2A RT-21,"RM, AL",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-10,23:58,2025-01-11T07:58:00Z,RT-22,Block 2A RT-22,"RM, MU",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-11,3:00,2025-01-11T11:00:00Z,RT-23,Block 2A RT-23,"RM, AL",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-11,6:00,2025-01-11T14:00:00Z,RT-24,Block 2A RT-24,"RM, AL",0,0,10,,CY,SB,,Block 2A
-2025,Chinook Salmon,late-fall,2025-01-15,8:57,2025-01-15T16:57:00Z,RT-1,Block 2B RT-1,"PH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-15,12:04,2025-01-15T20:04:00Z,RT-2,Block 2B RT-2,"PH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-15,15:01,2025-01-15T23:01:00Z,RT-3,Block 2B RT-3,"EH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-15,17:58,2025-01-16T01:58:00Z,RT-4,Block 2B RT-4,"EH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-15,21:00,2025-01-16T05:00:00Z,RT-5,Block 2B RT-5,"NS, AL, BS",0,0,10,Changed to 21:00 after confirming with release crew,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-15,23:59,2025-01-16T07:59:00Z,RT-6,Block 2B RT-6,"NS, AL, BS",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-16,3:02,2025-01-16T11:02:00Z,RT-7,Block 2B RT-7,"NS, AL, BS",0,0,10,Released from dock due to boat issues,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-16,6:00,2025-01-16T14:00:00Z,RT-8,Block 2B RT-8,"NS, AL, BS",0,0,10,Released from dock due to boat issues,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-16,9:00,2025-01-16T17:00:00Z,RT-9,Block 2B RT-9,"AT, CJ",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-16,11:50,2025-01-16T19:50:00Z,RT-10,Block 2B RT-10,"AT, CJ",0,0,9,Only counted 9 coming out,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-16,14:58,2025-01-16T22:58:00Z,RT-11,Block 2B RT-11,"PH, CJ",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-16,17:57,2025-01-17T01:57:00Z,RT-12,Block 2B RT-12,"AT, PH",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-16,21:04,2025-01-17T05:04:00Z,RT-13,Block 2B RT-13,"AL, RM",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,0:03,2025-01-17T08:03:00Z,RT-14,Block 2B RT-14,"AL, BS",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,3:01,2025-01-17T11:01:00Z,RT-15,Block 2B RT-15,"AL, RM",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,5:59,2025-01-17T13:59:00Z,RT-16,Block 2B RT-16,"AL, BS",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,9:00,2025-01-17T17:00:00Z,RT-17,Block 2B RT-17,"BP, KB",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,11:58,2025-01-17T19:58:00Z,RT-18,Block 2B RT-18,"CY, BP",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,14:57,2025-01-17T22:57:00Z,RT-19,Block 2B RT-19,"BP, KB",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,17:56,2025-01-18T01:56:00Z,RT-20,Block 2B RT-20,"CY, KB",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,21:01,2025-01-18T05:01:00Z,RT-21,Block 2B RT-21,"NS, CJ",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-17,23:59,2025-01-18T07:59:00Z,RT-22,Block 2B RT-22,"NS, RM",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-18,2:59,2025-01-18T10:59:00Z,RT-23,Block 2B RT-23,"NS, CJ",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-01-18,5:58,2025-01-18T13:58:00Z,RT-24,Block 2B RT-24,"NS, RM",0,0,10,,CY,BP,,Block 2B
-2025,Chinook Salmon,late-fall,2025-02-12,17:04,2025-02-13T01:04:00Z,point_rel,Block 3A point_rel,"PH, AT, JM",0,0,80,Point release at Miller Park Boat Ramp due to river flows ,PH,BP,,Block 3A
-2025,Chinook Salmon,late-fall,2025-02-13,16:04,2025-02-14T00:04:00Z,point_rel,Block 3A point_rel,"PH, EH",0,0,80,Point release at Miller Park Boat Ramp due to river flows ,BP,CY,,Block 3A
-2025,Chinook Salmon,late-fall,2025-02-14,15:40,2025-02-14T23:40:00Z,point_rel,Block 3A point_rel,"EH, BP",0,0,80,Point release at Miller Park Boat Ramp due to river flows ,BP,CY,,Block 3A
-2025,Chinook Salmon,fall,2025-04-09,9:01,2025-04-09T16:01:00Z,RT-1,Block 3B RT-1,"CC, BP",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-09,11:45,2025-04-09T18:45:00Z,RT-2,Block 3B RT-2,"CC, BP",0,0,10,DFW joined release,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-09,14:59,2025-04-09T21:59:00Z,RT-3,Block 3B RT-3,"CC, BP",0,0,10,high boat traffic,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-09,17:59,2025-04-10T00:59:00Z,RT-4,Block 3B RT-4,"CC, BP",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-09,21:03,2025-04-10T04:03:00Z,RT-5,Block 3B RT-5,"AL, RM, MC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-10,0:01,2025-04-10T07:01:00Z,RT-6,Block 3B RT-6,"AL, RM, MC",0,0,10,"Sea lion nearby release, waited for it to move",SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-10,3:00,2025-04-10T10:00:00Z,RT-7,Block 3B RT-7,"AL, RM, MC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-10,9:00,2025-04-10T16:00:00Z,RT-9,Block 3B RT-9,"KB, AC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-10,12:02,2025-04-10T19:02:00Z,RT-10,Block 3B RT-10,"KB, AC, CW",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-10,15:00,2025-04-10T22:00:00Z,RT-11,Block 3B RT-11,"KB, EH",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-10,17:58,2025-04-11T00:58:00Z,RT-12,Block 3B RT-12,"KB, EH, CW",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-10,21:02,2025-04-11T04:02:00Z,RT-13,Block 3B RT-13,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,0:00,2025-04-11T07:00:00Z,RT-14,Block 3B RT-14,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,3:00,2025-04-11T10:00:00Z,RT-15,Block 3B RT-15,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,6:00,2025-04-11T13:00:00Z,RT-16,Block 3B RT-16,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,8:56,2025-04-11T15:56:00Z,RT-17,Block 3B RT-17,"PH, TC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,12:00,2025-04-11T19:00:00Z,RT-18,Block 3B RT-18,"PH, KB",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,14:58,2025-04-11T21:58:00Z,RT-19,Block 3B RT-19,"PH, TC",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,17:54,2025-04-12T00:54:00Z,RT-20,Block 3B RT-20,"PH, KB",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-11,21:01,2025-04-12T04:01:00Z,RT-21,Block 3B RT-21,"RM, NS, JS",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-12,0:00,2025-04-12T07:00:00Z,RT-22,Block 3B RT-22,"RM, NS, JS",0,0,10,,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-12,3:01,2025-04-12T10:01:00Z,RT-23,Block 3B RT-23,"RM, NS, JS",0,0,8,Only 8 fish tagged,SB,CY,,Block 3B
-2025,Chinook Salmon,fall,2025-04-16,8:59,2025-04-16T15:59:00Z,RT-1,Block 4A RT-1,"CC, KB",0,0,10,ICF tracking fish via boat,BP,SB,Changed to 10. The two ICF tags will be accounted for separately.,Block 4A
-2025,Chinook Salmon,fall,2025-04-16,11:57,2025-04-16T18:57:00Z,RT-2,Block 4A RT-2,"CC, KB",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-16,14:55,2025-04-16T21:55:00Z,RT-3,Block 4A RT-3,"CW, KB",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-16,18:00,2025-04-17T01:00:00Z,RT-4,Block 4A RT-4,"CW, KB",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-16,20:59,2025-04-17T03:59:00Z,RT-5,Block 4A RT-5,"NS, JH",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,0:00,2025-04-17T07:00:00Z,RT-6,Block 4A RT-6,"RM, NS",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,3:00,2025-04-17T10:00:00Z,RT-7,Block 4A RT-7,"NS, JH",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,6:00,2025-04-17T13:00:00Z,RT-8,Block 4A RT-8,"RM, JH",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,8:59,2025-04-17T15:59:00Z,RT-9,Block 4A RT-9,"CC, BP",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,12:02,2025-04-17T19:02:00Z,RT-10,Block 4A RT-10,"CC, BP",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,14:59,2025-04-17T21:59:00Z,RT-11,Block 4A RT-11,"BP, AT",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,17:58,2025-04-18T00:58:00Z,RT-12,Block 4A RT-12,"BP, AT",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-17,21:00,2025-04-18T04:00:00Z,RT-13,Block 4A RT-13,"JH, RM",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,12:00,2025-04-18T19:00:00Z,RT-14,Block 4A RT-14,"JH, BS",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,3:00,2025-04-18T10:00:00Z,RT-15,Block 4A RT-15,"JH,RM",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,6:00,2025-04-18T13:00:00Z,RT-16,Block 4A RT-16,"JH, BS",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,8:58,2025-04-18T15:58:00Z,RT-17,Block 4A RT-17,"KB, NS",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,11:56,2025-04-18T18:56:00Z,RT-18,Block 4A RT-18,"RW, NS",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,14:57,2025-04-18T21:57:00Z,RT-19,Block 4A RT-19,"NS, KB",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,17:55,2025-04-19T00:55:00Z,RT-20,Block 4A RT-20,"RW, NS",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-18,21:00,2025-04-19T04:00:00Z,RT-21,Block 4A RT-21,"CJ, AL",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-19,0:00,2025-04-19T07:00:00Z,RT-22,Block 4A RT-22,"AL, RM",0,0,10,ICF tracking fish via boat,BP,SB,Changed to 10. The two ICF tags will be accounted for separately.,Block 4A
-2025,Chinook Salmon,fall,2025-04-19,3:00,2025-04-19T10:00:00Z,RT-23,Block 4A RT-23,"AL, CJ",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-19,6:02,2025-04-19T13:02:00Z,RT-24,Block 4A RT-24,"AL, RM",0,0,10,,BP,SB,,Block 4A
-2025,Chinook Salmon,fall,2025-04-30,8:58,2025-04-30T15:58:00Z,RT-1,Block 4B RT-1,"KB, MB",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-04-30,11:58,2025-04-30T18:58:00Z,RT-2,Block 4B RT-2,"KB, MB",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-04-30,14:57,2025-04-30T21:57:00Z,RT-3,Block 4B RT-3,"KB, MB",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-04-30,17:57,2025-05-01T00:57:00Z,RT-4,Block 4B RT-4,"KB, MB",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-04-30,21:00,2025-05-01T04:00:00Z,RT-5,Block 4B RT-5,"AL, NS",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,0:00,2025-05-01T07:00:00Z,RT-6,Block 4B RT-6,"AL, RM",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,3:00,2025-05-01T10:00:00Z,RT-7,Block 4B RT-7,"AL, NS",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,6:00,2025-05-01T13:00:00Z,RT-8,Block 4B RT-8,"AL, RM",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,8:59,2025-05-01T15:59:00Z,RT-9,Block 4B RT-9,"CC, BP",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,11:58,2025-05-01T18:58:00Z,RT-10,Block 4B RT-10,"CC, BP",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,14:59,2025-05-01T21:59:00Z,RT-11,Block 4B RT-11,"BP, AT",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,18:00,2025-05-02T01:00:00Z,RT-12,Block 4B RT-12,"BP, AT",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,21:00,2025-05-02T04:00:00Z,RT-13,Block 4B RT-13,"RM, NS",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-01,23:56,2025-05-02T06:56:00Z,RT-14,Block 4B RT-14,"TM, NS",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-02,2:56,2025-05-02T09:56:00Z,RT-15,Block 4B RT-15,"RM, NS",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-02,5:56,2025-05-02T12:56:00Z,RT-16,Block 4B RT-16,"NS, TM",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-02,9:00,2025-05-02T16:00:00Z,RT-17,Block 4B RT-17,"BP, RW",0,0,10,,PH,SB,,Block 4B
-2025,Chinook Salmon,fall,2025-05-02,12:00,2025-05-02T19:00:00Z,RT-18,Block 4B RT-18,"BP, CW",0,0,10,,SB,BP,,Block 4B
-2025,Chinook Salmon,fall,2025-05-02,14:58,2025-05-02T21:58:00Z,RT-19,Block 4B RT-19,"BP, RW",0,0,10,,SB,BP,,Block 4B
-2025,Chinook Salmon,fall,2025-05-02,18:00,2025-05-03T01:00:00Z,RT-20,Block 4B RT-20,"BP,CW",0,0,10,,SB,BP,,Block 4B
-2025,Chinook Salmon,fall,2025-05-02,21:00,2025-05-03T04:00:00Z,RT-21,Block 4B RT-21,"AL, CJ",0,0,10,,SB,BP,,Block 4B
-2025,Chinook Salmon,fall,2025-05-03,0:00,2025-05-03T07:00:00Z,RT-22,Block 4B RT-22,"AL, BS",0,0,10,,SB,BP,,Block 4B
-2025,Chinook Salmon,fall,2025-05-03,3:00,2025-05-03T10:00:00Z,RT-23,Block 4B RT-23,"AL, CJ",0,0,10,,SB,BP,,Block 4B
-2025,Chinook Salmon,fall,2025-05-03,6:00,2025-05-03T13:00:00Z,RT-24,Block 4B RT-24,"AL, BS",0,0,10,,SB,BP,,Block 4B
-2026,Chinook Salmon,late-fall,2025-12-02,21:00,2025-12-03T05:00:00Z,RT-1,Block 1A RT-1,"AL, CC",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,0:00,2025-12-03T08:00:00Z,RT-2,Block 1A RT-2,"AL, TEC",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,3:00,2025-12-03T11:00:00Z,RT-3,Block 1A RT-3,"AL, CC",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,6:00,2025-12-03T14:00:00Z,RT-4,Block 1A RT-4,"AL, TEC",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,9:07,2025-12-03T17:07:00Z,RT-5,Block 1A RT-5,"BP, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,12:00,2025-12-03T20:00:00Z,RT-6,Block 1A RT-6,"BP, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,14:58,2025-12-03T22:58:00Z,RT-7,Block 1A RT-7,"BP, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,17:58,2025-12-04T01:58:00Z,RT-8,Block 1A RT-8,"BP, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-03,21:00,2025-12-04T05:00:00Z,RT-9,Block 1A RT-9,"AL, BS, LS",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,0:00,2025-12-04T08:00:00Z,RT-10,Block 1A RT-10,"AL, BS, LS",0,0,9,1 mortality in transport,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,3:00,2025-12-04T11:00:00Z,RT-11,Block 1A RT-11,"AL, BS, LS",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,6:00,2025-12-04T14:00:00Z,RT-12,Block 1A RT-12,"AL, BS, LS",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,9:05,2025-12-04T17:05:00Z,RT-13,Block 1A RT-13,"CC, EH",0,0,10,"CDFW Trawl net at fish release, released 100 ft downstream",SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,12:00,2025-12-04T20:00:00Z,RT-14,Block 1A RT-14,"CC, EH",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,14:53,2025-12-04T22:53:00Z,RT-15,Block 1A RT-15,"CC, EH",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,18:00,2025-12-05T02:00:00Z,RT-16,Block 1A RT-16,"CC, EH",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-04,21:00,2025-12-05T05:00:00Z,RT-17,Block 1A RT-17,"CW, CR",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-05,0:00,2025-12-05T08:00:00Z,RT-18,Block 1A RT-18,"CR, BS",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-05,2:56,2025-12-05T10:56:00Z,RT-19,Block 1A RT-19,"CR, CW",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-05,5:57,2025-12-05T13:57:00Z,RT-20,Block 1A RT-20,"CR, BS",0,0,10,"Bin 21 lid attachment tore through, new holes drilled.",SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-05,8:59,2025-12-05T16:59:00Z,RT-21,Block 1A RT-21,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-05,11:59,2025-12-05T19:59:00Z,RT-22,Block 1A RT-22,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-05,14:58,2025-12-05T22:58:00Z,RT-23,Block 1A RT-23,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-05,17:59,2025-12-06T01:59:00Z,RT-24,Block 1A RT-24,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
-2026,Chinook Salmon,late-fall,2025-12-09,21:06,2025-12-10T05:06:00Z,RT-1,Block 1B RT-1,"RM, BS",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,0:05,2025-12-10T08:05:00Z,RT-2,Block 1B RT-2,"RM, CW",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,2:59,2025-12-10T10:59:00Z,RT-3,Block 1B RT-3,"RM, BS",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,6:01,2025-12-10T14:01:00Z,RT-4,Block 1B RT-4,"RM, CW",0,0,10,"Re-read marina temp and DO after release, 9.9C, 8.94 mg/L",SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,8:57,2025-12-10T16:57:00Z,RT-5,Block 1B RT-5,"BP, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,11:56,2025-12-10T19:56:00Z,RT-6,Block 1B RT-6,"BP, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,15:55,2025-12-10T23:55:00Z,RT-7,Block 1B RT-7,"BP, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,17:56,2025-12-11T01:56:00Z,RT-8,Block 1B RT-8,"BP, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-10,21:01,2025-12-11T05:01:00Z,RT-9,Block 1B RT-9,"RM, CC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,0:00,2025-12-11T08:00:00Z,RT-10,Block 1B RT-10,"RM, AL",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,2:58,2025-12-11T10:58:00Z,RT-11,Block 1B RT-11,"RM, CC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,6:00,2025-12-11T14:00:00Z,RT-12,Block 1B RT-12,"RM, AL",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,9:00,2025-12-11T17:00:00Z,RT-13,Block 1B RT-13,"BP, MD",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,11:58,2025-12-11T19:58:00Z,RT-14,Block 1B RT-14,"BP, MD",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,15:00,2025-12-11T23:00:00Z,RT-15,Block 1B RT-15,"BP, MD",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,18:00,2025-12-12T02:00:00Z,RT-16,Block 1B RT-16,"BP, MD",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-11,21:03,2025-12-12T05:03:00Z,RT-17,Block 1B RT-17,"AL, RM",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-12,0:00,2025-12-12T08:00:00Z,RT-18,Block 1B RT-18,"CJJ, RM",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-12,2:59,2025-12-12T10:59:00Z,RT-19,Block 1B RT-19,"AL, RM",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-12,6:02,2025-12-12T14:02:00Z,RT-20,Block 1B RT-20,"CJJ, RM",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-12,8:56,2025-12-12T16:56:00Z,RT-21,Block 1B RT-21,"MC, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-12,11:57,2025-12-12T19:57:00Z,RT-22,Block 1B RT-22,"MC, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-12,14:56,2025-12-12T22:56:00Z,RT-23,Block 1B RT-23,"MC, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2025-12-12,17:56,2025-12-13T01:56:00Z,RT-24,Block 1B RT-24,"MC, TC",0,0,10,,SB,HS,,Block 1B
-2026,Chinook Salmon,late-fall,2026-01-06,21:00,2026-01-07T05:00:00Z,RT-1,Block 2A RT-1,"NS, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-06,0:00,2026-01-06T08:00:00Z,RT-2,Block 2A RT-2,"BS, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-07,3:00,2026-01-07T11:00:00Z,RT-3,Block 2A RT-3,"NS, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-07,6:00,2026-01-07T14:00:00Z,RT-4,Block 2A RT-4,"NS, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-07,9:00,2026-01-07T17:00:00Z,RT-5,Block 2A RT-5,"BK, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-07,12:00,2026-01-07T20:00:00Z,RT-6,Block 2A RT-6,"BK, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-07,14:56,2026-01-07T22:56:00Z,RT-7,Block 2A RT-7,"BK, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-07,17:57,2026-01-08T01:57:00Z,RT-8,Block 2A RT-8,"BK, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-07,20:58,2026-01-08T04:58:00Z,RT-9,Block 2A RT-9,"NS, BS",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,0:00,2026-01-08T08:00:00Z,RT-10,Block 2A RT-10,"NS, RM",1,0,10,"There is a 1 for morts, but crew counted 10 upon release.",SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,2:58,2026-01-08T10:58:00Z,RT-11,Block 2A RT-11,"NS, BS",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,5:57,2026-01-08T13:57:00Z,RT-12,Block 2A RT-12,"NS, RM",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,9:00,2026-01-08T17:00:00Z,RT-13,Block 2A RT-13,"KB, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,12:00,2026-01-08T20:00:00Z,RT-14,Block 2A RT-14,"KB, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,14:58,2026-01-08T22:58:00Z,RT-15,Block 2A RT-15,"KB, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,17:57,2026-01-09T01:57:00Z,RT-16,Block 2A RT-16,"KB, TC",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-08,21:00,2026-01-09T05:00:00Z,RT-17,Block 2A RT-17,"RM, AL",0,0,20,"Release groups 17 and 23 were combined due to fish mix up at CABA, both groups (20 fish) released at release 17.",SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-09,0:00,2026-01-09T08:00:00Z,RT-18,Block 2A RT-18,"JT, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-09,3:01,2026-01-09T11:01:00Z,RT-19,Block 2A RT-19,"RM, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-09,6:00,2026-01-09T14:00:00Z,RT-20,Block 2A RT-20,"JT, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-09,9:01,2026-01-09T17:01:00Z,RT-21,Block 2A RT-21,"CJJ, BK",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-09,12:00,2026-01-09T20:00:00Z,RT-22,Block 2A RT-22,"CJJ, BK",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-09,18:05,2026-01-10T02:05:00Z,RT-24,Block 2A RT-24,"CJJ, BK",0,0,9,Crew counted 9 upon release.,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-13,21:00,2026-01-14T05:00:00Z,RT-1,Block 2B RT-1,"RM, CW",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-13,23:58,2026-01-14T07:58:00Z,RT-2,Block 2B RT-2,"NS,RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,3:00,2026-01-14T11:00:00Z,RT-3,Block 2B RT-3,"RM, CW",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,5:58,2026-01-14T13:58:00Z,RT-4,Block 2B RT-4,"NS, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,9:02,2026-01-14T17:02:00Z,RT-5,Block 2B RT-5,"EH,TC",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,11:57,2026-01-14T19:57:00Z,RT-6,Block 2B RT-6,"EH,TC",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,14:58,2026-01-14T22:58:00Z,RT-7,Block 2B RT-7,"EH,TC",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,17:59,2026-01-15T01:59:00Z,RT-8,Block 2B RT-8,"EH,TC",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,21:00,2026-01-15T05:00:00Z,RT-9,Block 2B RT-9,"AL, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-14,23:59,2026-01-15T07:59:00Z,RT-10,Block 2B RT-10,"NS, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,3:00,2026-01-15T11:00:00Z,RT-11,Block 2B RT-11,"AL, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,5:59,2026-01-15T13:59:00Z,RT-12,Block 2B RT-12,"NS, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,8:57,2026-01-15T16:57:00Z,RT-13,Block 2B RT-13,"BP, BK",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,12:02,2026-01-15T20:02:00Z,RT-14,Block 2B RT-14,"BP, BK",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,14:55,2026-01-15T22:55:00Z,RT-15,Block 2B RT-15,"BP, BK",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,17:58,2026-01-16T01:58:00Z,RT-16,Block 2B RT-16,"BP, BK",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,21:00,2026-01-16T05:00:00Z,RT-17,Block 2B RT-17,"AL, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-15,23:59,2026-01-16T07:59:00Z,RT-18,Block 2B RT-18,"CJJ, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-16,3:00,2026-01-16T11:00:00Z,RT-19,Block 2B RT-19,"AL, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-16,6:01,2026-01-16T14:01:00Z,RT-20,Block 2B RT-20,"CJJ, RM",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-16,8:59,2026-01-16T16:59:00Z,RT-21,Block 2B RT-21,"EH, MC",0,0,10,"USFW towing, went downsteam to release",BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-16,12:00,2026-01-16T20:00:00Z,RT-22,Block 2B RT-22,"EH, MC",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-16,15:05,2026-01-16T23:05:00Z,RT-23,Block 2B RT-23,"EH, MC",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-01-16,17:58,2026-01-17T01:58:00Z,RT-24,Block 2B RT-24,"EH, MC",0,0,10,,BP,HS,,Block 2B
-2026,Chinook Salmon,late-fall,2026-02-03,21:00,2026-02-04T05:00:00Z,RT-1,Block 3A RT-1,"AL, BS",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,0:00,2026-02-04T08:00:00Z,RT-2,Block 3A RT-2,"AL, CJJ",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,3:00,2026-02-04T11:00:00Z,RT-3,Block 3A RT-3,"AL, BS",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,5:59,2026-02-04T13:59:00Z,RT-4,Block 3A RT-4,"AL, CJJ",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,8:59,2026-02-04T16:59:00Z,RT-5,Block 3A RT-5,"CR, TC",0,0,9,1 mort at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,11:58,2026-02-04T19:58:00Z,RT-6,Block 3A RT-6,"CR, TC",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,15:00,2026-02-04T23:00:00Z,RT-7,Block 3A RT-7,"CR, TC",0,0,9,1 escaped from trashcan,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,17:57,2026-02-05T01:57:00Z,RT-8,Block 3A RT-8,"CR, TC",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-04,21:00,2026-02-05T05:00:00Z,RT-9,Block 3A RT-9,"AL, BS",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,0:00,2026-02-05T08:00:00Z,RT-10,Block 3A RT-10,"AL, CW",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,3:00,2026-02-05T11:00:00Z,RT-11,Block 3A RT-11,"AL, BS",0,0,8,2 morts at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,5:59,2026-02-05T13:59:00Z,RT-12,Block 3A RT-12,"AL, CW",0,0,9,"1 mort at CABA, released near marina entrance due to fog",SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,9:00,2026-02-05T17:00:00Z,RT-13,Block 3A RT-13,"BK, TC",0,0,10,released near marina entrance due to fog,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,11:56,2026-02-05T19:56:00Z,RT-14,Block 3A RT-14,"BK, TC",0,0,9,1 mort at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,14:58,2026-02-05T22:58:00Z,RT-15,Block 3A RT-15,"BK, TC",0,0,8,2 morts at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,17:58,2026-02-06T01:58:00Z,RT-16,Block 3A RT-16,"BK, TC",0,0,10,,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-05,21:00,2026-02-06T05:00:00Z,RT-17,Block 3A RT-17,"AL, BS",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-06,0:00,2026-02-06T08:00:00Z,RT-18,Block 3A RT-18,"AL, CW",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-06,3:00,2026-02-06T11:00:00Z,RT-19,Block 3A RT-19,"AL, BS",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,"release time entered incorrectly, changed from 13:00 to 3:00",Block 3A
-2026,Chinook Salmon,late-fall,2026-02-06,6:00,2026-02-06T14:00:00Z,RT-20,Block 3A RT-20,"AL, CW",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-06,9:00,2026-02-06T17:00:00Z,RT-21,Block 3A RT-21,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-06,12:02,2026-02-06T20:02:00Z,RT-22,Block 3A RT-22,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-06,15:00,2026-02-06T23:00:00Z,RT-23,Block 3A RT-23,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-06,18:00,2026-02-07T02:00:00Z,RT-24,Block 3A RT-24,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
-2026,Chinook Salmon,late-fall,2026-02-10,21:00,2026-02-11T05:00:00Z,RT-1,Block 3B RT-1,"RM, TC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-10,23:59,2026-02-11T07:59:00Z,RT-2,Block 3B RT-2,"RM, NS",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-11,3:00,2026-02-11T11:00:00Z,RT-3,Block 3B RT-3,"RM, TC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-11,6:00,2026-02-11T14:00:00Z,RT-4,Block 3B RT-4,"RM, NS",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-11,9:00,2026-02-11T17:00:00Z,RT-5,Block 3B RT-5,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-11,11:58,2026-02-11T19:58:00Z,RT-6,Block 3B RT-6,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-11,14:57,2026-02-11T22:57:00Z,RT-7,Block 3B RT-7,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-11,17:55,2026-02-12T01:55:00Z,RT-8,Block 3B RT-8,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-11,20:59,2026-02-12T04:59:00Z,RT-9,Block 3B RT-9,"RM, NS",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,0:00,2026-02-12T08:00:00Z,RT-10,Block 3B RT-10,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,2:58,2026-02-12T10:58:00Z,RT-11,Block 3B RT-11,"RM, NS",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,5:58,2026-02-12T13:58:00Z,RT-12,Block 3B RT-12,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,9:05,2026-02-12T17:05:00Z,RT-13,Block 3B RT-13,"MC, MD",0,0,10,Fish Released 200 yds downstream due to USFWS nets.,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,12:03,2026-02-12T20:03:00Z,RT-14,Block 3B RT-14,"MC, MD",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,15:00,2026-02-12T23:00:00Z,RT-15,Block 3B RT-15,"MC, MD",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,18:00,2026-02-13T02:00:00Z,RT-16,Block 3B RT-16,"MC, MD",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,21:00,2026-02-13T05:00:00Z,RT-17,Block 3B RT-17,"RM, AL",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-12,23:59,2026-02-13T07:59:00Z,RT-18,Block 3B RT-18,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-13,3:00,2026-02-13T11:00:00Z,RT-19,Block 3B RT-19,"RM, AL",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-13,5:59,2026-02-13T13:59:00Z,RT-20,Block 3B RT-20,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-13,9:04,2026-02-13T17:04:00Z,RT-21,Block 3B RT-21,"SB, BK",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-13,12:00,2026-02-13T20:00:00Z,RT-22,Block 3B RT-22,"SB, BK",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-13,15:00,2026-02-13T23:00:00Z,RT-23,Block 3B RT-23,"SB, BK",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,late-fall,2026-02-13,18:00,2026-02-14T02:00:00Z,RT-24,Block 3B RT-24,"SB, BK",0,0,10,,SB,HS,,Block 3B
-2026,Chinook Salmon,fall,2026-04-21,21:00,2026-04-22T04:00:00Z,RT-1,Block 4A RT-1,"AL, BS, CJ",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,0:00,2026-04-22T07:00:00Z,RT-2,Block 4A RT-2,"CJJ, AL, BS",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,3:00,2026-04-22T10:00:00Z,RT-3,Block 4A RT-3,"AL, BS, CJ",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,5:59,2026-04-22T12:59:00Z,RT-4,Block 4A RT-4,"AL, BS, CJJ",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,8:59,2026-04-22T15:59:00Z,RT-5,Block 4A RT-5,"CY, TC",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,11:59,2026-04-22T18:59:00Z,RT-6,Block 4A RT-6,"CY, TC",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,14:56,2026-04-22T21:56:00Z,RT-7,Block 4A RT-7,"CY, TC",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,17:57,2026-04-23T00:57:00Z,RT-8,Block 4A RT-8,"CY, TC",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,20:57,2026-04-23T03:57:00Z,RT-9,Block 4A RT-9,"BS, NS",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-22,23:57,2026-04-23T06:57:00Z,RT-10,Block 4A RT-10,"TM, NS",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-23,2:57,2026-04-23T09:57:00Z,RT-11,Block 4A RT-11,"BS, NS",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-23,5:56,2026-04-23T12:56:00Z,RT-12,Block 4A RT-12,"TM, NS",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-23,8:59,2026-04-23T15:59:00Z,RT-13,Block 4A RT-13,"AL, TC",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-23,11:59,2026-04-23T18:59:00Z,RT-14,Block 4A RT-14,"AL, TC",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-23,15:00,2026-04-23T22:00:00Z,RT-15,Block 4A RT-15,"AL, TC",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-23,18:00,2026-04-24T01:00:00Z,RT-16,Block 4A RT-16,"AL, TC",0,0,9,"mort on tagging, only 9 in tub",SB,PH,added comment ,Block 4A
-2026,Chinook Salmon,fall,2026-04-23,21:00,2026-04-24T04:00:00Z,RT-17,Block 4A RT-17,"BS, BK",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-24,0:00,2026-04-24T07:00:00Z,RT-18,Block 4A RT-18,"TM, BK",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-24,3:00,2026-04-24T10:00:00Z,RT-19,Block 4A RT-19,"BS, BK",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-24,5:59,2026-04-24T12:59:00Z,RT-20,Block 4A RT-20,"TM, BK",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-24,9:05,2026-04-24T16:05:00Z,RT-21,Block 4A RT-21,"CC, EH",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-24,11:57,2026-04-24T18:57:00Z,RT-22,Block 4A RT-22,"CC, EH",0,0,10,,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-24,15:00,2026-04-24T22:00:00Z,RT-23,Block 4A RT-23,"CC, EH",1,0,9,Died after transport,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-24,17:58,2026-04-25T00:58:00Z,RT-24,Block 4A RT-24,"CC, EH",0,0,9,Only 9 fish,SB,PH,,Block 4A
-2026,Chinook Salmon,fall,2026-04-28,21:00,2026-04-29T04:00:00Z,RT-1,Block 4B RT-1,RM. BS,0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-28,23:59,2026-04-29T06:59:00Z,RT-2,Block 4B RT-2,"RM, NS",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,2:59,2026-04-29T09:59:00Z,RT-3,Block 4B RT-3,"RM, BS",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,5:59,2026-04-29T12:59:00Z,RT-4,Block 4B RT-4,"RM, NS",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,9:00,2026-04-29T16:00:00Z,RT-5,Block 4B RT-5,"EH, ND",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,12:00,2026-04-29T19:00:00Z,RT-6,Block 4B RT-6,"EH, ND",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,15:02,2026-04-29T22:02:00Z,RT-7,Block 4B RT-7,"EH, ND",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,17:59,2026-04-30T00:59:00Z,RT-8,Block 4B RT-8,"EH, ND",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,20:59,2026-04-30T03:59:00Z,RT-9,Block 4B RT-9,"NS, RM",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-29,23:59,2026-04-30T06:59:00Z,RT-10,Block 4B RT-10,"CJJ, RM",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,2:59,2026-04-30T09:59:00Z,RT-11,Block 4B RT-11,"NS, RM",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,5:59,2026-04-30T12:59:00Z,RT-12,Block 4B RT-12,"CJJ, RM",0,0,10,saw sea lion surface near release site,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,9:03,2026-04-30T16:03:00Z,RT-13,Block 4B RT-13,"MD, RW",0,0,10,"slightly delayed, released 100 ft downstream due to USFWS trawling",BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,12:03,2026-04-30T19:03:00Z,RT-14,Block 4B RT-14,"MD, RW",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,14:58,2026-04-30T21:58:00Z,RT-15,Block 4B RT-15,"MD, RW",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,17:59,2026-05-01T00:59:00Z,RT-16,Block 4B RT-16,"MD, RW",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,20:58,2026-05-01T03:58:00Z,RT-17,Block 4B RT-17,"NS, RM",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-04-30,23:59,2026-05-01T06:59:00Z,RT-18,Block 4B RT-18,"CJJ, RM",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-05-01,2:58,2026-05-01T09:58:00Z,RT-19,Block 4B RT-19,"NS, RM",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-05-01,5:59,2026-05-01T12:59:00Z,RT-20,Block 4B RT-20,"CJJ, RM",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-05-01,8:58,2026-05-01T15:58:00Z,RT-21,Block 4B RT-21,"BP, TC",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-05-01,11:57,2026-05-01T18:57:00Z,RT-22,Block 4B RT-22,"BP, TC",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-05-01,14:55,2026-05-01T21:55:00Z,RT-23,Block 4B RT-23,"BP, TC",0,0,10,,BP,EH,,Block 4B
-2026,Chinook Salmon,fall,2026-05-01,17:56,2026-05-02T00:56:00Z,RT-24,Block 4B RT-24,"BP, TC",0,0,10,,BP,EH,,Block 4B
+2024,Chinook Salmon,late-fall,2023-12-06,9:09,2023-12-06T09:09:00Z,RT-1,Block 1A RT-1,"EH, KB",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-06,12:05,2023-12-06T12:05:00Z,RT-2,Block 1A RT-2,"EH, KB",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-06,15:01,2023-12-06T15:01:00Z,RT-3,Block 1A RT-3,"AC, EH, KB",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-06,17:59,2023-12-06T17:59:00Z,RT-4,Block 1A RT-4,"EH, KB",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-06,21:06,2023-12-06T21:06:00Z,RT-5,Block 1A RT-5,"AK, BK, TS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-07,0:06,2023-12-07T00:06:00Z,RT-6,Block 1A RT-6,"AK, BK, TS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-07,3:05,2023-12-07T03:05:00Z,RT-7,Block 1A RT-7,"AK, BK, TS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-07,9:10,2023-12-07T09:10:00Z,RT-9,Block 1A RT-9,"EH, NS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-07,12:12,2023-12-07T12:12:00Z,RT-10,Block 1A RT-10,"EH, NS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-07,15:10,2023-12-07T15:10:00Z,RT-11,Block 1A RT-11,"EH, NS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-07,18:05,2023-12-07T18:05:00Z,RT-12,Block 1A RT-12,"EH, NS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-07,21:35,2023-12-07T21:35:00Z,RT-13,Block 1A RT-13,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,0:12,2023-12-08T00:12:00Z,RT-14,Block 1A RT-14,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,3:09,2023-12-08T03:09:00Z,RT-15,Block 1A RT-15,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,6:09,2023-12-08T06:09:00Z,RT-16,Block 1A RT-16,"AL, AW, BS",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,9:40,2023-12-08T09:40:00Z,RT-17,Block 1A RT-17,"AT, EC",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,12:17,2023-12-08T12:17:00Z,RT-18,Block 1A RT-18,"AT, EC",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,15:15,2023-12-08T15:15:00Z,RT-19,Block 1A RT-19,"AT, EC",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,18:11,2023-12-08T18:11:00Z,RT-20,Block 1A RT-20,"AT, EC",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-08,21:26,2023-12-08T21:26:00Z,RT-21,Block 1A RT-21,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-09,0:16,2023-12-09T00:16:00Z,RT-22,Block 1A RT-22,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-09,3:14,2023-12-09T03:14:00Z,RT-23,Block 1A RT-23,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-09,6:10,2023-12-09T06:10:00Z,RT-24,Block 1A RT-24,"AL, AC, MD",0,0,10,,PH,EH,,Block 1A
+2024,Chinook Salmon,late-fall,2023-12-13,9:15,2023-12-13T09:15:00Z,RT-1,Block 1B RT-1,"NS, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-13,12:06,2023-12-13T12:06:00Z,RT-2,Block 1B RT-2,"NS, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-13,15:09,2023-12-13T15:09:00Z,RT-3,Block 1B RT-3,"NS, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-13,18:05,2023-12-13T18:05:00Z,RT-4,Block 1B RT-4,"NS, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-13,21:18,2023-12-13T21:18:00Z,RT-5,Block 1B RT-5,"MC, PH",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,0:15,2023-12-14T00:15:00Z,RT-6,Block 1B RT-6,"MC, TC",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,3:12,2023-12-14T03:12:00Z,RT-7,Block 1B RT-7,"MC, PH",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,6:04,2023-12-14T06:04:00Z,RT-8,Block 1B RT-8,"MC, TC",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,9:12,2023-12-14T09:12:00Z,RT-9,Block 1B RT-9,"AL, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,12:04,2023-12-14T12:04:00Z,RT-10,Block 1B RT-10,"AL, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,15:04,2023-12-14T15:04:00Z,RT-11,Block 1B RT-11,"AL, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,18:02,2023-12-14T18:02:00Z,RT-12,Block 1B RT-12,"AL, TA",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-14,21:16,2023-12-14T21:16:00Z,RT-13,Block 1B RT-13,"MC, PH",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,0:19,2023-12-15T00:19:00Z,RT-14,Block 1B RT-14,"MC, PH",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,3:07,2023-12-15T03:07:00Z,RT-15,Block 1B RT-15,"MD, MC",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,6:10,2023-12-15T06:10:00Z,RT-16,Block 1B RT-16,"MD, MC",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,9:04,2023-12-15T09:04:00Z,RT-17,Block 1B RT-17,"CY, KM",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,12:04,2023-12-15T12:04:00Z,RT-18,Block 1B RT-18,"CY, KM",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,15:03,2023-12-15T15:03:00Z,RT-19,Block 1B RT-19,"CY, KM",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,18:01,2023-12-15T18:01:00Z,RT-20,Block 1B RT-20,"CY, KM",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,21:20,2023-12-15T21:20:00Z,RT-21,Block 1B RT-21,"MC, PH",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-15,23:58,2023-12-15T23:58:00Z,RT-22,Block 1B RT-22,"MC, PH",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-16,3:03,2023-12-16T03:03:00Z,RT-23,Block 1B RT-23,"AK, MC",0,0,10,,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2023-12-16,6:11,2023-12-16T06:11:00Z,RT-24,Block 1B RT-24,"AK, MC",0,0,10,sea lion near release site,PH,EH,,Block 1B
+2024,Chinook Salmon,late-fall,2024-01-10,9:14,2024-01-10T09:14:00Z,RT-1,Block 2A RT-1,"KM, PH",0,0,10,water too turbid to see morts and shed tags ,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-10,12:12,2024-01-10T12:12:00Z,RT-2,Block 2A RT-2,"KM, PH",0,0,10,water too turbid to see morts and shed tags ,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-10,15:09,2024-01-10T15:09:00Z,RT-3,Block 2A RT-3,"KM, CY",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-10,18:10,2024-01-10T18:10:00Z,RT-4,Block 2A RT-4,"KM, PH",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-10,21:13,2024-01-10T21:13:00Z,RT-5,Block 2A RT-5,"JH, MD",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,0:10,2024-01-11T00:10:00Z,RT-6,Block 2A RT-6,"JH, MD",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,3:06,2024-01-11T03:06:00Z,RT-7,Block 2A RT-7,"JH, AK",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,6:01,2024-01-11T06:01:00Z,RT-8,Block 2A RT-8,"JH, MD",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,9:22,2024-01-11T09:22:00Z,RT-9,Block 2A RT-9,"PH, EH",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,12:14,2024-01-11T12:14:00Z,RT-10,Block 2A RT-10,"PH, EH",0,0,10,Turbid water,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,15:20,2024-01-11T15:20:00Z,RT-11,Block 2A RT-11,"PH, EH",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,18:09,2024-01-11T18:09:00Z,RT-12,Block 2A RT-12,"PH, EH",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-11,21:07,2024-01-11T21:07:00Z,RT-13,Block 2A RT-13,"AW, JH",0,0,10,water too turbid to see shed tags,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,0:11,2024-01-12T00:11:00Z,RT-14,Block 2A RT-14,"JH, AK",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,3:09,2024-01-12T03:09:00Z,RT-15,Block 2A RT-15,"AW, JH",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,6:11,2024-01-12T06:11:00Z,RT-16,Block 2A RT-16,"JH, AK",0,0,10,Water too turbid to see tags,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,9:13,2024-01-12T09:13:00Z,RT-17,Block 2A RT-17,"KM, SB",0,0,10,Turbid water,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,12:14,2024-01-12T12:14:00Z,RT-18,Block 2A RT-18,"KM, SB",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,15:08,2024-01-12T15:08:00Z,RT-19,Block 2A RT-19,"KM, SB",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,18:09,2024-01-12T18:09:00Z,RT-20,Block 2A RT-20,"KM, SB",0,0,10,,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-12,21:16,2024-01-12T21:16:00Z,RT-21,Block 2A RT-21,"MD, CC",0,0,10,Turbid,PH,EH,,Block 2A
+2024,Chinook Salmon,late-fall,2024-01-13,0:10,2024-01-13T00:10:00Z,RT-22,Block 2A RT-22,"MD, NS",0,0,10,Turbid,PH,EH,"Date incorrect on physical datasheet, should be 1/13",Block 2A
+2024,Chinook Salmon,late-fall,2024-01-13,3:10,2024-01-13T03:10:00Z,RT-23,Block 2A RT-23,"MD, CC",0,0,10,Turbid,PH,EH,"Date incorrect on physical datasheet, should be 1/13",Block 2A
+2024,Chinook Salmon,late-fall,2024-01-13,6:10,2024-01-13T06:10:00Z,RT-24,Block 2A RT-24,"MD, NS",0,0,10,Turbid,PH,EH,"Date incorrect on physical datasheet, should be 1/13",Block 2A
+2024,Chinook Salmon,late-fall,2024-01-17,9:11,2024-01-17T09:11:00Z,RT-1,Block 2B RT-1,"TA, CR",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-17,12:09,2024-01-17T12:09:00Z,RT-2,Block 2B RT-2,"TA, NL",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-17,15:14,2024-01-17T15:14:00Z,RT-3,Block 2B RT-3,"TA, CR",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-17,18:10,2024-01-17T18:10:00Z,RT-4,Block 2B RT-4,"TA, CR",0,0,10,"water very turbid, couldn't see bottom",PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-17,21:09,2024-01-17T21:09:00Z,RT-5,Block 2B RT-5,"PH, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,0:18,2024-01-18T00:18:00Z,RT-6,Block 2B RT-6,"PH, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,3:08,2024-01-18T03:08:00Z,RT-7,Block 2B RT-7,"AK, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,6:07,2024-01-18T06:07:00Z,RT-8,Block 2B RT-8,"AK, AW",0,0,10,saw fish but no shed tags,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,9:15,2024-01-18T09:15:00Z,RT-9,Block 2B RT-9,"TA, CR",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,12:14,2024-01-18T12:14:00Z,RT-10,Block 2B RT-10,"TA, AC",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,15:09,2024-01-18T15:09:00Z,RT-11,Block 2B RT-11,"TA, CR",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,18:14,2024-01-18T18:14:00Z,RT-12,Block 2B RT-12,"TA, CR",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-18,21:12,2024-01-18T21:12:00Z,RT-13,Block 2B RT-13,"AW, AL",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,0:12,2024-01-19T00:12:00Z,RT-14,Block 2B RT-14,"AW, EH",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,3:19,2024-01-19T03:19:00Z,RT-15,Block 2B RT-15,"AW, AL",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,6:12,2024-01-19T06:12:00Z,RT-16,Block 2B RT-16,"AW, EH",0,0,10,very muddy could barely see fish ,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,8:55,2024-01-19T08:55:00Z,RT-17,Block 2B RT-17,"KM, AT",0,0,10,very turbid,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,11:42,2024-01-19T11:42:00Z,RT-18,Block 2B RT-18,"KM, AT",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,15:00,2024-01-19T15:00:00Z,RT-19,Block 2B RT-19,"KM, AT",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,17:22,2024-01-19T17:22:00Z,RT-20,Block 2B RT-20,"KM, AT",0,0,10,fish released early due to rain ,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-19,21:07,2024-01-19T21:07:00Z,RT-21,Block 2B RT-21,"AW, BS",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-20,0:07,2024-01-20T00:07:00Z,RT-22,Block 2B RT-22,"AW, EH",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-20,3:10,2024-01-20T03:10:00Z,RT-23,Block 2B RT-23,"AW, BS",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-01-20,6:15,2024-01-20T06:15:00Z,RT-24,Block 2B RT-24,"AW, EH",0,0,10,,PH,EH,,Block 2B
+2024,Chinook Salmon,late-fall,2024-02-14,9:14,2024-02-14T09:14:00Z,RT-1,Block 3A RT-1,"CY, BK",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-14,12:12,2024-02-14T12:12:00Z,RT-2,Block 3A RT-2,"BK, CY",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-14,15:15,2024-02-14T15:15:00Z,RT-3,Block 3A RT-3,"CY, BK",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-14,18:00,2024-02-14T18:00:00Z,RT-4,Block 3A RT-4,"CY, BK",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-14,21:14,2024-02-14T21:14:00Z,RT-5,Block 3A RT-5,"RM, BS",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,0:05,2024-02-15T00:05:00Z,RT-6,Block 3A RT-6,"RM, AC",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,3:11,2024-02-15T03:11:00Z,RT-7,Block 3A RT-7,"RM, BS",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,6:08,2024-02-15T06:08:00Z,RT-8,Block 3A RT-8,"RM, AC",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,9:15,2024-02-15T09:15:00Z,RT-9,Block 3A RT-9,"OJ, CY",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,12:02,2024-02-15T12:02:00Z,RT-10,Block 3A RT-10,"CJ, EC",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,14:53,2024-02-15T14:53:00Z,RT-11,Block 3A RT-11,"JM, EC, CJ",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,18:07,2024-02-15T18:07:00Z,RT-12,Block 3A RT-12,"CJ, EC",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-15,21:10,2024-02-15T21:10:00Z,RT-13,Block 3A RT-13,"MD, RM",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,0:11,2024-02-16T00:11:00Z,RT-14,Block 3A RT-14,"MD, RM",0,0,10,Lots of sediment ,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,3:07,2024-02-16T03:07:00Z,RT-15,Block 3A RT-15,"EH, RM",0,0,10,lots of sediment at bottom,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,6:11,2024-02-16T06:11:00Z,RT-16,Block 3A RT-16,"EH, RM",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,8:55,2024-02-16T08:55:00Z,RT-17,Block 3A RT-17,"KM, AT",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,12:23,2024-02-16T12:23:00Z,RT-18,Block 3A RT-18,"TA, JM",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,15:13,2024-02-16T15:13:00Z,RT-19,Block 3A RT-19,"TA, JM",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,18:12,2024-02-16T18:12:00Z,RT-20,Block 3A RT-20,"TA, JM",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-16,21:10,2024-02-16T21:10:00Z,RT-21,Block 3A RT-21,"RM, AW",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-17,0:09,2024-02-17T00:09:00Z,RT-22,Block 3A RT-22,"JM, EH",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-17,3:17,2024-02-17T03:17:00Z,RT-23,Block 3A RT-23,"AW, RM",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,late-fall,2024-02-17,6:14,2024-02-17T06:14:00Z,RT-24,Block 3A RT-24,"RM, EH",0,0,10,,PH,EH,,Block 3A
+2024,Chinook Salmon,fall,2024-04-17,9:13,2024-04-17T09:13:00Z,RT-1,Block 3B RT-1,"TA, CR",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-17,12:11,2024-04-17T12:11:00Z,RT-2,Block 3B RT-2,"TA, CY",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-17,15:13,2024-04-17T15:13:00Z,RT-3,Block 3B RT-3,"TA, JM, CP, KK",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-17,18:08,2024-04-17T18:08:00Z,RT-4,Block 3B RT-4,"TA, CR",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-17,21:21,2024-04-17T21:21:00Z,RT-5,Block 3B RT-5,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,0:12,2024-04-18T00:12:00Z,RT-6,Block 3B RT-6,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,3:18,2024-04-18T03:18:00Z,RT-7,Block 3B RT-7,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,6:17,2024-04-18T06:17:00Z,RT-8,Block 3B RT-8,"RM, AL, JS",0,0,10,water very turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,9:10,2024-04-18T09:10:00Z,RT-9,Block 3B RT-9,"TA, NS",0,0,10,,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,12:10,2024-04-18T12:10:00Z,RT-10,Block 3B RT-10,"TA, NS",0,0,10,,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,15:17,2024-04-18T15:17:00Z,RT-11,Block 3B RT-11,"TA, NS",0,0,10,,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,18:08,2024-04-18T18:08:00Z,RT-12,Block 3B RT-12,"TA, NS",0,0,10,,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-18,21:16,2024-04-18T21:16:00Z,RT-13,Block 3B RT-13,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,0:08,2024-04-19T00:08:00Z,RT-14,Block 3B RT-14,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,3:16,2024-04-19T03:16:00Z,RT-15,Block 3B RT-15,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,6:15,2024-04-19T06:15:00Z,RT-16,Block 3B RT-16,"PH, JS, RM",0,0,10,,EH,PH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,9:20,2024-04-19T09:20:00Z,RT-17,Block 3B RT-17,"MD, TA",0,0,10,Turbid,EH,PH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,12:12,2024-04-19T12:12:00Z,RT-18,Block 3B RT-18,"MD, TA",0,0,10,Turbid,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,15:06,2024-04-19T15:06:00Z,RT-19,Block 3B RT-19,"MD, TA",0,0,10,Turbid,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,18:08,2024-04-19T18:08:00Z,RT-20,Block 3B RT-20,"MD, TA",0,0,10,Turbid,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-19,21:12,2024-04-19T21:12:00Z,RT-21,Block 3B RT-21,"PC, PH, CA",0,0,10,Turbid,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-20,0:19,2024-04-20T00:19:00Z,RT-22,Block 3B RT-22,"PC, PH, CA",0,0,10,"Turbid, when pulling release can out of river, saw a salmon swimming near the surface ",PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-20,3:11,2024-04-20T03:11:00Z,RT-23,Block 3B RT-23,"PC, PH, CA",0,0,10,Turbid ,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-20,6:14,2024-04-20T06:14:00Z,RT-24,Block 3B RT-24,"PC, PH, CA",0,0,10,Turbid,PH,EH,,Block 3B
+2024,Chinook Salmon,fall,2024-04-24,9:20,2024-04-24T09:20:00Z,RT-1,Block 4A RT-1,"EH, NS",0,0,10,Very turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-24,12:15,2024-04-24T12:15:00Z,RT-2,Block 4A RT-2,"EH, NS",0,0,10,Very turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-24,15:12,2024-04-24T15:12:00Z,RT-3,Block 4A RT-3,"EH, NS",0,0,10,Very turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-24,18:07,2024-04-24T18:07:00Z,RT-4,Block 4A RT-4,"EH, NS",0,0,10,Very turbid,EH,PH,corrected release time from 18:08 to 18:07,Block 4A
+2024,Chinook Salmon,fall,2024-04-24,21:11,2024-04-24T21:11:00Z,RT-5,Block 4A RT-5,"JH, MD",0,0,10,Very turbid,EH,PH,added comment from datasheet,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,0:10,2024-04-25T00:10:00Z,RT-6,Block 4A RT-6,"JH, MD",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,3:10,2024-04-25T03:10:00Z,RT-7,Block 4A RT-7,"JH, MD",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,6:10,2024-04-25T06:10:00Z,RT-8,Block 4A RT-8,"JH, MD",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,9:08,2024-04-25T09:08:00Z,RT-9,Block 4A RT-9,"EH, CR",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,12:08,2024-04-25T12:08:00Z,RT-10,Block 4A RT-10,"EH, CR",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,15:10,2024-04-25T15:10:00Z,RT-11,Block 4A RT-11,"EH, CR",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,18:02,2024-04-25T18:02:00Z,RT-12,Block 4A RT-12,"EH, CR",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-25,21:18,2024-04-25T21:18:00Z,RT-13,Block 4A RT-13,"PC, RM, MD",0,0,10,Very Turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,0:12,2024-04-26T00:12:00Z,RT-14,Block 4A RT-14,"PC, RM, MD",0,0,10,Very Turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,3:13,2024-04-26T03:13:00Z,RT-15,Block 4A RT-15,"PC, RM, MD",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,6:12,2024-04-26T06:12:00Z,RT-16,Block 4A RT-16,"PC, RM, MD",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,9:14,2024-04-26T09:14:00Z,RT-17,Block 4A RT-17,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,12:07,2024-04-26T12:07:00Z,RT-18,Block 4A RT-18,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,15:07,2024-04-26T15:07:00Z,RT-19,Block 4A RT-19,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,18:00,2024-04-26T18:00:00Z,RT-20,Block 4A RT-20,"JS, SB, AT",0,0,10,Very Turbid,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-26,21:15,2024-04-26T21:15:00Z,RT-21,Block 4A RT-21,"AL, AC, NS",0,0,10,,EH,PH, ,Block 4A
+2024,Chinook Salmon,fall,2024-04-27,0:18,2024-04-27T00:18:00Z,RT-22,Block 4A RT-22,"AL, AC, NS",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-27,3:12,2024-04-27T03:12:00Z,RT-23,Block 4A RT-23,"AL, AC, NS",0,0,10,,EH,PH,,Block 4A
+2024,Chinook Salmon,fall,2024-04-27,6:13,2024-04-27T06:13:00Z,RT-24,Block 4A RT-24,"AL, AC, NS",0,0,10,,EH,PH,,Block 4A
+2025,Chinook Salmon,late-fall,2024-12-04,9:31,2024-12-04T09:31:00Z,RT-1,Block 1A RT-1,"EH, CC",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-04,12:11,2024-12-04T12:11:00Z,RT-2,Block 1A RT-2,"EH, CC",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-04,15:11,2024-12-04T15:11:00Z,RT-3,Block 1A RT-3,"PH, EH",0,0,10,Sea lion present near release,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-04,18:16,2024-12-04T18:16:00Z,RT-4,Block 1A RT-4,"PH, EH",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-04,21:25,2024-12-04T21:25:00Z,RT-5,Block 1A RT-5,"RM, AL, BP",0,0,10,Sea lion in vicinity of release,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,0:24,2024-12-05T00:24:00Z,RT-6,Block 1A RT-6,"RM, AL, BP",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,3:23,2024-12-05T03:23:00Z,RT-7,Block 1A RT-7,"RM, AL, BP",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,6:18,2024-12-05T06:18:00Z,RT-8,Block 1A RT-8,"RM, AL, BP",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,9:23,2024-12-05T09:23:00Z,RT-9,Block 1A RT-9,"PH, MU",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,12:14,2024-12-05T12:14:00Z,RT-10,Block 1A RT-10,"PH, MMD",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,15:14,2024-12-05T15:14:00Z,RT-11,Block 1A RT-11,"PH, MU",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,18:08,2024-12-05T18:08:00Z,RT-12,Block 1A RT-12,"PH, MU",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-05,21:17,2024-12-05T21:17:00Z,RT-13,Block 1A RT-13,"AL, NL, RM",0,0,10,,NL,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,0:20,2024-12-06T00:20:00Z,RT-14,Block 1A RT-14,"AL, NL, RM",0,0,10,,NL,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,3:19,2024-12-06T03:19:00Z,RT-15,Block 1A RT-15,"AL, NL, RM",0,0,10,,NL,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,6:27,2024-12-06T06:27:00Z,RT-16,Block 1A RT-16,"AL, NL, RM",0,0,10,,AL,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,9:13,2024-12-06T09:13:00Z,RT-17,Block 1A RT-17,"PH, AT",0,0,10,,PH,SB,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,12:09,2024-12-06T12:09:00Z,RT-18,Block 1A RT-18,"PH, AT, RM",0,0,10,,SB,EH,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,15:04,2024-12-06T15:04:00Z,RT-19,Block 1A RT-19,"PH, MU",0,0,10,,SB,EH,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,18:06,2024-12-06T18:06:00Z,RT-20,Block 1A RT-20,"PH, MU",0,0,10,,SB,EH,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-06,21:18,2024-12-06T21:18:00Z,RT-21,Block 1A RT-21,"NS, BS, RM",0,0,10,,SB,EH,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-07,0:13,2024-12-07T00:13:00Z,RT-22,Block 1A RT-22,"NS, BS, RM",0,0,9,Only 9 fish tagged due to a dead tag,SB,EH,00:13 should be the next day. Corrected to 12/7/2024 from 12/6/2024.,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-07,3:13,2024-12-07T03:13:00Z,RT-23,Block 1A RT-23,"NS, BS, RM",0,0,10,,SB,EH,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-07,6:12,2024-12-07T06:12:00Z,RT-24,Block 1A RT-24,"NS, BS, RM",0,0,10,,SB,EH,,Block 1A
+2025,Chinook Salmon,late-fall,2024-12-11,9:05,2024-12-11T09:05:00Z,RT-1,Block 1B RT-1,"CJ, EH",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-11,11:58,2024-12-11T11:58:00Z,RT-2,Block 1B RT-2,"CJ, EH",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-11,14:58,2024-12-11T14:58:00Z,RT-3,Block 1B RT-3,"CJ, EH",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-11,17:59,2024-12-11T17:59:00Z,RT-4,Block 1B RT-4,"CJ, EH",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-11,21:06,2024-12-11T21:06:00Z,RT-5,Block 1B RT-5,"AL, BS",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,0:03,2024-12-12T00:03:00Z,RT-6,Block 1B RT-6,"AL, RM",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,3:01,2024-12-12T03:01:00Z,RT-7,Block 1B RT-7,"AL, BS",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,6:06,2024-12-12T06:06:00Z,RT-8,Block 1B RT-8,"AL, RM",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,8:59,2024-12-12T08:59:00Z,RT-9,Block 1B RT-9,"BP, CC",0,0,10,Sea lion in area ,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,12:00,2024-12-12T12:00:00Z,RT-10,Block 1B RT-10,"BP, CC",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,14:59,2024-12-12T14:59:00Z,RT-11,Block 1B RT-11,"BP, CC",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,18:58,2024-12-12T18:58:00Z,RT-12,Block 1B RT-12,"BP, CC",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-12,21:05,2024-12-12T21:05:00Z,RT-13,Block 1B RT-13,"AL, NS, RM",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,0:05,2024-12-13T00:05:00Z,RT-14,Block 1B RT-14,"AL, NS, RM",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,3:01,2024-12-13T03:01:00Z,RT-15,Block 1B RT-15,"AL, NS, RM",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,6:00,2024-12-13T06:00:00Z,RT-16,Block 1B RT-16,"AL, NS, RM",0,0,10, ,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,9:08,2024-12-13T09:08:00Z,RT-17,Block 1B RT-17,"PH, RW",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,11:57,2024-12-13T11:57:00Z,RT-18,Block 1B RT-18,"AT, RW",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,15:04,2024-12-13T15:04:00Z,RT-19,Block 1B RT-19,"AT, RW",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,17:54,2024-12-13T17:54:00Z,RT-20,Block 1B RT-20,"PH, RW",0,0,10,,PH,SB,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-13,22:59,2024-12-13T22:59:00Z,RT-21,Block 1B RT-21,"MU, NS",0,0,10,Released from dock due to wind conditions,SB,EH,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-14,0:01,2024-12-14T00:01:00Z,RT-22,Block 1B RT-22,"BS, NS",0,0,10,Released from dock due to wind conditions,SB,EH,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-14,2:58,2024-12-14T02:58:00Z,RT-23,Block 1B RT-23,"NS, BS",0,0,10,Able to release from boat,SB,EH,,Block 1B
+2025,Chinook Salmon,late-fall,2024-12-14,5:59,2024-12-14T05:59:00Z,RT-24,Block 1B RT-24,"NS, MU",0,0,9,,SB,EH,,Block 1B
+2025,Chinook Salmon,late-fall,2025-01-08,9:04,2025-01-08T09:04:00Z,RT-1,Block 2A RT-1,"EH, NS",0,0,10,Too muddy to see fish ,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-08,11:56,2025-01-08T11:56:00Z,RT-2,Block 2A RT-2,"EH, NS",0,0,10,"very muddy, sea lion followed us out to release ",PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-08,15:01,2025-01-08T15:01:00Z,RT-3,Block 2A RT-3,"BP, NS",0,0,10,,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-08,17:57,2025-01-08T17:57:00Z,RT-4,Block 2A RT-4,"BP, NS",0,0,10,,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-08,20:59,2025-01-08T20:59:00Z,RT-5,Block 2A RT-5,"RM, CC",0,0,10,Radio issues,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-08,23:58,2025-01-08T23:58:00Z,RT-6,Block 2A RT-6,"RM, BS",0,0,10,Radio issues,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-09,3:04,2025-01-09T03:04:00Z,RT-7,Block 2A RT-7,"RM, CC",0,0,10,Radio issues resolved ,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-09,5:59,2025-01-09T05:59:00Z,RT-8,Block 2A RT-8,"RM, BS",0,0,10,,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-09,9:12,2025-01-09T09:12:00Z,RT-9,Block 2A RT-9,"CY, MD",0,0,10,,PH,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-09,11:56,2025-01-09T11:56:00Z,RT-10,Block 2A RT-10,"BP, CY",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-09,14:57,2025-01-09T14:57:00Z,RT-11,Block 2A RT-11,"EH, CY",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-09,17:53,2025-01-09T17:53:00Z,RT-12,Block 2A RT-12,"EH, CY",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-09,21:01,2025-01-09T21:01:00Z,RT-13,Block 2A RT-13,"RM, AL",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,0:04,2025-01-10T00:04:00Z,RT-14,Block 2A RT-14,"RM, MU",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,3:05,2025-01-10T03:05:00Z,RT-15,Block 2A RT-15,"RM, AL",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,6:01,2025-01-10T06:01:00Z,RT-16,Block 2A RT-16,"RM, MU",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,8:59,2025-01-10T08:59:00Z,RT-17,Block 2A RT-17,"EH, RW",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,11:57,2025-01-10T11:57:00Z,RT-18,Block 2A RT-18,"PH, EH",0,0,10,Water too murky to see shed tags,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,14:55,2025-01-10T14:55:00Z,RT-19,Block 2A RT-19,"PH, EH",0,0,10,Water too murky to see shed tags,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,17:59,2025-01-10T17:59:00Z,RT-20,Block 2A RT-20,"EH, RW",0,0,10,Very muddy,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,20:59,2025-01-10T20:59:00Z,RT-21,Block 2A RT-21,"RM, AL",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-10,23:58,2025-01-10T23:58:00Z,RT-22,Block 2A RT-22,"RM, MU",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-11,3:00,2025-01-11T03:00:00Z,RT-23,Block 2A RT-23,"RM, AL",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-11,6:00,2025-01-11T06:00:00Z,RT-24,Block 2A RT-24,"RM, AL",0,0,10,,CY,SB,,Block 2A
+2025,Chinook Salmon,late-fall,2025-01-15,8:57,2025-01-15T08:57:00Z,RT-1,Block 2B RT-1,"PH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-15,12:04,2025-01-15T12:04:00Z,RT-2,Block 2B RT-2,"PH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-15,15:01,2025-01-15T15:01:00Z,RT-3,Block 2B RT-3,"EH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-15,17:58,2025-01-15T17:58:00Z,RT-4,Block 2B RT-4,"EH, CC",0,0,10,Too turbid to see tags,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-15,21:00,2025-01-15T21:00:00Z,RT-5,Block 2B RT-5,"NS, AL, BS",0,0,10,Changed to 21:00 after confirming with release crew,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-15,23:59,2025-01-15T23:59:00Z,RT-6,Block 2B RT-6,"NS, AL, BS",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-16,3:02,2025-01-16T03:02:00Z,RT-7,Block 2B RT-7,"NS, AL, BS",0,0,10,Released from dock due to boat issues,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-16,6:00,2025-01-16T06:00:00Z,RT-8,Block 2B RT-8,"NS, AL, BS",0,0,10,Released from dock due to boat issues,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-16,9:00,2025-01-16T09:00:00Z,RT-9,Block 2B RT-9,"AT, CJ",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-16,11:50,2025-01-16T11:50:00Z,RT-10,Block 2B RT-10,"AT, CJ",0,0,9,Only counted 9 coming out,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-16,14:58,2025-01-16T14:58:00Z,RT-11,Block 2B RT-11,"PH, CJ",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-16,17:57,2025-01-16T17:57:00Z,RT-12,Block 2B RT-12,"AT, PH",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-16,21:04,2025-01-16T21:04:00Z,RT-13,Block 2B RT-13,"AL, RM",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,0:03,2025-01-17T00:03:00Z,RT-14,Block 2B RT-14,"AL, BS",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,3:01,2025-01-17T03:01:00Z,RT-15,Block 2B RT-15,"AL, RM",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,5:59,2025-01-17T05:59:00Z,RT-16,Block 2B RT-16,"AL, BS",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,9:00,2025-01-17T09:00:00Z,RT-17,Block 2B RT-17,"BP, KB",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,11:58,2025-01-17T11:58:00Z,RT-18,Block 2B RT-18,"CY, BP",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,14:57,2025-01-17T14:57:00Z,RT-19,Block 2B RT-19,"BP, KB",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,17:56,2025-01-17T17:56:00Z,RT-20,Block 2B RT-20,"CY, KB",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,21:01,2025-01-17T21:01:00Z,RT-21,Block 2B RT-21,"NS, CJ",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-17,23:59,2025-01-17T23:59:00Z,RT-22,Block 2B RT-22,"NS, RM",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-18,2:59,2025-01-18T02:59:00Z,RT-23,Block 2B RT-23,"NS, CJ",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-01-18,5:58,2025-01-18T05:58:00Z,RT-24,Block 2B RT-24,"NS, RM",0,0,10,,CY,BP,,Block 2B
+2025,Chinook Salmon,late-fall,2025-02-12,17:04,2025-02-12T17:04:00Z,point_rel,Block 3A point_rel,"PH, AT, JM",0,0,80,Point release at Miller Park Boat Ramp due to river flows ,PH,BP,,Block 3A
+2025,Chinook Salmon,late-fall,2025-02-13,16:04,2025-02-13T16:04:00Z,point_rel,Block 3A point_rel,"PH, EH",0,0,80,Point release at Miller Park Boat Ramp due to river flows ,BP,CY,,Block 3A
+2025,Chinook Salmon,late-fall,2025-02-14,15:40,2025-02-14T15:40:00Z,point_rel,Block 3A point_rel,"EH, BP",0,0,80,Point release at Miller Park Boat Ramp due to river flows ,BP,CY,,Block 3A
+2025,Chinook Salmon,fall,2025-04-09,9:01,2025-04-09T09:01:00Z,RT-1,Block 3B RT-1,"CC, BP",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-09,11:45,2025-04-09T11:45:00Z,RT-2,Block 3B RT-2,"CC, BP",0,0,10,DFW joined release,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-09,14:59,2025-04-09T14:59:00Z,RT-3,Block 3B RT-3,"CC, BP",0,0,10,high boat traffic,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-09,17:59,2025-04-09T17:59:00Z,RT-4,Block 3B RT-4,"CC, BP",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-09,21:03,2025-04-09T21:03:00Z,RT-5,Block 3B RT-5,"AL, RM, MC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-10,0:01,2025-04-10T00:01:00Z,RT-6,Block 3B RT-6,"AL, RM, MC",0,0,10,"Sea lion nearby release, waited for it to move",SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-10,3:00,2025-04-10T03:00:00Z,RT-7,Block 3B RT-7,"AL, RM, MC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-10,9:00,2025-04-10T09:00:00Z,RT-9,Block 3B RT-9,"KB, AC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-10,12:02,2025-04-10T12:02:00Z,RT-10,Block 3B RT-10,"KB, AC, CW",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-10,15:00,2025-04-10T15:00:00Z,RT-11,Block 3B RT-11,"KB, EH",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-10,17:58,2025-04-10T17:58:00Z,RT-12,Block 3B RT-12,"KB, EH, CW",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-10,21:02,2025-04-10T21:02:00Z,RT-13,Block 3B RT-13,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,0:00,2025-04-11T00:00:00Z,RT-14,Block 3B RT-14,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,3:00,2025-04-11T03:00:00Z,RT-15,Block 3B RT-15,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,6:00,2025-04-11T06:00:00Z,RT-16,Block 3B RT-16,"NS, AL, EC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,8:56,2025-04-11T08:56:00Z,RT-17,Block 3B RT-17,"PH, TC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,12:00,2025-04-11T12:00:00Z,RT-18,Block 3B RT-18,"PH, KB",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,14:58,2025-04-11T14:58:00Z,RT-19,Block 3B RT-19,"PH, TC",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,17:54,2025-04-11T17:54:00Z,RT-20,Block 3B RT-20,"PH, KB",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-11,21:01,2025-04-11T21:01:00Z,RT-21,Block 3B RT-21,"RM, NS, JS",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-12,0:00,2025-04-12T00:00:00Z,RT-22,Block 3B RT-22,"RM, NS, JS",0,0,10,,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-12,3:01,2025-04-12T03:01:00Z,RT-23,Block 3B RT-23,"RM, NS, JS",0,0,8,Only 8 fish tagged,SB,CY,,Block 3B
+2025,Chinook Salmon,fall,2025-04-16,8:59,2025-04-16T08:59:00Z,RT-1,Block 4A RT-1,"CC, KB",0,0,10,ICF tracking fish via boat,BP,SB,Changed to 10. The two ICF tags will be accounted for separately.,Block 4A
+2025,Chinook Salmon,fall,2025-04-16,11:57,2025-04-16T11:57:00Z,RT-2,Block 4A RT-2,"CC, KB",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-16,14:55,2025-04-16T14:55:00Z,RT-3,Block 4A RT-3,"CW, KB",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-16,18:00,2025-04-16T18:00:00Z,RT-4,Block 4A RT-4,"CW, KB",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-16,20:59,2025-04-16T20:59:00Z,RT-5,Block 4A RT-5,"NS, JH",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,0:00,2025-04-17T00:00:00Z,RT-6,Block 4A RT-6,"RM, NS",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,3:00,2025-04-17T03:00:00Z,RT-7,Block 4A RT-7,"NS, JH",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,6:00,2025-04-17T06:00:00Z,RT-8,Block 4A RT-8,"RM, JH",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,8:59,2025-04-17T08:59:00Z,RT-9,Block 4A RT-9,"CC, BP",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,12:02,2025-04-17T12:02:00Z,RT-10,Block 4A RT-10,"CC, BP",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,14:59,2025-04-17T14:59:00Z,RT-11,Block 4A RT-11,"BP, AT",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,17:58,2025-04-17T17:58:00Z,RT-12,Block 4A RT-12,"BP, AT",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-17,21:00,2025-04-17T21:00:00Z,RT-13,Block 4A RT-13,"JH, RM",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,12:00,2025-04-18T12:00:00Z,RT-14,Block 4A RT-14,"JH, BS",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,3:00,2025-04-18T03:00:00Z,RT-15,Block 4A RT-15,"JH,RM",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,6:00,2025-04-18T06:00:00Z,RT-16,Block 4A RT-16,"JH, BS",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,8:58,2025-04-18T08:58:00Z,RT-17,Block 4A RT-17,"KB, NS",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,11:56,2025-04-18T11:56:00Z,RT-18,Block 4A RT-18,"RW, NS",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,14:57,2025-04-18T14:57:00Z,RT-19,Block 4A RT-19,"NS, KB",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,17:55,2025-04-18T17:55:00Z,RT-20,Block 4A RT-20,"RW, NS",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-18,21:00,2025-04-18T21:00:00Z,RT-21,Block 4A RT-21,"CJ, AL",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-19,0:00,2025-04-19T00:00:00Z,RT-22,Block 4A RT-22,"AL, RM",0,0,10,ICF tracking fish via boat,BP,SB,Changed to 10. The two ICF tags will be accounted for separately.,Block 4A
+2025,Chinook Salmon,fall,2025-04-19,3:00,2025-04-19T03:00:00Z,RT-23,Block 4A RT-23,"AL, CJ",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-19,6:02,2025-04-19T06:02:00Z,RT-24,Block 4A RT-24,"AL, RM",0,0,10,,BP,SB,,Block 4A
+2025,Chinook Salmon,fall,2025-04-30,8:58,2025-04-30T08:58:00Z,RT-1,Block 4B RT-1,"KB, MB",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-04-30,11:58,2025-04-30T11:58:00Z,RT-2,Block 4B RT-2,"KB, MB",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-04-30,14:57,2025-04-30T14:57:00Z,RT-3,Block 4B RT-3,"KB, MB",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-04-30,17:57,2025-04-30T17:57:00Z,RT-4,Block 4B RT-4,"KB, MB",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-04-30,21:00,2025-04-30T21:00:00Z,RT-5,Block 4B RT-5,"AL, NS",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,0:00,2025-05-01T00:00:00Z,RT-6,Block 4B RT-6,"AL, RM",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,3:00,2025-05-01T03:00:00Z,RT-7,Block 4B RT-7,"AL, NS",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,6:00,2025-05-01T06:00:00Z,RT-8,Block 4B RT-8,"AL, RM",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,8:59,2025-05-01T08:59:00Z,RT-9,Block 4B RT-9,"CC, BP",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,11:58,2025-05-01T11:58:00Z,RT-10,Block 4B RT-10,"CC, BP",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,14:59,2025-05-01T14:59:00Z,RT-11,Block 4B RT-11,"BP, AT",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,18:00,2025-05-01T18:00:00Z,RT-12,Block 4B RT-12,"BP, AT",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,21:00,2025-05-01T21:00:00Z,RT-13,Block 4B RT-13,"RM, NS",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-01,23:56,2025-05-01T23:56:00Z,RT-14,Block 4B RT-14,"TM, NS",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-02,2:56,2025-05-02T02:56:00Z,RT-15,Block 4B RT-15,"RM, NS",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-02,5:56,2025-05-02T05:56:00Z,RT-16,Block 4B RT-16,"NS, TM",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-02,9:00,2025-05-02T09:00:00Z,RT-17,Block 4B RT-17,"BP, RW",0,0,10,,PH,SB,,Block 4B
+2025,Chinook Salmon,fall,2025-05-02,12:00,2025-05-02T12:00:00Z,RT-18,Block 4B RT-18,"BP, CW",0,0,10,,SB,BP,,Block 4B
+2025,Chinook Salmon,fall,2025-05-02,14:58,2025-05-02T14:58:00Z,RT-19,Block 4B RT-19,"BP, RW",0,0,10,,SB,BP,,Block 4B
+2025,Chinook Salmon,fall,2025-05-02,18:00,2025-05-02T18:00:00Z,RT-20,Block 4B RT-20,"BP,CW",0,0,10,,SB,BP,,Block 4B
+2025,Chinook Salmon,fall,2025-05-02,21:00,2025-05-02T21:00:00Z,RT-21,Block 4B RT-21,"AL, CJ",0,0,10,,SB,BP,,Block 4B
+2025,Chinook Salmon,fall,2025-05-03,0:00,2025-05-03T00:00:00Z,RT-22,Block 4B RT-22,"AL, BS",0,0,10,,SB,BP,,Block 4B
+2025,Chinook Salmon,fall,2025-05-03,3:00,2025-05-03T03:00:00Z,RT-23,Block 4B RT-23,"AL, CJ",0,0,10,,SB,BP,,Block 4B
+2025,Chinook Salmon,fall,2025-05-03,6:00,2025-05-03T06:00:00Z,RT-24,Block 4B RT-24,"AL, BS",0,0,10,,SB,BP,,Block 4B
+2026,Chinook Salmon,late-fall,2025-12-02,21:00,2025-12-02T21:00:00Z,RT-1,Block 1A RT-1,"AL, CC",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,0:00,2025-12-03T00:00:00Z,RT-2,Block 1A RT-2,"AL, TEC",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,3:00,2025-12-03T03:00:00Z,RT-3,Block 1A RT-3,"AL, CC",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,6:00,2025-12-03T06:00:00Z,RT-4,Block 1A RT-4,"AL, TEC",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,9:07,2025-12-03T09:07:00Z,RT-5,Block 1A RT-5,"BP, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,12:00,2025-12-03T12:00:00Z,RT-6,Block 1A RT-6,"BP, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,14:58,2025-12-03T14:58:00Z,RT-7,Block 1A RT-7,"BP, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,17:58,2025-12-03T17:58:00Z,RT-8,Block 1A RT-8,"BP, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-03,21:00,2025-12-03T21:00:00Z,RT-9,Block 1A RT-9,"AL, BS, LS",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,0:00,2025-12-04T00:00:00Z,RT-10,Block 1A RT-10,"AL, BS, LS",0,0,9,1 mortality in transport,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,3:00,2025-12-04T03:00:00Z,RT-11,Block 1A RT-11,"AL, BS, LS",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,6:00,2025-12-04T06:00:00Z,RT-12,Block 1A RT-12,"AL, BS, LS",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,9:05,2025-12-04T09:05:00Z,RT-13,Block 1A RT-13,"CC, EH",0,0,10,"CDFW Trawl net at fish release, released 100 ft downstream",SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,12:00,2025-12-04T12:00:00Z,RT-14,Block 1A RT-14,"CC, EH",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,14:53,2025-12-04T14:53:00Z,RT-15,Block 1A RT-15,"CC, EH",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,18:00,2025-12-04T18:00:00Z,RT-16,Block 1A RT-16,"CC, EH",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-04,21:00,2025-12-04T21:00:00Z,RT-17,Block 1A RT-17,"CW, CR",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-05,0:00,2025-12-05T00:00:00Z,RT-18,Block 1A RT-18,"CR, BS",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-05,2:56,2025-12-05T02:56:00Z,RT-19,Block 1A RT-19,"CR, CW",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-05,5:57,2025-12-05T05:57:00Z,RT-20,Block 1A RT-20,"CR, BS",0,0,10,"Bin 21 lid attachment tore through, new holes drilled.",SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-05,8:59,2025-12-05T08:59:00Z,RT-21,Block 1A RT-21,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-05,11:59,2025-12-05T11:59:00Z,RT-22,Block 1A RT-22,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-05,14:58,2025-12-05T14:58:00Z,RT-23,Block 1A RT-23,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-05,17:59,2025-12-05T17:59:00Z,RT-24,Block 1A RT-24,"CJJ, KB",0,0,10,,SB,BP,,Block 1A
+2026,Chinook Salmon,late-fall,2025-12-09,21:06,2025-12-09T21:06:00Z,RT-1,Block 1B RT-1,"RM, BS",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,0:05,2025-12-10T00:05:00Z,RT-2,Block 1B RT-2,"RM, CW",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,2:59,2025-12-10T02:59:00Z,RT-3,Block 1B RT-3,"RM, BS",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,6:01,2025-12-10T06:01:00Z,RT-4,Block 1B RT-4,"RM, CW",0,0,10,"Re-read marina temp and DO after release, 9.9C, 8.94 mg/L",SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,8:57,2025-12-10T08:57:00Z,RT-5,Block 1B RT-5,"BP, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,11:56,2025-12-10T11:56:00Z,RT-6,Block 1B RT-6,"BP, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,15:55,2025-12-10T15:55:00Z,RT-7,Block 1B RT-7,"BP, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,17:56,2025-12-10T17:56:00Z,RT-8,Block 1B RT-8,"BP, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-10,21:01,2025-12-10T21:01:00Z,RT-9,Block 1B RT-9,"RM, CC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,0:00,2025-12-11T00:00:00Z,RT-10,Block 1B RT-10,"RM, AL",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,2:58,2025-12-11T02:58:00Z,RT-11,Block 1B RT-11,"RM, CC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,6:00,2025-12-11T06:00:00Z,RT-12,Block 1B RT-12,"RM, AL",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,9:00,2025-12-11T09:00:00Z,RT-13,Block 1B RT-13,"BP, MD",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,11:58,2025-12-11T11:58:00Z,RT-14,Block 1B RT-14,"BP, MD",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,15:00,2025-12-11T15:00:00Z,RT-15,Block 1B RT-15,"BP, MD",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,18:00,2025-12-11T18:00:00Z,RT-16,Block 1B RT-16,"BP, MD",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-11,21:03,2025-12-11T21:03:00Z,RT-17,Block 1B RT-17,"AL, RM",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-12,0:00,2025-12-12T00:00:00Z,RT-18,Block 1B RT-18,"CJJ, RM",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-12,2:59,2025-12-12T02:59:00Z,RT-19,Block 1B RT-19,"AL, RM",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-12,6:02,2025-12-12T06:02:00Z,RT-20,Block 1B RT-20,"CJJ, RM",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-12,8:56,2025-12-12T08:56:00Z,RT-21,Block 1B RT-21,"MC, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-12,11:57,2025-12-12T11:57:00Z,RT-22,Block 1B RT-22,"MC, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-12,14:56,2025-12-12T14:56:00Z,RT-23,Block 1B RT-23,"MC, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2025-12-12,17:56,2025-12-12T17:56:00Z,RT-24,Block 1B RT-24,"MC, TC",0,0,10,,SB,HS,,Block 1B
+2026,Chinook Salmon,late-fall,2026-01-06,21:00,2026-01-06T21:00:00Z,RT-1,Block 2A RT-1,"NS, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-06,0:00,2026-01-06T00:00:00Z,RT-2,Block 2A RT-2,"BS, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,3:00,2026-01-07T03:00:00Z,RT-3,Block 2A RT-3,"NS, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,6:00,2026-01-07T06:00:00Z,RT-4,Block 2A RT-4,"NS, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,9:00,2026-01-07T09:00:00Z,RT-5,Block 2A RT-5,"BK, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,12:00,2026-01-07T12:00:00Z,RT-6,Block 2A RT-6,"BK, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,14:56,2026-01-07T14:56:00Z,RT-7,Block 2A RT-7,"BK, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,17:57,2026-01-07T17:57:00Z,RT-8,Block 2A RT-8,"BK, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,20:58,2026-01-07T20:58:00Z,RT-9,Block 2A RT-9,"NS, BS",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,0:00,2026-01-08T00:00:00Z,RT-10,Block 2A RT-10,"NS, RM",1,0,10,"There is a 1 for morts, but crew counted 10 upon release.",SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,2:58,2026-01-08T02:58:00Z,RT-11,Block 2A RT-11,"NS, BS",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,5:57,2026-01-08T05:57:00Z,RT-12,Block 2A RT-12,"NS, RM",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,9:00,2026-01-08T09:00:00Z,RT-13,Block 2A RT-13,"KB, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,12:00,2026-01-08T12:00:00Z,RT-14,Block 2A RT-14,"KB, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,14:58,2026-01-08T14:58:00Z,RT-15,Block 2A RT-15,"KB, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,17:57,2026-01-08T17:57:00Z,RT-16,Block 2A RT-16,"KB, TC",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-08,21:00,2026-01-08T21:00:00Z,RT-17,Block 2A RT-17,"RM, AL",0,0,20,"Release groups 17 and 23 were combined due to fish mix up at CABA, both groups (20 fish) released at release 17.",SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-09,0:00,2026-01-09T00:00:00Z,RT-18,Block 2A RT-18,"JT, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-09,3:01,2026-01-09T03:01:00Z,RT-19,Block 2A RT-19,"RM, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-09,6:00,2026-01-09T06:00:00Z,RT-20,Block 2A RT-20,"JT, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-09,9:01,2026-01-09T09:01:00Z,RT-21,Block 2A RT-21,"CJJ, BK",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-09,12:00,2026-01-09T12:00:00Z,RT-22,Block 2A RT-22,"CJJ, BK",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-09,18:05,2026-01-09T18:05:00Z,RT-24,Block 2A RT-24,"CJJ, BK",0,0,9,Crew counted 9 upon release.,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-13,21:00,2026-01-13T21:00:00Z,RT-1,Block 2B RT-1,"RM, CW",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-13,23:58,2026-01-13T23:58:00Z,RT-2,Block 2B RT-2,"NS,RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,3:00,2026-01-14T03:00:00Z,RT-3,Block 2B RT-3,"RM, CW",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,5:58,2026-01-14T05:58:00Z,RT-4,Block 2B RT-4,"NS, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,9:02,2026-01-14T09:02:00Z,RT-5,Block 2B RT-5,"EH,TC",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,11:57,2026-01-14T11:57:00Z,RT-6,Block 2B RT-6,"EH,TC",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,14:58,2026-01-14T14:58:00Z,RT-7,Block 2B RT-7,"EH,TC",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,17:59,2026-01-14T17:59:00Z,RT-8,Block 2B RT-8,"EH,TC",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,21:00,2026-01-14T21:00:00Z,RT-9,Block 2B RT-9,"AL, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-14,23:59,2026-01-14T23:59:00Z,RT-10,Block 2B RT-10,"NS, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,3:00,2026-01-15T03:00:00Z,RT-11,Block 2B RT-11,"AL, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,5:59,2026-01-15T05:59:00Z,RT-12,Block 2B RT-12,"NS, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,8:57,2026-01-15T08:57:00Z,RT-13,Block 2B RT-13,"BP, BK",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,12:02,2026-01-15T12:02:00Z,RT-14,Block 2B RT-14,"BP, BK",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,14:55,2026-01-15T14:55:00Z,RT-15,Block 2B RT-15,"BP, BK",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,17:58,2026-01-15T17:58:00Z,RT-16,Block 2B RT-16,"BP, BK",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,21:00,2026-01-15T21:00:00Z,RT-17,Block 2B RT-17,"AL, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-15,23:59,2026-01-15T23:59:00Z,RT-18,Block 2B RT-18,"CJJ, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-16,3:00,2026-01-16T03:00:00Z,RT-19,Block 2B RT-19,"AL, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-16,6:01,2026-01-16T06:01:00Z,RT-20,Block 2B RT-20,"CJJ, RM",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-16,8:59,2026-01-16T08:59:00Z,RT-21,Block 2B RT-21,"EH, MC",0,0,10,"USFW towing, went downsteam to release",BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-16,12:00,2026-01-16T12:00:00Z,RT-22,Block 2B RT-22,"EH, MC",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-16,15:05,2026-01-16T15:05:00Z,RT-23,Block 2B RT-23,"EH, MC",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-01-16,17:58,2026-01-16T17:58:00Z,RT-24,Block 2B RT-24,"EH, MC",0,0,10,,BP,HS,,Block 2B
+2026,Chinook Salmon,late-fall,2026-02-03,21:00,2026-02-03T21:00:00Z,RT-1,Block 3A RT-1,"AL, BS",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,0:00,2026-02-04T00:00:00Z,RT-2,Block 3A RT-2,"AL, CJJ",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,3:00,2026-02-04T03:00:00Z,RT-3,Block 3A RT-3,"AL, BS",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,5:59,2026-02-04T05:59:00Z,RT-4,Block 3A RT-4,"AL, CJJ",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,8:59,2026-02-04T08:59:00Z,RT-5,Block 3A RT-5,"CR, TC",0,0,9,1 mort at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,11:58,2026-02-04T11:58:00Z,RT-6,Block 3A RT-6,"CR, TC",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,15:00,2026-02-04T15:00:00Z,RT-7,Block 3A RT-7,"CR, TC",0,0,9,1 escaped from trashcan,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,17:57,2026-02-04T17:57:00Z,RT-8,Block 3A RT-8,"CR, TC",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-04,21:00,2026-02-04T21:00:00Z,RT-9,Block 3A RT-9,"AL, BS",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,0:00,2026-02-05T00:00:00Z,RT-10,Block 3A RT-10,"AL, CW",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,3:00,2026-02-05T03:00:00Z,RT-11,Block 3A RT-11,"AL, BS",0,0,8,2 morts at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,5:59,2026-02-05T05:59:00Z,RT-12,Block 3A RT-12,"AL, CW",0,0,9,"1 mort at CABA, released near marina entrance due to fog",SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,9:00,2026-02-05T09:00:00Z,RT-13,Block 3A RT-13,"BK, TC",0,0,10,released near marina entrance due to fog,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,11:56,2026-02-05T11:56:00Z,RT-14,Block 3A RT-14,"BK, TC",0,0,9,1 mort at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,14:58,2026-02-05T14:58:00Z,RT-15,Block 3A RT-15,"BK, TC",0,0,8,2 morts at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,17:58,2026-02-05T17:58:00Z,RT-16,Block 3A RT-16,"BK, TC",0,0,10,,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-05,21:00,2026-02-05T21:00:00Z,RT-17,Block 3A RT-17,"AL, BS",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-06,0:00,2026-02-06T00:00:00Z,RT-18,Block 3A RT-18,"AL, CW",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-06,3:00,2026-02-06T03:00:00Z,RT-19,Block 3A RT-19,"AL, BS",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,"release time entered incorrectly, changed from 13:00 to 3:00",Block 3A
+2026,Chinook Salmon,late-fall,2026-02-06,6:00,2026-02-06T06:00:00Z,RT-20,Block 3A RT-20,"AL, CW",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-06,9:00,2026-02-06T09:00:00Z,RT-21,Block 3A RT-21,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-06,12:02,2026-02-06T12:02:00Z,RT-22,Block 3A RT-22,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-06,15:00,2026-02-06T15:00:00Z,RT-23,Block 3A RT-23,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-06,18:00,2026-02-06T18:00:00Z,RT-24,Block 3A RT-24,"BK, CJJ",0,0,8,reduced tagging group to 8 total at CABA,SB,EH,,Block 3A
+2026,Chinook Salmon,late-fall,2026-02-10,21:00,2026-02-10T21:00:00Z,RT-1,Block 3B RT-1,"RM, TC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-10,23:59,2026-02-10T23:59:00Z,RT-2,Block 3B RT-2,"RM, NS",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-11,3:00,2026-02-11T03:00:00Z,RT-3,Block 3B RT-3,"RM, TC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-11,6:00,2026-02-11T06:00:00Z,RT-4,Block 3B RT-4,"RM, NS",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-11,9:00,2026-02-11T09:00:00Z,RT-5,Block 3B RT-5,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-11,11:58,2026-02-11T11:58:00Z,RT-6,Block 3B RT-6,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-11,14:57,2026-02-11T14:57:00Z,RT-7,Block 3B RT-7,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-11,17:55,2026-02-11T17:55:00Z,RT-8,Block 3B RT-8,"BP, CC",0,0,9,Only 9 tagged.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-11,20:59,2026-02-11T20:59:00Z,RT-9,Block 3B RT-9,"RM, NS",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,0:00,2026-02-12T00:00:00Z,RT-10,Block 3B RT-10,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,2:58,2026-02-12T02:58:00Z,RT-11,Block 3B RT-11,"RM, NS",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,5:58,2026-02-12T05:58:00Z,RT-12,Block 3B RT-12,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,9:05,2026-02-12T09:05:00Z,RT-13,Block 3B RT-13,"MC, MD",0,0,10,Fish Released 200 yds downstream due to USFWS nets.,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,12:03,2026-02-12T12:03:00Z,RT-14,Block 3B RT-14,"MC, MD",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,15:00,2026-02-12T15:00:00Z,RT-15,Block 3B RT-15,"MC, MD",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,18:00,2026-02-12T18:00:00Z,RT-16,Block 3B RT-16,"MC, MD",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,21:00,2026-02-12T21:00:00Z,RT-17,Block 3B RT-17,"RM, AL",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-12,23:59,2026-02-12T23:59:00Z,RT-18,Block 3B RT-18,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-13,3:00,2026-02-13T03:00:00Z,RT-19,Block 3B RT-19,"RM, AL",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-13,5:59,2026-02-13T05:59:00Z,RT-20,Block 3B RT-20,"RM, CJJ",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-13,9:04,2026-02-13T09:04:00Z,RT-21,Block 3B RT-21,"SB, BK",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-13,12:00,2026-02-13T12:00:00Z,RT-22,Block 3B RT-22,"SB, BK",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-13,15:00,2026-02-13T15:00:00Z,RT-23,Block 3B RT-23,"SB, BK",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,late-fall,2026-02-13,18:00,2026-02-13T18:00:00Z,RT-24,Block 3B RT-24,"SB, BK",0,0,10,,SB,HS,,Block 3B
+2026,Chinook Salmon,fall,2026-04-21,21:00,2026-04-21T21:00:00Z,RT-1,Block 4A RT-1,"AL, BS, CJ",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,0:00,2026-04-22T00:00:00Z,RT-2,Block 4A RT-2,"CJJ, AL, BS",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,3:00,2026-04-22T03:00:00Z,RT-3,Block 4A RT-3,"AL, BS, CJ",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,5:59,2026-04-22T05:59:00Z,RT-4,Block 4A RT-4,"AL, BS, CJJ",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,8:59,2026-04-22T08:59:00Z,RT-5,Block 4A RT-5,"CY, TC",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,11:59,2026-04-22T11:59:00Z,RT-6,Block 4A RT-6,"CY, TC",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,14:56,2026-04-22T14:56:00Z,RT-7,Block 4A RT-7,"CY, TC",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,17:57,2026-04-22T17:57:00Z,RT-8,Block 4A RT-8,"CY, TC",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,20:57,2026-04-22T20:57:00Z,RT-9,Block 4A RT-9,"BS, NS",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-22,23:57,2026-04-22T23:57:00Z,RT-10,Block 4A RT-10,"TM, NS",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-23,2:57,2026-04-23T02:57:00Z,RT-11,Block 4A RT-11,"BS, NS",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-23,5:56,2026-04-23T05:56:00Z,RT-12,Block 4A RT-12,"TM, NS",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-23,8:59,2026-04-23T08:59:00Z,RT-13,Block 4A RT-13,"AL, TC",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-23,11:59,2026-04-23T11:59:00Z,RT-14,Block 4A RT-14,"AL, TC",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-23,15:00,2026-04-23T15:00:00Z,RT-15,Block 4A RT-15,"AL, TC",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-23,18:00,2026-04-23T18:00:00Z,RT-16,Block 4A RT-16,"AL, TC",0,0,9,"mort on tagging, only 9 in tub",SB,PH,added comment ,Block 4A
+2026,Chinook Salmon,fall,2026-04-23,21:00,2026-04-23T21:00:00Z,RT-17,Block 4A RT-17,"BS, BK",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-24,0:00,2026-04-24T00:00:00Z,RT-18,Block 4A RT-18,"TM, BK",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-24,3:00,2026-04-24T03:00:00Z,RT-19,Block 4A RT-19,"BS, BK",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-24,5:59,2026-04-24T05:59:00Z,RT-20,Block 4A RT-20,"TM, BK",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-24,9:05,2026-04-24T09:05:00Z,RT-21,Block 4A RT-21,"CC, EH",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-24,11:57,2026-04-24T11:57:00Z,RT-22,Block 4A RT-22,"CC, EH",0,0,10,,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-24,15:00,2026-04-24T15:00:00Z,RT-23,Block 4A RT-23,"CC, EH",1,0,9,Died after transport,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-24,17:58,2026-04-24T17:58:00Z,RT-24,Block 4A RT-24,"CC, EH",0,0,9,Only 9 fish,SB,PH,,Block 4A
+2026,Chinook Salmon,fall,2026-04-28,21:00,2026-04-28T21:00:00Z,RT-1,Block 4B RT-1,RM. BS,0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-28,23:59,2026-04-28T23:59:00Z,RT-2,Block 4B RT-2,"RM, NS",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,2:59,2026-04-29T02:59:00Z,RT-3,Block 4B RT-3,"RM, BS",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,5:59,2026-04-29T05:59:00Z,RT-4,Block 4B RT-4,"RM, NS",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,9:00,2026-04-29T09:00:00Z,RT-5,Block 4B RT-5,"EH, ND",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,12:00,2026-04-29T12:00:00Z,RT-6,Block 4B RT-6,"EH, ND",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,15:02,2026-04-29T15:02:00Z,RT-7,Block 4B RT-7,"EH, ND",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,17:59,2026-04-29T17:59:00Z,RT-8,Block 4B RT-8,"EH, ND",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,20:59,2026-04-29T20:59:00Z,RT-9,Block 4B RT-9,"NS, RM",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-29,23:59,2026-04-29T23:59:00Z,RT-10,Block 4B RT-10,"CJJ, RM",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,2:59,2026-04-30T02:59:00Z,RT-11,Block 4B RT-11,"NS, RM",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,5:59,2026-04-30T05:59:00Z,RT-12,Block 4B RT-12,"CJJ, RM",0,0,10,saw sea lion surface near release site,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,9:03,2026-04-30T09:03:00Z,RT-13,Block 4B RT-13,"MD, RW",0,0,10,"slightly delayed, released 100 ft downstream due to USFWS trawling",BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,12:03,2026-04-30T12:03:00Z,RT-14,Block 4B RT-14,"MD, RW",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,14:58,2026-04-30T14:58:00Z,RT-15,Block 4B RT-15,"MD, RW",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,17:59,2026-04-30T17:59:00Z,RT-16,Block 4B RT-16,"MD, RW",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,20:58,2026-04-30T20:58:00Z,RT-17,Block 4B RT-17,"NS, RM",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-04-30,23:59,2026-04-30T23:59:00Z,RT-18,Block 4B RT-18,"CJJ, RM",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-05-01,2:58,2026-05-01T02:58:00Z,RT-19,Block 4B RT-19,"NS, RM",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-05-01,5:59,2026-05-01T05:59:00Z,RT-20,Block 4B RT-20,"CJJ, RM",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-05-01,8:58,2026-05-01T08:58:00Z,RT-21,Block 4B RT-21,"BP, TC",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-05-01,11:57,2026-05-01T11:57:00Z,RT-22,Block 4B RT-22,"BP, TC",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-05-01,14:55,2026-05-01T14:55:00Z,RT-23,Block 4B RT-23,"BP, TC",0,0,10,,BP,EH,,Block 4B
+2026,Chinook Salmon,fall,2026-05-01,17:56,2026-05-01T17:56:00Z,RT-24,Block 4B RT-24,"BP, TC",0,0,10,,BP,EH,,Block 4B
