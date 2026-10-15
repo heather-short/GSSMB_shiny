@@ -4,7 +4,6 @@
 
 # load packages
 library(tidyverse)
-library(lubridate)
 library(lunar)
 
 # read in release data
@@ -17,7 +16,7 @@ release = release %>%
          datetime = ceiling_date(release_datetime, "15 minutes")) %>% 
   
   # select columns to include in final data frame
-  select(datetime, water_year, species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released)
+  select(datetime, water_year, species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released, block)
 
 # -------------------------------------------------------------------------------
 # read in water quality data
@@ -35,7 +34,7 @@ merged = merged %>%
   filter(value_type != "Discharge, tidally filtered") %>% 
   rename(water_year = water_year.x) %>% 
   select(datetime, downloaded_from, station_id, location, water_year, value, value_type, units, 
-         species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released)
+         species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released, block)
 
 # test plot
 ggplot(merged, aes(x = datetime, y = value, color = water_year)) + 
@@ -47,7 +46,7 @@ ggplot(merged, aes(x = datetime, y = value, color = water_year)) +
 summary = merged %>% 
   
   # group by these columns
-  group_by(water_year, release_id, release_date, release_time, lunar_phase, fish_released, value_type) %>% 
+  group_by(water_year, block, release_id, release_date, release_time, lunar_phase, fish_released, value_type) %>% 
   
   # give value for each value_type
   summarize(value) %>% 
@@ -69,15 +68,14 @@ summary[264, 3] = "point_rel"
 summary[265, 3] = "point_rel"
 summary[266, 3] = "point_rel"
 
-
-summary = summary %>% 
+# summary = summary %>% 
   
-  # add new column that says what month the release took place
-  mutate(month = month(release_date, label = TRUE)) %>% 
+#   # add new column that says what month the release took place
+#   mutate(month = month(release_date, label = TRUE)) %>% 
   
-  # rearrange month levels to be in water_year order
-  mutate(month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
-                                          "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")))
+#   # rearrange month levels to be in water_year order
+#   mutate(month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
+#                                           "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")))
 
 # write to csv
 write_csv(summary, "clean-data/releases/historical_release_water_quality_summary.csv")
