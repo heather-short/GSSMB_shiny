@@ -262,9 +262,9 @@ water_year,block,rel_id,release_date,release_time,lunar_phase,fish_released,Disc
 2025,Block 2B,RT-7,2025-01-16,3:02,Full,10,30600,NA,9.5,21.6
 2025,Block 2B,RT-8,2025-01-16,6:00,Full,10,32700,31800,9.4,20.8
 2025,Block 2B,RT-9,2025-01-16,9:00,Full,10,33300,31600,9.4,21.2
-2025,Block 3B point_rel,point_rel,2025-02-12,17:04,Full,80,70700,NA,8.7,40.9
-2025,Block 3B point_rel,point_rel,2025-02-13,16:04,Full,80,71100,NA,8.9,40.8
-2025,Block 3B point_rel,point_rel,2025-02-14,15:40,Full,80,72300,NA,9.4,42
+2025,Block 3B,point_rel,2025-02-12,17:04,Full,80,70700,NA,8.7,40.9
+2025,Block 3B,point_rel,2025-02-13,16:04,Full,80,71100,NA,8.9,40.8
+2025,Block 3B,point_rel,2025-02-14,15:40,Full,80,72300,NA,9.4,42
 2025,Block 4A,RT-1,2025-04-09,9:01,Full,10,43000,NA,NA,NA
 2025,Block 4A,RT-10,2025-04-10,12:02,Full,10,42000,NA,14.5,12.8
 2025,Block 4A,RT-11,2025-04-10,15:00,Full,10,42600,42700,14.6,12

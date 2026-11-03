@@ -31,7 +31,6 @@ merged = merge(freeport, release, by = "datetime", type = "full")
 merged = merged %>% 
   # filter out rows where no release took place
   filter(!is.na(release_datetime)) %>% 
-  filter(value_type != "Discharge, tidally filtered") %>% 
   rename(water_year = water_year.x) %>% 
   select(datetime, downloaded_from, station_id, location, water_year, value, value_type, units, 
          species, run, release_datetime, release_date, release_time, lunar_phase, release_id, fish_released, block)
@@ -39,7 +38,8 @@ merged = merged %>%
 # test plot
 ggplot(merged, aes(x = datetime, y = value, color = water_year)) + 
   facet_wrap(~value_type, scales = "free_y") + 
-  geom_point()
+  geom_point() + 
+  geom_line()
 
 # create new summary data frame for merged data---------------------------------
 
@@ -67,6 +67,10 @@ summary = merged %>%
 summary[264, 3] = "point_rel"
 summary[265, 3] = "point_rel"
 summary[266, 3] = "point_rel"
+
+summary[264, 2] = "Block 3B"
+summary[265, 2] = "Block 3B"
+summary[266, 2] = "Block 3B"
 
 # summary = summary %>% 
   
