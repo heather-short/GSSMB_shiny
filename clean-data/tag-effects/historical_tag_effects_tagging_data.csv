@@ -31,38 +31,38 @@ water_year,month,date,species,run,source_tank_id,surgeon,crew,vial_number,weight
 2025,Jan,2025-01-15,Chinook Salmon,late-fall,BT-4,AC,"NJ, PH",D6,29.3,147,9CA1,2025-01-10,2:17,137,1:34,94,1:22,82,Dummy Tag. Skinny,NA,Block 2B NA,B,EH,SB,,Block 2B
 2025,Jan,2025-01-15,Chinook Salmon,late-fall,BT-4,AC,"NJ, PH",D7,34.1,152,A11D,2025-01-10,2:31,151,1:25,85,1:32,92,Dummy Tag,NA,Block 2B NA,B,EH,SB,,Block 2B
 2025,Jan,2025-01-15,Chinook Salmon,late-fall,BT-4,AC,"NJ, PH",D8,51.1,165,1D58,2025-01-10,2:22,142,1:27,87,1:40,100,Dummy Tag. Jumpy,NA,Block 2B NA,B,EH,SB,,Block 2B
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D1,23,141,9639,2025-02-07,2:33,153,1:50,110,1:25,85,"Skinny, all control fish placed directly into holding tank and observed for recovery",NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D2,54.4,171,26A1,2025-02-07,2:03,123,1:32,92,2:00,120,,NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D3,97.4,200,14B0,2025-02-07,2:46,166,1:34,94,1:48,108,,NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D4,28.7,146,2055,2025-02-07,2:26,146,1:28,88,2:02,122,,NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D5,25.8,143,24EA,2025-02-07,2:18,138,1:54,114,1:50,110,skinny,NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D6,40.6,151,250C,2025-02-07,1:48,108,1:34,94,2:53,173,,NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D7,134.8,215,2866,2025-02-07,2:45,165,3:09,189,1:20,80,,NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D8,26.1,149,153E,2025-02-07,2:13,133,1:38,98,3:15,195,Skinny,NA,Block 3A NA,H-4,CY,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D1,72.3,183,94A4,2025-02-07,2:13,133,1:48,108,3:28,208,Control fish are being directly placed in tank from net,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D2,84.8,190,2224,2025-02-07,2:20,140,1:28,88,2:26,146,,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D3,67.3,174,9354,2025-02-07,2:06,126,1:12,72,2:20,140,,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D4,35.1,185,16E4,2025-02-07,2:05,125,1:26,86,3:12,192,,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D5,51.2,161,93B1,2025-02-07,2:03,123,1:51,111,2:15,135,,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D6,65.7,179,9D25,2025-02-07,2:12,132,1:34,94,1:00,60,,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D7,91.5,196,1DD2,2025-02-07,2:13,133,1:32,92,2:50,170,,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D8,76.4,181,1D28,2025-02-07,2:00,120,1:36,96,2:24,144,,NA,Block 3A NA,H-4,EH,BP,,Block 3A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D5,5.9,81,1D84,2025-04-11,1:43,103,1:33,93,1:00,60,,NA,Block 4A NA,A,PH,BP,,Block 4A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D1,7.3,87,1D58,2025-04-11,2:20,140,2:29,149,1:15,75,,NA,Block 4A NA,A,PH,BP,,Block 4A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D6,7.5,85,96DC,2025-04-11,2:14,134,1:30,90,0:53,53,,NA,Block 4A NA,A,PH,BP,,Block 4A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D4,7.6,90,A284,2025-04-11,2:40,160,2:00,120,2:31,151,,NA,Block 4A NA,A,PH,BP,,Block 4A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D2,7.8,88,96D8,2025-04-11,1:37,97,2:18,138,1:00,60,,NA,Block 4A NA,A,PH,BP,,Block 4A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D3,8,88,A361,2025-04-11,2:31,151,2:09,129,3:00,180,,NA,Block 4A NA,A,NA,BP,,Block 4A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D7,8.2,89,153E,2025-04-11,2:28,148,1:41,101,2:38,158,,NA,Block 4A NA,A,PH,BP,,Block 4A
-2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D8,8.4,90,A359,2025-04-11,2:09,129,1:32,92,1:05,65,,NA,Block 4A NA,A,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D3,5.2,79,94A4,2025-04-11,2:31,151,2:10,130,2:45,165,,NA,Block 4A NA,B,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D4,5.5,78,250C,2025-04-11,2:43,163,2:18,138,1:08,68,,NA,Block 4A NA,B,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D6,6.6,83,2724,2025-04-11,2:23,143,2:05,125,2:34,154,,NA,Block 4A NA,B,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D5,6.8,84,9715,2025-04-11,2:09,129,2:11,131,2:08,128,,NA,Block 4A NA,B,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D7,7.1,85,A23A,2025-04-11,2:18,138,1:51,111,2:38,158,,NA,Block 4A NA,B,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D8,7.1,86,9CAE,2025-04-11,2:04,124,1:54,114,1:23,83,,RT-16,Block 4A RT-16,NA,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D1,7.3,86,9B67,2025-04-11,1:33,93,2:32,152,1:05,65,,NA,Block 4A NA,B,PH,BP,,Block 4A
-2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D2,7.5,86,96A6,2025-04-11,2:27,147,2:22,142,1:59,119,,NA,Block 4A NA,B,PH,BP,,Block 4A
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D1,23,141,9639,2025-02-07,2:33,153,1:50,110,1:25,85,"Skinny, all control fish placed directly into holding tank and observed for recovery",NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D2,54.4,171,26A1,2025-02-07,2:03,123,1:32,92,2:00,120,,NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D3,97.4,200,14B0,2025-02-07,2:46,166,1:34,94,1:48,108,,NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,NJ,"AC, BP",D4,28.7,146,2055,2025-02-07,2:26,146,1:28,88,2:02,122,,NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D5,25.8,143,24EA,2025-02-07,2:18,138,1:54,114,1:50,110,skinny,NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D6,40.6,151,250C,2025-02-07,1:48,108,1:34,94,2:53,173,,NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D7,134.8,215,2866,2025-02-07,2:45,165,3:09,189,1:20,80,,NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-11,Chinook Salmon,late-fall,O-4,AC,"NJ, BP",D8,26.1,149,153E,2025-02-07,2:13,133,1:38,98,3:15,195,Skinny,NA,Block 3B NA,H-4,CY,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D1,72.3,183,94A4,2025-02-07,2:13,133,1:48,108,3:28,208,Control fish are being directly placed in tank from net,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D2,84.8,190,2224,2025-02-07,2:20,140,1:28,88,2:26,146,,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D3,67.3,174,9354,2025-02-07,2:06,126,1:12,72,2:20,140,,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,NJ,"AC, EH",D4,35.1,185,16E4,2025-02-07,2:05,125,1:26,86,3:12,192,,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D5,51.2,161,93B1,2025-02-07,2:03,123,1:51,111,2:15,135,,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D6,65.7,179,9D25,2025-02-07,2:12,132,1:34,94,1:00,60,,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D7,91.5,196,1DD2,2025-02-07,2:13,133,1:32,92,2:50,170,,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Feb,2025-02-12,Chinook Salmon,late-fall,O-5,AC,"NJ, EH",D8,76.4,181,1D28,2025-02-07,2:00,120,1:36,96,2:24,144,,NA,Block 3B NA,H-4,EH,BP,,Block 3B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D5,5.9,81,1D84,2025-04-11,1:43,103,1:33,93,1:00,60,,NA,Block 4B NA,A,PH,BP,,Block 4B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D1,7.3,87,1D58,2025-04-11,2:20,140,2:29,149,1:15,75,,NA,Block 4B NA,A,PH,BP,,Block 4B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D6,7.5,85,96DC,2025-04-11,2:14,134,1:30,90,0:53,53,,NA,Block 4B NA,A,PH,BP,,Block 4B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D4,7.6,90,A284,2025-04-11,2:40,160,2:00,120,2:31,151,,NA,Block 4B NA,A,PH,BP,,Block 4B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D2,7.8,88,96D8,2025-04-11,1:37,97,2:18,138,1:00,60,,NA,Block 4B NA,A,PH,BP,,Block 4B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,EH,"AC, AL",D3,8,88,A361,2025-04-11,2:31,151,2:09,129,3:00,180,,NA,Block 4B NA,A,NA,BP,,Block 4B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D7,8.2,89,153E,2025-04-11,2:28,148,1:41,101,2:38,158,,NA,Block 4B NA,A,PH,BP,,Block 4B
+2025,Apr,2025-04-15,Chinook Salmon,fall,BT-4,AC,"EH, AL",D8,8.4,90,A359,2025-04-11,2:09,129,1:32,92,1:05,65,,NA,Block 4B NA,A,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D3,5.2,79,94A4,2025-04-11,2:31,151,2:10,130,2:45,165,,NA,Block 4B NA,B,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D4,5.5,78,250C,2025-04-11,2:43,163,2:18,138,1:08,68,,NA,Block 4B NA,B,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D6,6.6,83,2724,2025-04-11,2:23,143,2:05,125,2:34,154,,NA,Block 4B NA,B,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D5,6.8,84,9715,2025-04-11,2:09,129,2:11,131,2:08,128,,NA,Block 4B NA,B,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D7,7.1,85,A23A,2025-04-11,2:18,138,1:51,111,2:38,158,,NA,Block 4B NA,B,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,AC,"EH, CC",D8,7.1,86,9CAE,2025-04-11,2:04,124,1:54,114,1:23,83,,RT-16,Block 4B RT-16,NA,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D1,7.3,86,9B67,2025-04-11,1:33,93,2:32,152,1:05,65,,NA,Block 4B NA,B,PH,BP,,Block 4B
+2025,Apr,2025-04-16,Chinook Salmon,fall,BT-3,EH,"AC, CW",D2,7.5,86,96A6,2025-04-11,2:27,147,2:22,142,1:59,119,,NA,Block 4B NA,B,PH,BP,,Block 4B
 2026,Dec,2025-12-01,Chinook Salmon,late-fall,O-1,AC,"HS, AK, JG",D1,22.8,120,A284,2025-11-25,3:17,197,1:24,84,1:06,66,,NA,Block 1A NA,I-3,SB,HS,,Block 1A
 2026,Dec,2025-12-01,Chinook Salmon,late-fall,O-1,AC,"HS, JG",D2,16.1,110,2176,2025-11-25,3:12,192,1:36,96,4:00,240,,NA,Block 1A NA,I-3,SB,HS,,Block 1A
 2026,Dec,2025-12-01,Chinook Salmon,late-fall,O-1,HS,"AC, JG",D3,11.5,91,94A4,2025-11-25,2:52,172,1:45,105,2:02,122,,NA,Block 1A NA,I-3,SB,HS,,Block 1A
