@@ -1,6 +1,6 @@
 # script to clean current tagging data and bind with historical data
 # H. Short
-# 2026-09-08 13:19:22
+# 2026-11-12 09:16:16
 # -------------------------------------------------------------------------------
 # load packages
 library(tidyverse)
@@ -14,7 +14,7 @@ hist = read_csv("clean-data/tagging/historical_tagging_data.csv",
                                     surgery_time_mmss = col_character(),
                                     recovery_time_mmss = col_character()))
 
-current = read_csv("sheet-templates/tagging-data-entry-test.csv", # update csv name
+current = read_csv("clean-data/tagging/2027/test_tagging_data_updated_11.12.2026.csv", # update csv name
                    col_types = cols(anesthetic_time_mmss = col_character(),
                                     surgery_time_mmss = col_character(),
                                     recovery_time_mmss = col_character()))
@@ -51,6 +51,9 @@ current_clean = current %>%
         # remove empty rows from the bottom of the csv
         remove_empty("rows") %>% 
   
+        # clean up names 
+        clean_names() %>% 
+  
         # mutate data types
         mutate(date = mdy(date),
               source_tank_id = as.factor(source_tank_id), 
@@ -71,7 +74,7 @@ current_clean = current %>%
               month = factor(month, levels = c("Dec", "Jan", "Feb", "Mar", "Apr", "May",
                                                 "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")),
 
-              block = as.factor("Block 1"), # make sure to change block id!!
+              block = as.factor("Block 1A"), # make sure to change block id!!
 
               # create new columns converting mm:ss to sec
               anesthetic_time_sec = period_to_seconds(ms(anesthetic_time_mmss)), 
@@ -101,10 +104,10 @@ tagging_data = bind_rows(hist_clean, current_clean)
 
 # -------------------------------------------------------------------------------
 # write to csv
-write_csv(tagging_data, "clean-data/tagging/hist_and_current_tagging_data.csv")
+write_csv(tagging_data, "clean-data/tagging/tagging_data_updated_11.12.2026.csv")
 
 # -------------------------------------------------------------------------------
 # write to .rds to keep data types in tact
-saveRDS(tagging_data, "clean-data/tagging/hist_and_current_tagging_data.rds")
+saveRDS(tagging_data, "clean-data/tagging/tagging_data_updated_11.12.2026.rds")
 
 
