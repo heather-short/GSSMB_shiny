@@ -104,10 +104,10 @@ tagging_data = bind_rows(hist_clean, current_clean)
 
 # -------------------------------------------------------------------------------
 # write to csv
-write_csv(tagging_data, "clean-data/tagging/tagging_data_updated_11.12.2026.csv")
+write_csv(tagging_data, "clean-data/tagging/2027/tagging_data_updated_11.12.2026.csv")
 
 # -------------------------------------------------------------------------------
 # write to .rds to keep data types in tact
-saveRDS(tagging_data, "clean-data/tagging/tagging_data_updated_11.12.2026.rds")
+saveRDS(tagging_data, "clean-data/tagging/2027/tagging_data_updated_11.12.2026.rds")
 
 
