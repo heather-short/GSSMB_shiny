@@ -23,3 +23,6 @@ saveRDS(updated, "clean-data/releases/release_date_rectangles.rds")
 
 # check new file 
 test = readRDS("clean-data/releases/release_date_rectangles.rds")
+
+# save to for-app
+saveRDS(updated, "for-app/release_date_rectangles.rds")

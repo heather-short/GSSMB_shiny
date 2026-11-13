@@ -134,5 +134,8 @@ write_csv(summary, "clean-data/releases/historical_release_water_quality_summary
 # write to rds
 saveRDS(summary, "clean-data/releases/historical_release_water_quality_summary.rds")
 
+# add to for-app
+saveRDS(summary, "for-app/historical_release_water_quality_summary.rds")
+
 
 

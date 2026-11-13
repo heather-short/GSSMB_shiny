@@ -9,7 +9,7 @@ library(lubridate)
 
 # -------------------------------------------------------------------------------
 # read in data
-hist = read_csv("clean-data/tagging/historical_tagging_data.csv",
+hist = read_csv("clean-data/tagging/2024-2026/historical_tagging_data.csv",
                 col_types = cols(anesthetic_time_mmss = col_character(),
                                     surgery_time_mmss = col_character(),
                                     recovery_time_mmss = col_character()))
@@ -103,11 +103,16 @@ current_clean = current %>%
 tagging_data = bind_rows(hist_clean, current_clean)
 
 # -------------------------------------------------------------------------------
-# write to csv
+# write to csv in gssmb_shiny
 write_csv(tagging_data, "clean-data/tagging/2027/tagging_data_updated_11.12.2026.csv")
 
 # -------------------------------------------------------------------------------
-# write to .rds to keep data types in tact
+# write to .rds to keep data types in tact for app
 saveRDS(tagging_data, "clean-data/tagging/2027/tagging_data_updated_11.12.2026.rds")
 
+# add to for-app folder
+saveRDS(tagging_data, "for-app/tagging_data_updated_11.12.2026.rds")
 
+# -------------------------------------------------------------------------------
+# add directly to gssmb-shiny-app data folder
+saveRDS(hist_clean, "C:/Users/Hbell/Projects/gssmb-shiny-app/data/tagging_data_updated_11.13.2026.rds")

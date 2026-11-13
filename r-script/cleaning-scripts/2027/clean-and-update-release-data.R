@@ -21,7 +21,9 @@ hist_clean = hist %>%
               run = as.factor(run), 
               release_date = as.Date(release_date),
               release_time = as.character(release_time),
-              release_datetime = ymd_hms(release_datetime),
+              release_datetime = parse_date_time(paste(release_date, release_time), 
+                                                orders = c("ymd HMS", "ymd HM", "ymd")),
+              release_datetime = format(release_datetime, "%Y-%m-%d %H:%M:%S"),
               release_container_id = as.factor(release_container_id), 
               release_id = as.character(release_id),
               crew = as.character(crew),
@@ -69,7 +71,9 @@ current_clean = current %>%
 
               # create a new column for release id
               release_id = paste(block, release_container_id),
-              release_datetime = ymd_hms(paste(release_date, release_time)),
+              release_datetime = parse_date_time(paste(release_date, release_time), 
+                                                orders = c("ymd HMS", "ymd HM", "ymd")),
+              release_datetime = format(release_datetime, "%Y-%m-%d %H:%M:%S"),
 
               # change all empty cells to NA and then take NAs out of comment columns
               across(where(is.character), ~na_if(., "")),
@@ -91,8 +95,16 @@ release_data = bind_rows(hist_clean, current_clean)
 # write to csv
 write_csv(release_data, "clean-data/releases/2027/release_data_updated_mm.dd.yy.csv")
 
-# -------------------------------------------------------------------------------
 # write to .rds to keep data types in tact
-saveRDS(tagging_data, "clean-data/releases/2027/release_data_updated_mm.dd.yy.rds")
+saveRDS(release_data, "clean-data/releases/2027/release_data_updated_mm.dd.yy.rds")
+
+# add to for-app
+saveRDS(release_data, "for-app/release_data_updated_mm.dd.yy.rds")
+
+# -------------------------------------------------------------------------------
+write_csv(hist_clean, "clean-data/releases/2027/release_data_updated_11.13.2026.csv")
+saveRDS(hist_clean, "clean-data/releases/2027/release_data_updated_11.13.2026.rds")
+
+saveRDS(hist_clean, "C:/Users/Hbell/Projects/gssmb-shiny-app/data/release_data_updated_11.13.2026.rds")
 
 

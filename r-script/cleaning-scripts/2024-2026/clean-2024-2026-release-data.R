@@ -8,7 +8,7 @@ library(janitor)
 
 # LFCS_2024 -----------------------------------------------------
 
-lfcs_2024_rel = read.csv("raw-data/releases/2024_lfcs_release.csv")
+lfcs_2024_rel = read.csv("raw-data/releases/2024-2026/2024_lfcs_release.csv")
 
 lfcs_2024_rel = lfcs_2024_rel %>% 
   
@@ -44,7 +44,7 @@ lfcs_2024_rel[8,9] <- NA
 
 # FCS_2024 -----------------------------------------------------
 
-fcs_2024_rel = read.csv("raw-data/releases/2024_fcs_release.csv")
+fcs_2024_rel = read.csv("raw-data/releases/2024-2026/2024_fcs_release.csv")
 
 fcs_2024_rel = fcs_2024_rel %>% 
   
@@ -111,7 +111,7 @@ release_2024 = release_2024 %>%
 
 # LFCS_2025 -----------------------------------------------------
 
-lfcs_2025_rel = read.csv("raw-data/releases/2025_lfcs_release.csv")
+lfcs_2025_rel = read.csv("raw-data/releases/2024-2026/2025_lfcs_release.csv")
 
 lfcs_2025_rel = lfcs_2025_rel %>% 
   
@@ -144,7 +144,7 @@ lfcs_2025_rel = lfcs_2025_rel %>%
 
 # FCS_2025 -----------------------------------------------------
 
-fcs_2025_rel = read.csv("raw-data/releases/2025_fcs_release.csv")
+fcs_2025_rel = read.csv("raw-data/releases/2024-2026/2025_fcs_release.csv")
 
 # manually fix N/A to NA
 fcs_2025_rel[fcs_2025_rel == "N/A"] <- NA
@@ -212,7 +212,7 @@ release_2025 = release_2025 %>%
 
 # LFCS_2026 -----------------------------------------------------
 
-lfcs_2026_rel = read.csv("raw-data/releases/2026_lfcs_release.csv")
+lfcs_2026_rel = read.csv("raw-data/releases/2024-2026/2026_lfcs_release.csv")
 
 # add RT- to release container id since it was not typed like previous years
 lfcs_2026_rel$RT = "RT-"
@@ -247,9 +247,12 @@ lfcs_2026_rel = lfcs_2026_rel %>%
 lfcs_2026_rel[71,7] = NA
 lfcs_2026_rel[71,8] = NA
 
+lfcs_2026_rel[50,4] = "2026-01-07"
+lfcs_2026_rel[50,6] <- as.POSIXct(paste(lfcs_2026_rel[50,4], lfcs_2026_rel[50,5]), tz = "UTC")
+
 # FCS_2026 -----------------------------------------------------
 
-fcs_2026_rel = read.csv("raw-data/releases/2026_fcs_release.csv")
+fcs_2026_rel = read.csv("raw-data/releases/2024-2026/2026_fcs_release.csv")
 
 # add RT- to release container id since it was not typed like previous years
 fcs_2026_rel$RT = "RT-"
@@ -311,9 +314,9 @@ release_2026 = release_2026 %>%
 release_data = rbind(release_2024, release_2025, release_2026)
 
 # write to csv
-write_csv(release_data, "clean-data/releases/historical_release_data.csv")  
+write_csv(release_data, "clean-data/releases/2024-2026/historical_release_data.csv")  
 
 # write to rds
-saveRDS(release_data, "clean-data/releases/historical_release_data.rds")
+saveRDS(release_data, "clean-data/releases/2024-2026/historical_release_data.rds")
 
   

@@ -1,0 +1,10 @@
+date,source_tank_id,surgeon,crew,tag_activation_date,vial_number,tag_id_hex,weight_gr,fork_length_mm,anesthetic_time_mmss,surgery_time_mmss,recovery_time_mmss,comments,release_container_id,post_tagging_tank,entered_by,QAQC_by,QAQC_comments
+11/12/2026,O-1,A,"B, C",12/1/2027,#,AAAA,10.5,100,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,1,AAAA,11.5,101,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,2,AAAA,12.5,102,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,3,AAAA,13.5,103,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,4,AAAA,14.5,104,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,5,AAAA,15.5,105,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,6,AAAA,16.5,106,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,7,AAAA,17.5,107,3:00,1:30,4:00,,RT-1,O-6,D,E,
+11/12/2026,O-1,A,"B, C",12/1/2027,8,AAAA,18.5,108,3:00,1:30,4:00,,RT-1,O-6,D,E,

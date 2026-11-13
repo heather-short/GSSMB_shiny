@@ -384,7 +384,7 @@ water_year,species,run,release_date,release_time,release_datetime,release_contai
 2026,Chinook Salmon,late-fall,2025-12-12,14:56,2025-12-12T14:56:00Z,RT-23,Block 1B RT-23,"MC, TC",0,0,10,,SB,HS,,Block 1B
 2026,Chinook Salmon,late-fall,2025-12-12,17:56,2025-12-12T17:56:00Z,RT-24,Block 1B RT-24,"MC, TC",0,0,10,,SB,HS,,Block 1B
 2026,Chinook Salmon,late-fall,2026-01-06,21:00,2026-01-06T21:00:00Z,RT-1,Block 2A RT-1,"NS, AL",0,0,10,,SB,CY,,Block 2A
-2026,Chinook Salmon,late-fall,2026-01-06,0:00,2026-01-06T00:00:00Z,RT-2,Block 2A RT-2,"BS, AL",0,0,10,,SB,CY,,Block 2A
+2026,Chinook Salmon,late-fall,2026-01-07,0:00,2026-01-07T00:00:00Z,RT-2,Block 2A RT-2,"BS, AL",0,0,10,,SB,CY,,Block 2A
 2026,Chinook Salmon,late-fall,2026-01-07,3:00,2026-01-07T03:00:00Z,RT-3,Block 2A RT-3,"NS, AL",0,0,10,,SB,CY,,Block 2A
 2026,Chinook Salmon,late-fall,2026-01-07,6:00,2026-01-07T06:00:00Z,RT-4,Block 2A RT-4,"NS, AL",0,0,10,,SB,CY,,Block 2A
 2026,Chinook Salmon,late-fall,2026-01-07,9:00,2026-01-07T09:00:00Z,RT-5,Block 2A RT-5,"BK, TC",0,0,10,,SB,CY,,Block 2A
